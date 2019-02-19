@@ -1,0 +1,129 @@
+name: random_number
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.8.2
+  path_provider: ^0.5.0+1
+  carousel_slider: ^1.0.1
+  sensors: ^0.4.0+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/a.mp3
+  - assets/b.mp3
+  - assets/c.mp3
+  - assets/d.mp3
+  - assets/e.mp3
+  - assets/f.mp3
+  - assets/g.mp3
+  - assets/h.mp3
+  - assets/i.mp3
+  - assets/j.mp3
+  - assets/k.mp3
+  - assets/l.mp3
+  - assets/m.mp3
+  - assets/n.mp3
+  - assets/o.mp3
+  - assets/p.mp3
+  - assets/q.mp3
+  - assets/r.mp3
+  - assets/s.mp3
+  - assets/u.mp3
+  - assets/v.mp3
+  - assets/w.mp3
+  - assets/x.mp3
+  - assets/y.mp3
+  - assets/z.mp3
+  - assets/t.mp3
+  - assets/Black.mp3
+  - assets/Blue.mp3
+  - assets/Brown.mp3
+  - assets/Green.mp3
+  - assets/Lime.mp3
+  - assets/Orange.mp3
+  - assets/Pink.mp3
+  - assets/Purple.mp3
+  - assets/Red.mp3
+  - assets/Teal.mp3
+  - assets/White.mp3
+  - assets/Yellow.mp3
+  - lib/res/images/background.jpg
+  - lib/res/images/number.jpg
+  - lib/res/images/color.jpg
+  - lib/res/images/animal.jpg
+  - lib/res/images/fruit.jpg
+  - lib/res/images/vehicle.jpg
+  - lib/res/images/clock_background.jpg
+  - assets/0.mp3
+  - assets/1.mp3
+  - assets/2.mp3
+  - assets/3.mp3
+  - assets/4.mp3
+  - assets/5.mp3
+  - assets/6.mp3
+  - assets/7.mp3
+  - assets/8.mp3
+  - assets/9.mp3
+  - assets/10.mp3
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
