@@ -26,16 +26,16 @@ class _NumberGameScreenState extends State<NumberGameScreen>
   Random number = Random();
   void _playSound(gameName) {
     if(gameName == 1){
-      soundManager.playLocal("${soundNumber[index]}").then((onValue) {
+      soundManager.playLocal("${soundNumber[index]}","numbers").then((onValue) {
       print("${soundAlphabet[index]}");
     });
     }
     else if(gameName == 2){
-      soundManager.playLocal("${soundColors[index]}").then((onValue) {
+      soundManager.playLocal("${soundColors[index]}","colors").then((onValue) {
         print("${soundColors[index]}");
       });
     }else if(gameName == 3){
-      soundManager.playLocal("${soundAlphabet[index]}").then((onValue) {
+      soundManager.playLocal("${soundAlphabet[index]}","alphabet").then((onValue) {
         print("${soundAlphabet[index]}");
       });}
   }
@@ -119,11 +119,11 @@ class _NumberGameScreenState extends State<NumberGameScreen>
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(localFileName) async {
+  Future playLocal(localFileName,soundFolder) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {
-      final soundData = await rootBundle.load("assets/$localFileName");
+      final soundData = await rootBundle.load("assets/$soundFolder/$localFileName");
       final bytes = soundData.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
     }
