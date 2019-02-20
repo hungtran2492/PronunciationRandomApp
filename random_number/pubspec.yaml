@@ -43,44 +43,44 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-  - assets/a.mp3
-  - assets/b.mp3
-  - assets/c.mp3
-  - assets/d.mp3
-  - assets/e.mp3
-  - assets/f.mp3
-  - assets/g.mp3
-  - assets/h.mp3
-  - assets/i.mp3
-  - assets/j.mp3
-  - assets/k.mp3
-  - assets/l.mp3
-  - assets/m.mp3
-  - assets/n.mp3
-  - assets/o.mp3
-  - assets/p.mp3
-  - assets/q.mp3
-  - assets/r.mp3
-  - assets/s.mp3
-  - assets/u.mp3
-  - assets/v.mp3
-  - assets/w.mp3
-  - assets/x.mp3
-  - assets/y.mp3
-  - assets/z.mp3
-  - assets/t.mp3
-  - assets/Black.mp3
-  - assets/Blue.mp3
-  - assets/Brown.mp3
-  - assets/Green.mp3
-  - assets/Lime.mp3
-  - assets/Orange.mp3
-  - assets/Pink.mp3
-  - assets/Purple.mp3
-  - assets/Red.mp3
-  - assets/Teal.mp3
-  - assets/White.mp3
-  - assets/Yellow.mp3
+  - assets/alphabet/a.mp3
+  - assets/alphabet/b.mp3
+  - assets/alphabet/c.mp3
+  - assets/alphabet/d.mp3
+  - assets/alphabet/e.mp3
+  - assets/alphabet/f.mp3
+  - assets/alphabet/g.mp3
+  - assets/alphabet/h.mp3
+  - assets/alphabet/i.mp3
+  - assets/alphabet/j.mp3
+  - assets/alphabet/k.mp3
+  - assets/alphabet/l.mp3
+  - assets/alphabet/m.mp3
+  - assets/alphabet/n.mp3
+  - assets/alphabet/o.mp3
+  - assets/alphabet/p.mp3
+  - assets/alphabet/q.mp3
+  - assets/alphabet/r.mp3
+  - assets/alphabet/s.mp3
+  - assets/alphabet/u.mp3
+  - assets/alphabet/v.mp3
+  - assets/alphabet/w.mp3
+  - assets/alphabet/x.mp3
+  - assets/alphabet/y.mp3
+  - assets/alphabet/z.mp3
+  - assets/alphabet/t.mp3
+  - assets/color/Black.mp3
+  - assets/color/Blue.mp3
+  - assets/color/Brown.mp3
+  - assets/color/Green.mp3
+  - assets/color/Lime.mp3
+  - assets/color/Orange.mp3
+  - assets/color/Pink.mp3
+  - assets/color/Purple.mp3
+  - assets/color/Red.mp3
+  - assets/color/Teal.mp3
+  - assets/color/White.mp3
+  - assets/color/Yellow.mp3
   - lib/res/images/background.jpg
   - lib/res/images/number.jpg
   - lib/res/images/color.jpg
@@ -88,17 +88,17 @@ flutter:
   - lib/res/images/fruit.jpg
   - lib/res/images/vehicle.jpg
   - lib/res/images/clock_background.jpg
-  - assets/0.mp3
-  - assets/1.mp3
-  - assets/2.mp3
-  - assets/3.mp3
-  - assets/4.mp3
-  - assets/5.mp3
-  - assets/6.mp3
-  - assets/7.mp3
-  - assets/8.mp3
-  - assets/9.mp3
-  - assets/10.mp3
+  - assets/number/0.mp3
+  - assets/number/1.mp3
+  - assets/number/2.mp3
+  - assets/number/3.mp3
+  - assets/number/4.mp3
+  - assets/number/5.mp3
+  - assets/number/6.mp3
+  - assets/number/7.mp3
+  - assets/number/8.mp3
+  - assets/number/9.mp3
+  - assets/number/10.mp3
 
 
 
