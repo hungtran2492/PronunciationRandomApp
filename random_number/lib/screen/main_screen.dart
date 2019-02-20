@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:random_number/screen/custom_widget/custom_appbar.dart';
-import 'package:random_number/screen/number_game.dart';
+import 'package:random_number/screen/game_screen.dart';
 import 'package:random_number/theme/images.dart';
 
 class MainScreen extends StatefulWidget {
@@ -83,7 +83,7 @@ class _CategoriesState extends State<Categories> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => NumberGameScreen()));
+                                builder: (context) => GameScreen()));
                       } else if (categories.contains(Images.color)) {
                         setState(() {
                           gameName = 2;
@@ -93,7 +93,7 @@ class _CategoriesState extends State<Categories> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => NumberGameScreen()));
+                                builder: (context) => GameScreen()));
                       } else if (categories.contains(Images.animal)) {
                         setState(() {
                           gameName = 3;
@@ -103,7 +103,7 @@ class _CategoriesState extends State<Categories> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => NumberGameScreen()));
+                                builder: (context) => GameScreen()));
                       } else if (categories.contains(Images.vehicle)) {
                         setState(() {
                           gameName = 4;
