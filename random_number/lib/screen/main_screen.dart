@@ -97,6 +97,7 @@ class _CategoriesState extends State<Categories> {
                       } else if (categories.contains(Images.animal)) {
                         setState(() {
                           gameName = 3;
+                          changeUI = false;
                         });
                         print(gameName);
                         print('Navigate To Animal Game');
@@ -113,6 +114,7 @@ class _CategoriesState extends State<Categories> {
                       } else if (categories.contains(Images.fruit)) {
                         setState(() {
                           gameName = 5;
+
                         });
                         print(gameName);
                         print('Navigate To Fruit Game');

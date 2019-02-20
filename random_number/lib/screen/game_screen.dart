@@ -18,6 +18,7 @@ class GameScreen extends StatefulWidget {
 }
 
 bool changeUI = false;
+
 class _GameScreenState extends State<GameScreen>
     with SingleTickerProviderStateMixin {
   AnimationController animationController;
@@ -27,16 +28,16 @@ class _GameScreenState extends State<GameScreen>
   Random number = Random();
   void _playSound(gameName) {
     if(gameName == 1){
-      soundManager.playLocal("${soundNumber[index]}").then((onValue) {
+      soundManager.playLocal("${soundNumber[index]}","number").then((onValue) {
       print("${soundAlphabet[index]}");
     });
     }
     else if(gameName == 2){
-      soundManager.playLocal("${soundColors[index]}").then((onValue) {
+      soundManager.playLocal("${soundColors[index]}","color").then((onValue) {
         print("${soundColors[index]}");
       });
     }else if(gameName == 3){
-      soundManager.playLocal("${soundAlphabet[index]}").then((onValue) {
+      soundManager.playLocal("${soundAlphabet[index]}","alphabet").then((onValue) {
         print("${soundAlphabet[index]}");
       });}
   }
@@ -120,11 +121,11 @@ class _GameScreenState extends State<GameScreen>
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(localFileName) async {
+  Future playLocal(localFileName,soundFolder) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {
-      final soundData = await rootBundle.load("assets/$localFileName");
+      final soundData = await rootBundle.load("assets/$soundFolder/$localFileName");
       final bytes = soundData.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
     }
@@ -133,6 +134,7 @@ class SoundManager {
 }
 
 Widget uiRandom (gameName,int index, {List<Color> listRandom = colorsRandom} ){
+
   if(gameName == 2){
     return Container (
       height: 200.0,
@@ -141,6 +143,7 @@ Widget uiRandom (gameName,int index, {List<Color> listRandom = colorsRandom} ){
     );
   } else if(gameName == 1 || gameName == 3){
     if (gameName == 1){
+
       changeUI = true;
     }
     return  Container (
