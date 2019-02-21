@@ -6,10 +6,10 @@ class Category{
 }
 final List<Category> backgroundCards = [
   Category(
-    backgroundAssetPath:'lib/res/images/number.jpg',
+    backgroundAssetPath: 'lib/res/images/number.jpg',
     gameName: 'Number',
-    gameIndex : 1,
-  ),
+    gameIndex: 1,
+),
   Category(
     backgroundAssetPath:'lib/res/images/color.jpg',
     gameName: 'Color',

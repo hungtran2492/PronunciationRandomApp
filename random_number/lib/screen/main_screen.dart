@@ -40,44 +40,52 @@ class _MainScreenState extends State<MainScreen> {
 
 int gameName = 0;
 
-class Categories extends StatefulWidget {
+class CardGame extends StatefulWidget {
+  final Category category;
+  final double parallaxPercent;
+  CardGame({this.category,this.parallaxPercent});
   @override
-  _CategoriesState createState() => _CategoriesState();
+  _CardGameState createState() => _CardGameState();
 }
 
-class _CategoriesState extends State<Categories> {
+class _CardGameState extends State<CardGame> {
+
+
+
+
+
+
+
   @override
   Widget build(BuildContext context) {
-    return CarouselSlider(
-      items: [
-        Images.number,
-        Images.color,
-        Images.animal,
-        Images.vehicle,
-        Images.fruit
-      ].map((categories) {
-        return Builder(
-          builder: (BuildContext context) {
-            return Container(
-                width: MediaQuery.of(context).size.width,
-                margin: EdgeInsets.symmetric(horizontal: 5.0),
+    return Container(
+      height: MediaQuery.of(context).size.height / 2,
+      child: Stack(
+        fit: StackFit.expand,
+        children: <Widget>[
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10.0),
+            child: FractionalTranslation(
+                translation: Offset(widget.parallaxPercent * 2.0, 0.0),
                 child: InkWell(
                   child: Image.asset(
-                    categories,
+                    widget.category.backgroundAssetPath,
                     fit: BoxFit.cover,
                   ),
                   onTap: () {
-                    if (categories.contains(Images.number)) {
+                    print(widget.category.gameIndex);
+                    if (widget.category.gameIndex == 1) {
+
                       setState(() {
                         gameName = 1;
                       });
-                      print(gameName);
+                      //print(gameName);
                       print('Navigate To Number Game');
                       Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => GameScreen()));
-                    } else if (categories.contains(Images.color)) {
+                    } else if (widget.category.gameIndex == 2) {
                       setState(() {
                         gameName = 2;
                       });
@@ -87,9 +95,10 @@ class _CategoriesState extends State<Categories> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => GameScreen()));
-                    } else if (categories.contains(Images.animal)) {
+                    } else if (widget.category.gameIndex ==3) {
                       setState(() {
                         gameName = 3;
+                        changeUI = false;
                       });
                       print(gameName);
                       print('Navigate To Animal Game');
@@ -97,13 +106,13 @@ class _CategoriesState extends State<Categories> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => GameScreen()));
-                    } else if (categories.contains(Images.vehicle)) {
+                    } else if (widget.category.gameIndex ==4) {
                       setState(() {
                         gameName = 4;
                       });
                       print(gameName);
                       print('Navigate To Vehicle Game');
-                    } else if (categories.contains(Images.fruit)) {
+                    } else if (widget.category.gameIndex==5) {
                       setState(() {
                         gameName = 5;
                       });
@@ -111,113 +120,28 @@ class _CategoriesState extends State<Categories> {
                       print('Navigate To Fruit Game');
                     }
                   },
-                ));
-          },
-        );
-      }).toList(),
-      height: MediaQuery.of(context).size.height / 3,
-      autoPlay: false,
-    );
-  }
-}
-class CardGame extends StatefulWidget {
-
-  @override
-  _CardGameState createState() => _CardGameState();
-}
-
-class _CardGameState extends State<CardGame> {
-
- final Category category;
- final double parallaxPercent;
- _CardGameState({Key key, this.category,this.parallaxPercent});
-
-
-
-
-    @override
-    Widget build(BuildContext context) {
-      return Container(
-        height: MediaQuery.of(context).size.height / 2,
-        child: Stack(
-          fit: StackFit.expand,
-          children: <Widget>[
-            ClipRRect(
-              borderRadius: BorderRadius.circular(10.0),
-              child: FractionalTranslation(
-                  translation: Offset(parallaxPercent * 2.0, 0.0),
-                  child: InkWell(
-                    child: Image.asset(
-                      category.backgroundAssetPath,
-                      fit: BoxFit.cover,
-                    ),
-                    onTap: () {
-                      if (category.gameIndex == 1) {
-                        setState(() {
-                          gameName = 1;
-                        });
-                        print(gameName);
-                        print('Navigate To Number Game');
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => GameScreen()));
-                      } else if (category.gameIndex ==2) {
-                        setState(() {
-                          gameName = 2;
-                        });
-                        print(gameName);
-                        print('Navigate To Color Game');
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => GameScreen()));
-                      } else if (category.gameIndex ==3) {
-                        setState(() {
-                          gameName = 3;
-                        });
-                        print(gameName);
-                        print('Navigate To Animal Game');
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => GameScreen()));
-                      } else if (category.gameIndex ==4) {
-                        setState(() {
-                          gameName = 4;
-                        });
-                        print(gameName);
-                        print('Navigate To Vehicle Game');
-                      } else if (category.gameIndex==5) {
-                        setState(() {
-                          gameName = 5;
-                        });
-                        print(gameName);
-                        print('Navigate To Fruit Game');
-                      }
-                    },
-                  )
-              ),
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Padding(
-                  padding:
-                  const EdgeInsets.only(top: 30, left: 20.0, right: 20.0),
-                  child: Text(
-                    category.gameName.toUpperCase(),
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 2.0),
-                  ),
                 )
-              ],
-            )
-          ],
-        ),
-      );
+            ),
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              Padding(
+                padding:
+                const EdgeInsets.only(top: 30, left: 20.0, right: 20.0),
+                child: Text(
+                  widget.category.gameName.toUpperCase(),
+                  style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 2.0),
+                ),
+              )
+            ],
+          )
+        ],
+      ),
+    );
   }
 }
 
@@ -251,7 +175,7 @@ class _CardFlipperState extends State<CardFlipper>
     final singleCardDragPercent = dragDistance / context.size.width;
     setState(() {
       scrollPercent = (startDragPercentScroll +
-              (-singleCardDragPercent / widget.cards.length))
+          (-singleCardDragPercent / widget.cards.length))
           .clamp(0.0, 1.0 - (1 / widget.cards.length));
     });
   }
@@ -281,7 +205,7 @@ class _CardFlipperState extends State<CardFlipper>
     final angle = scrollPercent * pi/8;
     final horizontalTranslation = 0.0;
     Matrix4 projection = Matrix4.identity()
-    ..setEntry(0,0,1/radius)
+      ..setEntry(0,0,1/radius)
       ..setEntry(1,1,1)
       ..setEntry(3,2,-perspective)
       ..setEntry(2,3,-radius)
@@ -289,12 +213,12 @@ class _CardFlipperState extends State<CardFlipper>
     final rotationPointMultiplier = angle >0.0?angle/angle.abs():1.0;
     print('Angle : $angle');
     projection *= Matrix4.translationValues(horizontalTranslation + (rotationPointMultiplier * 300.0), 0.0, 0.0) *
-    Matrix4.rotationY(angle)*
-    Matrix4.translationValues(0.0, 0.0, radius)*
-    Matrix4.translationValues(-rotationPointMultiplier * 300.0, 0.0, 0.0);
+        Matrix4.rotationY(angle)*
+        Matrix4.translationValues(0.0, 0.0, radius)*
+        Matrix4.translationValues(-rotationPointMultiplier * 300.0, 0.0, 0.0);
     return projection;
-    
-    
+
+
   }
 
   Widget _buildCard(
@@ -306,7 +230,7 @@ class _CardFlipperState extends State<CardFlipper>
       child: Padding(
         padding: const EdgeInsets.only(top: 50.0, left: 16.0, right: 16.0),
         child: Transform(
-          transform: _buildCardProjection(cardScrollPercent - cardIndex),
+            transform: _buildCardProjection(cardScrollPercent - cardIndex),
             child: CardGame(category: category, parallaxPercent: parallax)),
       ),
     );
@@ -316,13 +240,13 @@ class _CardFlipperState extends State<CardFlipper>
   void initState() {
     // TODO: implement initState
     finishScrollController =
-        AnimationController(vsync: this, duration: Duration(milliseconds: 150))
-          ..addListener(() {
-            setState(() {
-              scrollPercent = lerpDouble(finishScrollStart, finishScrollEnd,
-                  finishScrollController.value);
-            });
-          });
+    AnimationController(vsync: this, duration: Duration(milliseconds: 150))
+      ..addListener(() {
+        setState(() {
+          scrollPercent = lerpDouble(finishScrollStart, finishScrollEnd,
+              finishScrollController.value);
+        });
+      });
     super.initState();
   }
 
@@ -347,4 +271,85 @@ class _CardFlipperState extends State<CardFlipper>
   }
 }
 
+
+//class Categories extends StatefulWidget {
+//  @override
+//  _CategoriesState createState() => _CategoriesState();
+//}
+//
+//class _CategoriesState extends State<Categories> {
+//  @override
+//  Widget build(BuildContext context) {
+//    return CarouselSlider(
+//      items: [
+//        Images.number,
+//        Images.color,
+//        Images.animal,
+//        Images.vehicle,
+//        Images.fruit
+//      ].map((categories) {
+//        return Builder(
+//          builder: (BuildContext context) {
+//            return Container(
+//                width: MediaQuery.of(context).size.width,
+//                margin: EdgeInsets.symmetric(horizontal: 5.0),
+//                child: InkWell(
+//                  child: Image.asset(
+//                    categories,
+//                    fit: BoxFit.cover,
+//                  ),
+//                  onTap: () {
+//                    if (categories.contains(Images.number)) {
+//                      setState(() {
+//                        gameName = 1;
+//                      });
+//                      print(gameName);
+//                      print('Navigate To Number Game');
+//                      Navigator.push(
+//                          context,
+//                          MaterialPageRoute(
+//                              builder: (context) => GameScreen()));
+//                    } else if (categories.contains(Images.color)) {
+//                      setState(() {
+//                        gameName = 2;
+//                      });
+//                      print(gameName);
+//                      print('Navigate To Color Game');
+//                      Navigator.push(
+//                          context,
+//                          MaterialPageRoute(
+//                              builder: (context) => GameScreen()));
+//                    } else if (categories.contains(Images.animal)) {
+//                      setState(() {
+//                        gameName = 3;
+//                      });
+//                      print(gameName);
+//                      print('Navigate To Animal Game');
+//                      Navigator.push(
+//                          context,
+//                          MaterialPageRoute(
+//                              builder: (context) => GameScreen()));
+//                    } else if (categories.contains(Images.vehicle)) {
+//                      setState(() {
+//                        gameName = 4;
+//                      });
+//                      print(gameName);
+//                      print('Navigate To Vehicle Game');
+//                    } else if (categories.contains(Images.fruit)) {
+//                      setState(() {
+//                        gameName = 5;
+//                      });
+//                      print(gameName);
+//                      print('Navigate To Fruit Game');
+//                    }
+//                  },
+//                ));
+//          },
+//        );
+//      }).toList(),
+//      height: MediaQuery.of(context).size.height / 3,
+//      autoPlay: false,
+//    );
+//  }
+//}
 

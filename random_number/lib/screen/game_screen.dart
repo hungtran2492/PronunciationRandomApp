@@ -11,8 +11,12 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:path_provider/path_provider.dart';
 import 'main_screen.dart';
 import 'package:random_number/data/ColorData.dart';
+import 'package:random_number/data/Category.dart';
 
 class GameScreen extends StatefulWidget {
+
+
+
   @override
   _GameScreenState createState() => _GameScreenState();
 }
@@ -24,19 +28,20 @@ class _GameScreenState extends State<GameScreen>
   SoundManager soundManager = new SoundManager();
   int index = 0;
 
+
   Random number = Random();
   void _playSound(gameName) {
     if(gameName == 1){
-      soundManager.playLocal("${soundNumber[index]}").then((onValue) {
+      soundManager.playLocal("${soundNumber[index]}","number").then((onValue) {
       print("${soundAlphabet[index]}");
     });
     }
     else if(gameName == 2){
-      soundManager.playLocal("${soundColors[index]}").then((onValue) {
+      soundManager.playLocal("${soundColors[index]}","color").then((onValue) {
         print("${soundColors[index]}");
       });
     }else if(gameName == 3){
-      soundManager.playLocal("${soundAlphabet[index]}").then((onValue) {
+      soundManager.playLocal("${soundAlphabet[index]}","alphabet").then((onValue) {
         print("${soundAlphabet[index]}");
       });}
   }
@@ -98,6 +103,7 @@ class _GameScreenState extends State<GameScreen>
                     children: <Widget>[
                       uiRandom(gameName, index),
                       RaisedButton(onPressed: () {
+
                         randomNumber();
                         _playSound(gameName);
                       }),
@@ -120,11 +126,11 @@ class _GameScreenState extends State<GameScreen>
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(localFileName) async {
+  Future playLocal(localFileName,soundFolder) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {
-      final soundData = await rootBundle.load("assets/$localFileName");
+      final soundData = await rootBundle.load("assets/$soundFolder/$localFileName");
       final bytes = soundData.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
     }
