@@ -25,6 +25,7 @@ class _MainScreenState extends State<MainScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           GradientAppBar('Main Screen', 100),
+
           Expanded(
               child: Padding(
             padding: EdgeInsets.all(16.0),
@@ -271,85 +272,4 @@ class _CardFlipperState extends State<CardFlipper>
   }
 }
 
-
-//class Categories extends StatefulWidget {
-//  @override
-//  _CategoriesState createState() => _CategoriesState();
-//}
-//
-//class _CategoriesState extends State<Categories> {
-//  @override
-//  Widget build(BuildContext context) {
-//    return CarouselSlider(
-//      items: [
-//        Images.number,
-//        Images.color,
-//        Images.animal,
-//        Images.vehicle,
-//        Images.fruit
-//      ].map((categories) {
-//        return Builder(
-//          builder: (BuildContext context) {
-//            return Container(
-//                width: MediaQuery.of(context).size.width,
-//                margin: EdgeInsets.symmetric(horizontal: 5.0),
-//                child: InkWell(
-//                  child: Image.asset(
-//                    categories,
-//                    fit: BoxFit.cover,
-//                  ),
-//                  onTap: () {
-//                    if (categories.contains(Images.number)) {
-//                      setState(() {
-//                        gameName = 1;
-//                      });
-//                      print(gameName);
-//                      print('Navigate To Number Game');
-//                      Navigator.push(
-//                          context,
-//                          MaterialPageRoute(
-//                              builder: (context) => GameScreen()));
-//                    } else if (categories.contains(Images.color)) {
-//                      setState(() {
-//                        gameName = 2;
-//                      });
-//                      print(gameName);
-//                      print('Navigate To Color Game');
-//                      Navigator.push(
-//                          context,
-//                          MaterialPageRoute(
-//                              builder: (context) => GameScreen()));
-//                    } else if (categories.contains(Images.animal)) {
-//                      setState(() {
-//                        gameName = 3;
-//                      });
-//                      print(gameName);
-//                      print('Navigate To Animal Game');
-//                      Navigator.push(
-//                          context,
-//                          MaterialPageRoute(
-//                              builder: (context) => GameScreen()));
-//                    } else if (categories.contains(Images.vehicle)) {
-//                      setState(() {
-//                        gameName = 4;
-//                      });
-//                      print(gameName);
-//                      print('Navigate To Vehicle Game');
-//                    } else if (categories.contains(Images.fruit)) {
-//                      setState(() {
-//                        gameName = 5;
-//                      });
-//                      print(gameName);
-//                      print('Navigate To Fruit Game');
-//                    }
-//                  },
-//                ));
-//          },
-//        );
-//      }).toList(),
-//      height: MediaQuery.of(context).size.height / 3,
-//      autoPlay: false,
-//    );
-//  }
-//}
 

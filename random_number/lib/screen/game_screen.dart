@@ -11,7 +11,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:path_provider/path_provider.dart';
 import 'main_screen.dart';
 import 'package:random_number/data/ColorData.dart';
-import 'package:random_number/data/Category.dart';
+import 'package:sensors/sensors.dart';
 
 class GameScreen extends StatefulWidget {
 
@@ -22,8 +22,7 @@ class GameScreen extends StatefulWidget {
 }
 
 bool changeUI = false;
-class _GameScreenState extends State<GameScreen>
-    with SingleTickerProviderStateMixin {
+class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateMixin {
   AnimationController animationController;
   SoundManager soundManager = new SoundManager();
   int index = 0;
@@ -60,6 +59,13 @@ class _GameScreenState extends State<GameScreen>
 
   @override
   void initState() {
+    accelerometerEvents.listen((AccelerometerEvent event) {
+      if(event.x > 10|| event.x < -10){
+        randomNumber();
+        _playSound(gameName);
+      }
+
+    });
     animationController =
         AnimationController(vsync: this, duration: Duration(seconds: 5));
     animationController.repeat();
