@@ -1,5 +1,9 @@
+import 'dart:math';
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:random_number/data/Category.dart';
 import 'package:random_number/screen/custom_widget/custom_appbar.dart';
 import 'package:random_number/screen/game_screen.dart';
 import 'package:random_number/theme/images.dart';
@@ -13,27 +17,24 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-          decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(Images.background), fit: BoxFit.cover)),
-          child: Column(
-            children: <Widget>[
-              GradientAppBar('Main Screen', 120),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Choose your game',
-                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 30.0),
-                child: Categories(),
-              )
-            ],
+        body: Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage(Images.background), fit: BoxFit.cover)),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          GradientAppBar('Main Screen', 100),
+          Expanded(
+              child: Padding(
+            padding: EdgeInsets.all(16.0),
+            child: CardFlipper(
+              cards: backgroundCards,
+            ),
           )),
-    );
+        ],
+      ),
+    ));
   }
 }
 
@@ -48,33 +49,110 @@ class _CategoriesState extends State<Categories> {
   @override
   Widget build(BuildContext context) {
     return CarouselSlider(
-        items: [
-          Images.number,
-          Images.color,
-          Images.animal,
-          Images.vehicle,
-          Images.fruit
-        ].map((categories) {
-          return Builder(
-            builder: (BuildContext context) {
-              return Container(
-                  width: MediaQuery.of(context).size.width,
-                  margin: EdgeInsets.symmetric(horizontal: 5.0),
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                        colors: [Colors.lightGreenAccent, Colors.green],
-                        begin: const FractionalOffset(0.0, 0.0),
-                        end: const FractionalOffset(0.5, 0.0),
-                        stops: [0.0, 1.0],
-                        tileMode: TileMode.clamp),
+      items: [
+        Images.number,
+        Images.color,
+        Images.animal,
+        Images.vehicle,
+        Images.fruit
+      ].map((categories) {
+        return Builder(
+          builder: (BuildContext context) {
+            return Container(
+                width: MediaQuery.of(context).size.width,
+                margin: EdgeInsets.symmetric(horizontal: 5.0),
+                child: InkWell(
+                  child: Image.asset(
+                    categories,
+                    fit: BoxFit.cover,
                   ),
+                  onTap: () {
+                    if (categories.contains(Images.number)) {
+                      setState(() {
+                        gameName = 1;
+                      });
+                      print(gameName);
+                      print('Navigate To Number Game');
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => GameScreen()));
+                    } else if (categories.contains(Images.color)) {
+                      setState(() {
+                        gameName = 2;
+                      });
+                      print(gameName);
+                      print('Navigate To Color Game');
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => GameScreen()));
+                    } else if (categories.contains(Images.animal)) {
+                      setState(() {
+                        gameName = 3;
+                      });
+                      print(gameName);
+                      print('Navigate To Animal Game');
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => GameScreen()));
+                    } else if (categories.contains(Images.vehicle)) {
+                      setState(() {
+                        gameName = 4;
+                      });
+                      print(gameName);
+                      print('Navigate To Vehicle Game');
+                    } else if (categories.contains(Images.fruit)) {
+                      setState(() {
+                        gameName = 5;
+                      });
+                      print(gameName);
+                      print('Navigate To Fruit Game');
+                    }
+                  },
+                ));
+          },
+        );
+      }).toList(),
+      height: MediaQuery.of(context).size.height / 3,
+      autoPlay: false,
+    );
+  }
+}
+class CardGame extends StatefulWidget {
+
+  @override
+  _CardGameState createState() => _CardGameState();
+}
+
+class _CardGameState extends State<CardGame> {
+
+ final Category category;
+ final double parallaxPercent;
+ _CardGameState({Key key, this.category,this.parallaxPercent});
+
+
+
+
+    @override
+    Widget build(BuildContext context) {
+      return Container(
+        height: MediaQuery.of(context).size.height / 2,
+        child: Stack(
+          fit: StackFit.expand,
+          children: <Widget>[
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10.0),
+              child: FractionalTranslation(
+                  translation: Offset(parallaxPercent * 2.0, 0.0),
                   child: InkWell(
                     child: Image.asset(
-                      categories,
+                      category.backgroundAssetPath,
                       fit: BoxFit.cover,
                     ),
                     onTap: () {
-                      if (categories.contains(Images.number)) {
+                      if (category.gameIndex == 1) {
                         setState(() {
                           gameName = 1;
                         });
@@ -84,7 +162,7 @@ class _CategoriesState extends State<Categories> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => GameScreen()));
-                      } else if (categories.contains(Images.color)) {
+                      } else if (category.gameIndex ==2) {
                         setState(() {
                           gameName = 2;
                         });
@@ -94,7 +172,7 @@ class _CategoriesState extends State<Categories> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => GameScreen()));
-                      } else if (categories.contains(Images.animal)) {
+                      } else if (category.gameIndex ==3) {
                         setState(() {
                           gameName = 3;
                         });
@@ -104,13 +182,13 @@ class _CategoriesState extends State<Categories> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => GameScreen()));
-                      } else if (categories.contains(Images.vehicle)) {
+                      } else if (category.gameIndex ==4) {
                         setState(() {
                           gameName = 4;
                         });
                         print(gameName);
                         print('Navigate To Vehicle Game');
-                      } else if (categories.contains(Images.fruit)) {
+                      } else if (category.gameIndex==5) {
                         setState(() {
                           gameName = 5;
                         });
@@ -118,11 +196,155 @@ class _CategoriesState extends State<Categories> {
                         print('Navigate To Fruit Game');
                       }
                     },
-                  ));
-            },
-          );
-        }).toList(),
-        height: MediaQuery.of(context).size.height / 3,
-        autoPlay: false);
+                  )
+              ),
+            ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                Padding(
+                  padding:
+                  const EdgeInsets.only(top: 30, left: 20.0, right: 20.0),
+                  child: Text(
+                    category.gameName.toUpperCase(),
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 2.0),
+                  ),
+                )
+              ],
+            )
+          ],
+        ),
+      );
   }
 }
+
+
+class CardFlipper extends StatefulWidget {
+  final List<Category> cards;
+
+  CardFlipper({this.cards});
+
+  @override
+  _CardFlipperState createState() => _CardFlipperState();
+}
+
+class _CardFlipperState extends State<CardFlipper>
+    with TickerProviderStateMixin {
+  double scrollPercent = 0.0;
+  Offset startDrag;
+  double startDragPercentScroll;
+  double finishScrollStart;
+  double finishScrollEnd;
+  AnimationController finishScrollController;
+
+  void _onHorizontalDragStart(DragStartDetails details) {
+    startDrag = details.globalPosition;
+    startDragPercentScroll = scrollPercent;
+  }
+
+  void _onHorizontalDragUpdate(DragUpdateDetails details) {
+    final currDrag = details.globalPosition;
+    final dragDistance = currDrag.dx - startDrag.dx;
+    final singleCardDragPercent = dragDistance / context.size.width;
+    setState(() {
+      scrollPercent = (startDragPercentScroll +
+              (-singleCardDragPercent / widget.cards.length))
+          .clamp(0.0, 1.0 - (1 / widget.cards.length));
+    });
+  }
+
+  void _onHorizontalDragEnd(DragEndDetails details) {
+    finishScrollStart = scrollPercent;
+    finishScrollEnd =
+        (scrollPercent * widget.cards.length).round() / widget.cards.length;
+    finishScrollController.forward(from: 0.0);
+    setState(() {
+      startDrag = null;
+      startDragPercentScroll = null;
+    });
+  }
+
+  List<Widget> _buildCards() {
+    final cardCount = widget.cards.length;
+    int index = -1;
+    return widget.cards.map((Category category) {
+      ++index;
+      return _buildCard(category, index, cardCount, scrollPercent);
+    }).toList();
+  }
+  Matrix4 _buildCardProjection(double scrollPercent){
+    final perspective = 0.002;
+    final radius = 1.0;
+    final angle = scrollPercent * pi/8;
+    final horizontalTranslation = 0.0;
+    Matrix4 projection = Matrix4.identity()
+    ..setEntry(0,0,1/radius)
+      ..setEntry(1,1,1)
+      ..setEntry(3,2,-perspective)
+      ..setEntry(2,3,-radius)
+      ..setEntry(3,3,perspective *radius + 1.0);
+    final rotationPointMultiplier = angle >0.0?angle/angle.abs():1.0;
+    print('Angle : $angle');
+    projection *= Matrix4.translationValues(horizontalTranslation + (rotationPointMultiplier * 300.0), 0.0, 0.0) *
+    Matrix4.rotationY(angle)*
+    Matrix4.translationValues(0.0, 0.0, radius)*
+    Matrix4.translationValues(-rotationPointMultiplier * 300.0, 0.0, 0.0);
+    return projection;
+    
+    
+  }
+
+  Widget _buildCard(
+      Category category, int cardIndex, int cardCount, double scrollPercent) {
+    final cardScrollPercent = scrollPercent / (1 / cardCount);
+    final parallax = scrollPercent - (cardIndex / cardCount);
+    return FractionalTranslation(
+      translation: Offset(cardIndex - cardScrollPercent, 0.0),
+      child: Padding(
+        padding: const EdgeInsets.only(top: 50.0, left: 16.0, right: 16.0),
+        child: Transform(
+          transform: _buildCardProjection(cardScrollPercent - cardIndex),
+            child: CardGame(category: category, parallaxPercent: parallax)),
+      ),
+    );
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    finishScrollController =
+        AnimationController(vsync: this, duration: Duration(milliseconds: 150))
+          ..addListener(() {
+            setState(() {
+              scrollPercent = lerpDouble(finishScrollStart, finishScrollEnd,
+                  finishScrollController.value);
+            });
+          });
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    finishScrollController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onHorizontalDragStart: _onHorizontalDragStart,
+      onHorizontalDragUpdate: _onHorizontalDragUpdate,
+      onHorizontalDragEnd: _onHorizontalDragEnd,
+      behavior: HitTestBehavior.translucent,
+      child: Stack(
+        children: _buildCards(),
+      ),
+    );
+  }
+}
+
+
