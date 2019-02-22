@@ -29,6 +29,7 @@ class _GameScreenState extends State<GameScreen>
   bool shaked = true;
 
   void _playSound(gameName) {
+
     if (gameName == 1) {
       soundManager
           .playLocal("${soundAlphabetAndNumber[index]}", "alphabet")
@@ -54,6 +55,7 @@ class _GameScreenState extends State<GameScreen>
         print("${soundFruits[index]}");
       });
     }
+
   }
 
   void randomNumber() {
@@ -281,15 +283,15 @@ class _GameScreenState extends State<GameScreen>
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(localFileName, soundFolder) async {
+  Future playLocal(localFileName,soundFolder) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {
-      final soundData =
-          await rootBundle.load("assets/$soundFolder/$localFileName");
+      final soundData = await rootBundle.load("assets/$soundFolder/$localFileName");
       final bytes = soundData.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
     }
     await audioPlayer.play(file.path, isLocal: true);
   }
 }
+
