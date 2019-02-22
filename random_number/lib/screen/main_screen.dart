@@ -99,7 +99,6 @@ class _CardGameState extends State<CardGame> {
                     } else if (widget.category.gameIndex ==3) {
                       setState(() {
                         gameName = 3;
-                        changeUI = false;
                       });
                       print(gameName);
                       print('Navigate To Animal Game');
@@ -212,7 +211,6 @@ class _CardFlipperState extends State<CardFlipper>
       ..setEntry(2,3,-radius)
       ..setEntry(3,3,perspective *radius + 1.0);
     final rotationPointMultiplier = angle >0.0?angle/angle.abs():1.0;
-    print('Angle : $angle');
     projection *= Matrix4.translationValues(horizontalTranslation + (rotationPointMultiplier * 300.0), 0.0, 0.0) *
         Matrix4.rotationY(angle)*
         Matrix4.translationValues(0.0, 0.0, radius)*

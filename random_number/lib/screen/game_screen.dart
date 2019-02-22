@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:random_number/data/AlphabetData.dart';
-import 'package:random_number/data/NumberData.dart';
+import 'package:random_number/data/Animal.dart';
+import 'package:random_number/data/Category.dart';
 import 'package:random_number/screen/custom_widget/custom_appbar.dart';
 import 'package:random_number/theme/images.dart';
 import 'dart:async';
@@ -14,45 +15,46 @@ import 'package:random_number/data/ColorData.dart';
 import 'package:sensors/sensors.dart';
 
 class GameScreen extends StatefulWidget {
-
-
-
   @override
   _GameScreenState createState() => _GameScreenState();
 }
 
-bool changeUI = false;
-class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateMixin {
+class _GameScreenState extends State<GameScreen>
+    with SingleTickerProviderStateMixin {
   AnimationController animationController;
   SoundManager soundManager = new SoundManager();
   int index = 0;
 
-
   Random number = Random();
+
   void _playSound(gameName) {
-    if(gameName == 1){
-      soundManager.playLocal("${soundNumber[index]}","number").then((onValue) {
-      print("${soundAlphabet[index]}");
-    });
-    }
-    else if(gameName == 2){
-      soundManager.playLocal("${soundColors[index]}","color").then((onValue) {
+    if (gameName == 1) {
+      soundManager
+          .playLocal("${soundAlphabetAndNumber[index]}", "alphabet")
+          .then((onValue) {
+        print("${soundAlphabetAndNumber[index]}");
+      });
+    } else if (gameName == 2) {
+      soundManager.playLocal("${soundColors[index]}", "color").then((onValue) {
         print("${soundColors[index]}");
       });
-    }else if(gameName == 3){
-      soundManager.playLocal("${soundAlphabet[index]}","alphabet").then((onValue) {
-        print("${soundAlphabet[index]}");
-      });}
+    }else if (gameName == 3) {
+      soundManager.playLocal("${soundAnimal[index]}", "animal").then((onValue) {
+        print("${soundAnimal[index]}");
+      });
+    }
+    
   }
 
   void randomNumber() {
     setState(() {
-      if(gameName == 1){
-      index = number.nextInt(11);
-      }else if (gameName == 2){
+      if (gameName == 1) {
+        index = number.nextInt(35);
+      } else if (gameName == 2) {
         index = number.nextInt(12);
-      }else if (gameName == 3){
-        index = number.nextInt(24);
+      }
+      else if (gameName == 3){
+        index = number.nextInt(10);
       }
     });
   }
@@ -60,107 +62,125 @@ class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateM
   @override
   void initState() {
     accelerometerEvents.listen((AccelerometerEvent event) {
-      if(event.x > 10|| event.x < -10){
+      if (event.x > 10 || event.x < -10) {
         randomNumber();
         _playSound(gameName);
       }
-
     });
-    animationController =
-        AnimationController(vsync: this, duration: Duration(seconds: 5));
-    animationController.repeat();
+//    animationController =
+//        AnimationController(vsync: this, duration: Duration(seconds: 5));
+//    animationController.repeat();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+        appBar: AppBar(),
         body: Stack(
-      children: <Widget>[
-        Container(
-          child: AnimatedBuilder(
-              child: Container(
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage(Images.clock_background),
-                        fit: BoxFit.fitHeight)),
-              ),
-              animation: animationController,
-              builder: (BuildContext context, Widget _widget) {
-                return Transform.rotate(
-                  angle: animationController.value * 6.3,
-                  child: _widget,
-                );
-              }),
-        ),
-        Column(
           children: <Widget>[
-            Expanded(
-                flex: 1,
-                child: Container(
-                  height: 100,
-                  color: Colors.transparent,
-                )),
-            Expanded(
-                flex: 4,
-                child: Container(
-                  child: Column(
-                    children: <Widget>[
-                      uiRandom(gameName, index),
-                      RaisedButton(onPressed: () {
-
-                        randomNumber();
-                        _playSound(gameName);
-                      }),
-                    ],
-                  ),
-                  width: MediaQuery.of(context).size.width,
-                  height: 400,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                          fit: BoxFit.cover,
-                          image: AssetImage(Images.background))),
-                )),
+            Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: changeBackground(gameName), fit: BoxFit.fill)),
+            ),
+            changeUI(gameName)
           ],
-        )
-      ],
-    ));
+        ));
+  }
+
+  changeBackground(gameName) {
+    if (gameName == 1) {
+      return AssetImage(backgroundCards[0].backgroundGamePath);
+    } else if (gameName == 2) {
+      return AssetImage(backgroundCards[1].backgroundGamePath);
+    }
+    else if (gameName == 3) {
+      return AssetImage(backgroundCards[2].backgroundGamePath);
+    }
+  }
+
+  changeUI(gameName) {
+    if (gameName == 1) {
+      return Container(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[uiRandom(gameName, index), playButton()],
+          ),
+        ),
+      );
+    }
+    else if (gameName == 2) {
+      return Container(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[uiRandom(gameName, index), playButton()],
+          ),
+        ),
+      );
+    }
+    else if (gameName == 3) {
+      return Container(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[uiRandom(gameName, index), playButton()],
+          ),
+        ),
+      );
+    }
+    
+      
+  }
+
+  playButton() {
+    return InkWell(
+      child: Container(
+        height: 100,
+        width: 100,
+        child: Image.asset('lib/res/images/playapp.png'),
+      ),
+      onTap: () {
+        randomNumber();
+        _playSound(gameName);
+        print('${animalRandom[index]}');
+      },
+    );
+  }
+
+  uiRandom(gameName, int index, {List<Color> listRandom = colorsRandom}) {
+    if (gameName == 1) {
+      return Container(
+        child: Center(
+            child: Text(
+          '${alphabetAndNumberRandom[index]}',
+          style: TextStyle(fontSize: 200.0, color: Colors.white),
+        )),
+      );
+    } else if (gameName == 3) {
+      return Container(
+        height: 200,
+        width:  200,
+        child: Image.asset('${animalRandom[index]}'),
+      );
+    }
   }
 }
 
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(localFileName,soundFolder) async {
+  Future playLocal(localFileName, soundFolder) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {
-      final soundData = await rootBundle.load("assets/$soundFolder/$localFileName");
+      final soundData =
+          await rootBundle.load("assets/$soundFolder/$localFileName");
       final bytes = soundData.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
     }
     await audioPlayer.play(file.path, isLocal: true);
   }
-}
-
-Widget uiRandom (gameName,int index, {List<Color> listRandom = colorsRandom} ){
-  if(gameName == 2){
-    return Container (
-      height: 200.0,
-      width: 200.0,
-      color: colorsRandom[index],
-    );
-  } else if(gameName == 1 || gameName == 3){
-    if (gameName == 1){
-      changeUI = true;
-    }
-    return  Container (
-      height: 200.0,
-      width: 200.0,
-      child: Center(child: Text(changeUI?'${numberRandom[index]}':'${alphabetRandom[index]}',style: TextStyle(fontSize: 100.0),)),
-    );
-  }
-
-
 }
