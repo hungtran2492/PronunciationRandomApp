@@ -91,15 +91,46 @@ flutter:
   - assets/animal/rabbit.mp3
   - assets/animal/turtle.mp3
   - assets/animal/goldfish.mp3
+  - assets/vehicle/bicycle.mp3
+  - assets/vehicle/bus.mp3
+  - assets/vehicle/car.mp3
+  - assets/vehicle/cement_truck.mp3
+  - assets/vehicle/excavator.mp3
+  - assets/vehicle/forklift.mp3
+  - assets/vehicle/helicopter.mp3
+  - assets/vehicle/plane.mp3
+  - assets/vehicle/tank.mp3
+  - assets/vehicle/truck.mp3
+  - assets/vehicle/motorbike.mp3
+  - assets/fruits/apple.mp3
+  - assets/fruits/apricot.mp3
+  - assets/fruits/avocado.mp3
+  - assets/fruits/cherry.mp3
+  - assets/fruits/coconut.mp3
+  - assets/fruits/carrot.mp3
+  - assets/fruits/corn.mp3
+  - assets/fruits/cucumber.mp3
+  - assets/fruits/grape.mp3
+  - assets/fruits/grenade.mp3
+  - assets/fruits/kiwi.mp3
+  - assets/fruits/lemon.mp3
+  - assets/fruits/mango.mp3
+  - assets/fruits/papaya.mp3
+  - assets/fruits/pear.mp3
+  - assets/fruits/pineapple.mp3
+  - assets/fruits/potato.mp3
+  - assets/fruits/tomato.mp3
+  - assets/fruits/watermelon.mp3
+  - assets/fruits/banana.mp3
   - lib/res/images/background.jpg
   - lib/res/images/number.jpg
   - lib/res/images/color.jpg
   - lib/res/images/animal.jpg
   - lib/res/images/fruit.jpg
   - lib/res/images/vehicle.jpg
-  - lib/res/images/color_background.jpg
   - lib/res/images/background_1.jpg
   - lib/res/images/background_2.jpg
+  - lib/res/images/background_3.jpg
   - assets/alphabet/0.mp3
   - assets/alphabet/1.mp3
   - assets/alphabet/2.mp3
@@ -131,8 +162,31 @@ flutter:
   - lib/res/images/vehicle/helicopter.png
   - lib/res/images/vehicle/tank.png
   - lib/res/images/vehicle/truck.png
-  - lib/res/images/vehicle/air-freight.png
-
+  - lib/res/images/vehicle/plane.png
+  - lib/res/images/vehicle/motorbike.png
+  - lib/res/images/fruits/apple.png
+  - lib/res/images/fruits/apricot.png
+  - lib/res/images/fruits/avocado.png
+  - lib/res/images/fruits/banana.png
+  - lib/res/images/fruits/carrot.png
+  - lib/res/images/fruits/cherry.png
+  - lib/res/images/fruits/coconut.png
+  - lib/res/images/fruits/corn.png
+  - lib/res/images/fruits/cucumber.png
+  - lib/res/images/fruits/grape.png
+  - lib/res/images/fruits/grenade.png
+  - lib/res/images/fruits/kiwi.png
+  - lib/res/images/fruits/lemon.png
+  - lib/res/images/fruits/mango.png
+  - lib/res/images/fruits/papaya.png
+  - lib/res/images/fruits/pear.png
+  - lib/res/images/fruits/pineapple.png
+  - lib/res/images/fruits/potato.png
+  - lib/res/images/fruits/watermelon.png
+  - lib/res/images/fruits/tomato.png
+  - lib/res/images/color/balloons.png
+  - lib/res/images/shake.png
+  - lib/res/images/no_shake.png
 
 
 

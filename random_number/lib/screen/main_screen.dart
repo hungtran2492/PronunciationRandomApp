@@ -109,15 +109,24 @@ class _CardGameState extends State<CardGame> {
                     } else if (widget.category.gameIndex ==4) {
                       setState(() {
                         gameName = 4;
+
                       });
                       print(gameName);
                       print('Navigate To Vehicle Game');
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => GameScreen()));
                     } else if (widget.category.gameIndex==5) {
                       setState(() {
                         gameName = 5;
                       });
                       print(gameName);
                       print('Navigate To Fruit Game');
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => GameScreen()));
                     }
                   },
                 )
