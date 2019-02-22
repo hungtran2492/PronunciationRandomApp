@@ -7,81 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/random_number/assets/animal/mouse.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/data/Animal.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/res/images/background_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/res/images/background_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/res/images/class_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/res/images/color_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/res/images/playapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/.packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/0.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/0.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/10.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/10.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/2.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/3.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/4.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/5.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/6.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/7.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/8.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/8.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/number/9.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/alphabet/9.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/app.dill.track.dill.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/app.dill.track.dill.incremental.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/lib/res/images/clock_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/frontend_server.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/frontend_server.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/lib/res/images/clock_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/lib/res/images/clock_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/pod_inputs.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/pod_inputs.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/flutter" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/audioplayers" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/audioplayers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/path_provider" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/path_provider" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/sensors" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/sensors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/lib/res/images/clock_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/audioplayers/audioplayers.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/audioplayers/audioplayers.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/path_provider/path_provider.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/path_provider/path_provider.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/sensors/sensors.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/sensors/sensors.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/Category.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/Category.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/NumberData.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/res/images/clock_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/theme/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/theme/images.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="164" column="19" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
+            <state relative-caret-position="370">
+              <caret line="163" column="20" lean-forward="true" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -306,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550818341317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550818352006" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -398,11 +324,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550723640569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor">
+      <created>1550818353735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550818353735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35322000" />
+    <option name="totallyTimeSpent" value="35588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="164" column="19" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
+        <state relative-caret-position="370">
+          <caret line="163" column="20" lean-forward="true" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
