@@ -71,19 +71,34 @@ class _GameScreenState extends State<GameScreen>
       }
     });
   }
+//  void shake(){
+//
+//    if (shaked = true){
+//      accelerometerEvents.listen((AccelerometerEvent event) {
+//        if (event.x > 10 || event.x < -10) {
+//          randomNumber();
+//          _playSound(gameName);
+//        }
+//      });
+//    }else {
+//      print('abc');
+//    }
+//  }
 
   @override
   void initState() {
-    if (shaked = true){
+
       accelerometerEvents.listen((AccelerometerEvent event) {
+        if(shaked == true){
         if (event.x > 10 || event.x < -10) {
           randomNumber();
           _playSound(gameName);
-        }
+        }}
       });
-    }else {
-      print('abc');
-    }
+      randomNumber();
+      _playSound(gameName);
+
+
 //    animationController =
 //        AnimationController(vsync: this, duration: Duration(seconds: 5));
 //    animationController.repeat();
@@ -112,6 +127,7 @@ class _GameScreenState extends State<GameScreen>
       ),
     );
   }
+
   shakeOption(){
     if(shaked == true){
       return InkWell(
