@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class GradientAppBar extends StatelessWidget {
   final String title;
   final double barHeight;
@@ -31,17 +32,12 @@ class GradientAppBar extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(right: 8.0),
-              child: Align(
-                alignment: Alignment.centerRight,
-                child: About(),
-              ),
-            )
+            Center(child: Row(mainAxisAlignment:MainAxisAlignment.end ,children: <Widget>[About(),],))
           ],
         ));
   }
 }
+
 class About extends StatefulWidget {
   @override
   _AboutState createState() => _AboutState();
@@ -58,10 +54,22 @@ class _AboutState extends State<About> {
               builder: (BuildContext context) {
                 return AlertDialog(
                     title: Text('About'),
-                    content: Text('About and Report Bug')
-
-                );
+                    content: Text(
+                        '''NF Learning Kids Game - A new & creative way to learn speaking
+The game is most suitable for children under 3 years old, at their very first stage of life. It is full of color images and amusing animation, moving around by a light shake that helps kids enjoy themselves while learning how to speak.'''));
               });
         });
   }
 }
+class MultipleLanguage extends StatefulWidget {
+  @override
+  _MultipleLanguageState createState() => _MultipleLanguageState();
+}
+
+class _MultipleLanguageState extends State<MultipleLanguage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+

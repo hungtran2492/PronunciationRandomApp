@@ -23,6 +23,8 @@ dependencies:
   path_provider: ^0.5.0+1
   carousel_slider: ^1.0.1
   sensors: ^0.4.0+1
+  flutter_localizations:
+    sdk: flutter
 
 
 dev_dependencies:
@@ -43,175 +45,163 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-  - assets/alphabet/a.mp3
-  - assets/alphabet/b.mp3
-  - assets/alphabet/c.mp3
-  - assets/alphabet/d.mp3
-  - assets/alphabet/e.mp3
-  - assets/alphabet/f.mp3
-  - assets/alphabet/g.mp3
-  - assets/alphabet/h.mp3
-  - assets/alphabet/i.mp3
-  - assets/alphabet/j.mp3
-  - assets/alphabet/k.mp3
-  - assets/alphabet/l.mp3
-  - assets/alphabet/m.mp3
-  - assets/alphabet/n.mp3
-  - assets/alphabet/o.mp3
-  - assets/alphabet/p.mp3
-  - assets/alphabet/q.mp3
-  - assets/alphabet/r.mp3
-  - assets/alphabet/s.mp3
-  - assets/alphabet/u.mp3
-  - assets/alphabet/v.mp3
-  - assets/alphabet/w.mp3
-  - assets/alphabet/x.mp3
-  - assets/alphabet/y.mp3
-  - assets/alphabet/z.mp3
-  - assets/alphabet/t.mp3
-  - assets/color/Black.mp3
-  - assets/color/Blue.mp3
-  - assets/color/Brown.mp3
-  - assets/color/Green.mp3
-  - assets/color/Lime.mp3
-  - assets/color/Orange.mp3
-  - assets/color/Pink.mp3
-  - assets/color/Purple.mp3
-  - assets/color/Red.mp3
-  - assets/color/Teal.mp3
-  - assets/color/White.mp3
-  - assets/color/Yellow.mp3
-  - assets/animal/cat.mp3
-  - assets/animal/dog.mp3
-  - assets/animal/mouse.mp3
-  - assets/animal/lion.mp3
-  - assets/animal/giraffe.mp3
-  - assets/animal/monkey.mp3
-  - assets/animal/parrot.mp3
-  - assets/animal/rabbit.mp3
-  - assets/animal/turtle.mp3
-  - assets/animal/goldfish.mp3
-  - assets/vehicle/bicycle.mp3
-  - assets/vehicle/bus.mp3
-  - assets/vehicle/car.mp3
-  - assets/vehicle/cement_truck.mp3
-  - assets/vehicle/excavator.mp3
-  - assets/vehicle/forklift.mp3
-  - assets/vehicle/helicopter.mp3
-  - assets/vehicle/plane.mp3
-  - assets/vehicle/tank.mp3
-  - assets/vehicle/truck.mp3
-  - assets/vehicle/motorbike.mp3
-  - assets/fruits/apple.mp3
-  - assets/fruits/apricot.mp3
-  - assets/fruits/avocado.mp3
-  - assets/fruits/cherry.mp3
-  - assets/fruits/coconut.mp3
-  - assets/fruits/carrot.mp3
-  - assets/fruits/corn.mp3
-  - assets/fruits/cucumber.mp3
-  - assets/fruits/grape.mp3
-  - assets/fruits/grenade.mp3
-  - assets/fruits/kiwi.mp3
-  - assets/fruits/lemon.mp3
-  - assets/fruits/mango.mp3
-  - assets/fruits/papaya.mp3
-  - assets/fruits/pear.mp3
-  - assets/fruits/pineapple.mp3
-  - assets/fruits/potato.mp3
-  - assets/fruits/tomato.mp3
-  - assets/fruits/watermelon.mp3
-  - assets/fruits/banana.mp3
-  - lib/res/images/background.jpg
-  - lib/res/images/number.jpg
-  - lib/res/images/color.jpg
-  - lib/res/images/animal.jpg
-  - lib/res/images/fruit.jpg
-  - lib/res/images/vehicle.jpg
-  - lib/res/images/background_1.jpg
-  - lib/res/images/background_2.jpg
-  - lib/res/images/background_3.jpg
-  - assets/alphabet/0.mp3
-  - assets/alphabet/1.mp3
-  - assets/alphabet/2.mp3
-  - assets/alphabet/3.mp3
-  - assets/alphabet/4.mp3
-  - assets/alphabet/5.mp3
-  - assets/alphabet/6.mp3
-  - assets/alphabet/7.mp3
-  - assets/alphabet/8.mp3
-  - assets/alphabet/9.mp3
-  - assets/alphabet/10.mp3
-  - lib/res/images/playapp.png
-  - lib/res/images/animal/cat.png
-  - lib/res/images/animal/dog.png
-  - lib/res/images/animal/giraffe.png
-  - lib/res/images/animal/lion.png
-  - lib/res/images/animal/monkey.png
-  - lib/res/images/animal/parrot.png
-  - lib/res/images/animal/rabbit.png
-  - lib/res/images/animal/rat.png
-  - lib/res/images/animal/turtle.png
-  - lib/res/images/animal/goldfish.png
-  - lib/res/images/vehicle/bicycle.png
-  - lib/res/images/vehicle/bus.png
-  - lib/res/images/vehicle/car.png
-  - lib/res/images/vehicle/delivery-truck.png
-  - lib/res/images/vehicle/excavator.png
-  - lib/res/images/vehicle/forklift.png
-  - lib/res/images/vehicle/helicopter.png
-  - lib/res/images/vehicle/tank.png
-  - lib/res/images/vehicle/truck.png
-  - lib/res/images/vehicle/plane.png
-  - lib/res/images/vehicle/motorbike.png
-  - lib/res/images/fruits/apple.png
-  - lib/res/images/fruits/apricot.png
-  - lib/res/images/fruits/avocado.png
-  - lib/res/images/fruits/banana.png
-  - lib/res/images/fruits/carrot.png
-  - lib/res/images/fruits/cherry.png
-  - lib/res/images/fruits/coconut.png
-  - lib/res/images/fruits/corn.png
-  - lib/res/images/fruits/cucumber.png
-  - lib/res/images/fruits/grape.png
-  - lib/res/images/fruits/grenade.png
-  - lib/res/images/fruits/kiwi.png
-  - lib/res/images/fruits/lemon.png
-  - lib/res/images/fruits/mango.png
-  - lib/res/images/fruits/papaya.png
-  - lib/res/images/fruits/pear.png
-  - lib/res/images/fruits/pineapple.png
-  - lib/res/images/fruits/potato.png
-  - lib/res/images/fruits/watermelon.png
-  - lib/res/images/fruits/tomato.png
-  - lib/res/images/color/balloons.png
-  - lib/res/images/shake.png
-  - lib/res/images/no_shake.png
+    #audio alphabet and number
+    - assets/audio/alphabet/a.mp3
+    - assets/audio/alphabet/b.mp3
+    - assets/audio/alphabet/c.mp3
+    - assets/audio/alphabet/d.mp3
+    - assets/audio/alphabet/e.mp3
+    - assets/audio/alphabet/f.mp3
+    - assets/audio/alphabet/g.mp3
+    - assets/audio/alphabet/h.mp3
+    - assets/audio/alphabet/i.mp3
+    - assets/audio/alphabet/j.mp3
+    - assets/audio/alphabet/k.mp3
+    - assets/audio/alphabet/l.mp3
+    - assets/audio/alphabet/m.mp3
+    - assets/audio/alphabet/n.mp3
+    - assets/audio/alphabet/o.mp3
+    - assets/audio/alphabet/p.mp3
+    - assets/audio/alphabet/q.mp3
+    - assets/audio/alphabet/r.mp3
+    - assets/audio/alphabet/s.mp3
+    - assets/audio/alphabet/u.mp3
+    - assets/audio/alphabet/v.mp3
+    - assets/audio/alphabet/w.mp3
+    - assets/audio/alphabet/x.mp3
+    - assets/audio/alphabet/y.mp3
+    - assets/audio/alphabet/z.mp3
+    - assets/audio/alphabet/t.mp3
+    - assets/audio/alphabet/0.mp3
+    - assets/audio/alphabet/1.mp3
+    - assets/audio/alphabet/2.mp3
+    - assets/audio/alphabet/3.mp3
+    - assets/audio/alphabet/4.mp3
+    - assets/audio/alphabet/5.mp3
+    - assets/audio/alphabet/6.mp3
+    - assets/audio/alphabet/7.mp3
+    - assets/audio/alphabet/8.mp3
+    - assets/audio/alphabet/9.mp3
+    - assets/audio/alphabet/10.mp3
+    #audio color
+    - assets/audio/color/Black.mp3
+    - assets/audio/color/Blue.mp3
+    - assets/audio/color/Brown.mp3
+    - assets/audio/color/Green.mp3
+    - assets/audio/color/Lime.mp3
+    - assets/audio/color/Orange.mp3
+    - assets/audio/color/Pink.mp3
+    - assets/audio/color/Purple.mp3
+    - assets/audio/color/Red.mp3
+    - assets/audio/color/Teal.mp3
+    - assets/audio/color/White.mp3
+    - assets/audio/color/Yellow.mp3
+    #audio animal
+    - assets/audio/animal/cat.mp3
+    - assets/audio/animal/dog.mp3
+    - assets/audio/animal/mouse.mp3
+    - assets/audio/animal/lion.mp3
+    - assets/audio/animal/giraffe.mp3
+    - assets/audio/animal/monkey.mp3
+    - assets/audio/animal/parrot.mp3
+    - assets/audio/animal/rabbit.mp3
+    - assets/audio/animal/turtle.mp3
+    - assets/audio/animal/goldfish.mp3
+    #audio vehicle
+    - assets/audio/vehicle/bicycle.mp3
+    - assets/audio/vehicle/bus.mp3
+    - assets/audio/vehicle/car.mp3
+    - assets/audio/vehicle/cement_truck.mp3
+    - assets/audio/vehicle/excavator.mp3
+    - assets/audio/vehicle/forklift.mp3
+    - assets/audio/vehicle/helicopter.mp3
+    - assets/audio/vehicle/plane.mp3
+    - assets/audio/vehicle/tank.mp3
+    - assets/audio/vehicle/truck.mp3
+    - assets/audio/vehicle/motorbike.mp3
+    #audio fruits
+    - assets/audio/fruits/apple.mp3
+    - assets/audio/fruits/apricot.mp3
+    - assets/audio/fruits/avocado.mp3
+    - assets/audio/fruits/cherry.mp3
+    - assets/audio/fruits/coconut.mp3
+    - assets/audio/fruits/carrot.mp3
+    - assets/audio/fruits/corn.mp3
+    - assets/audio/fruits/cucumber.mp3
+    - assets/audio/fruits/grape.mp3
+    - assets/audio/fruits/grenade.mp3
+    - assets/audio/fruits/kiwi.mp3
+    - assets/audio/fruits/lemon.mp3
+    - assets/audio/fruits/mango.mp3
+    - assets/audio/fruits/papaya.mp3
+    - assets/audio/fruits/pear.mp3
+    - assets/audio/fruits/pineapple.mp3
+    - assets/audio/fruits/potato.mp3
+    - assets/audio/fruits/tomato.mp3
+    - assets/audio/fruits/watermelon.mp3
+    - assets/audio/fruits/banana.mp3
+    # image background
+    - assets/image/background/background.jpg
+    - assets/image/background/number.jpg
+    - assets/image/background/color.jpg
+    - assets/image/background/animal.jpg
+    - assets/image/background/fruit.jpg
+    - assets/image/background/vehicle.jpg
+    - assets/image/background/background_1.jpg
+    - assets/image/background/background_2.jpg
+    - assets/image/background/background_3.jpg
+    # image icon
+    - assets/image/icon/playapp.png
+    - assets/image/icon/shake.png
+    - assets/image/icon/no_shake.png
+    # image balloon
+    - assets/image/color/balloons.png
+    # image animal
+    - assets/image/animal/cat.png
+    - assets/image/animal/dog.png
+    - assets/image/animal/giraffe.png
+    - assets/image/animal/lion.png
+    - assets/image/animal/monkey.png
+    - assets/image/animal/parrot.png
+    - assets/image/animal/rabbit.png
+    - assets/image/animal/rat.png
+    - assets/image/animal/turtle.png
+    - assets/image/animal/goldfish.png
+    # image vehicle
+    - assets/image/vehicle/bicycle.png
+    - assets/image/vehicle/bus.png
+    - assets/image/vehicle/car.png
+    - assets/image/vehicle/delivery-truck.png
+    - assets/image/vehicle/excavator.png
+    - assets/image/vehicle/forklift.png
+    - assets/image/vehicle/helicopter.png
+    - assets/image/vehicle/tank.png
+    - assets/image/vehicle/truck.png
+    - assets/image/vehicle/plane.png
+    - assets/image/vehicle/motorbike.png
+    # image fruits
+    - assets/image/fruits/apple.png
+    - assets/image/fruits/apricot.png
+    - assets/image/fruits/avocado.png
+    - assets/image/fruits/banana.png
+    - assets/image/fruits/carrot.png
+    - assets/image/fruits/cherry.png
+    - assets/image/fruits/coconut.png
+    - assets/image/fruits/corn.png
+    - assets/image/fruits/cucumber.png
+    - assets/image/fruits/grape.png
+    - assets/image/fruits/grenade.png
+    - assets/image/fruits/kiwi.png
+    - assets/image/fruits/lemon.png
+    - assets/image/fruits/mango.png
+    - assets/image/fruits/papaya.png
+    - assets/image/fruits/pear.png
+    - assets/image/fruits/pineapple.png
+    - assets/image/fruits/potato.png
+    - assets/image/fruits/watermelon.png
+    - assets/image/fruits/tomato.png
 
 
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.io/assets-and-images/#resolution-aware.
 
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.io/assets-and-images/#from-packages
 
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.io/custom-fonts/#from-packages

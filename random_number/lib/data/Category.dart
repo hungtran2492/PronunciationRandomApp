@@ -7,33 +7,33 @@ class Category{
 }
 final List<Category> backgroundCards = [
   Category(
-    backgroundAssetPath: 'lib/res/images/number.jpg',
+    backgroundAssetPath: 'assets/image/background/number.jpg',
     gameName: 'Number',
     gameIndex: 1,
-    backgroundGamePath:'lib/res/images/background_1.jpg'
+    backgroundGamePath:'assets/image/background/background_1.jpg'
 ),
   Category(
-    backgroundAssetPath:'lib/res/images/color.jpg',
+    backgroundAssetPath:'assets/image/background/color.jpg',
     gameName: 'Color',
     gameIndex: 2,
-    backgroundGamePath: 'lib/res/images/background_3.jpg'
+    backgroundGamePath: 'assets/image/background/background_3.jpg'
   ),
   Category(
-    backgroundAssetPath:'lib/res/images/animal.jpg',
+    backgroundAssetPath:'assets/image/background/animal.jpg',
     gameName: 'Animal',
     gameIndex: 3,
-    backgroundGamePath: 'lib/res/images/background_2.jpg'
+    backgroundGamePath: 'assets/image/background/background_2.jpg'
   ),
   Category(
-    backgroundAssetPath:'lib/res/images/vehicle.jpg',
+    backgroundAssetPath:'assets/image/background/vehicle.jpg',
     gameName: 'Vehicle',
     gameIndex: 4,
-    backgroundGamePath: 'lib/res/images/background_3.jpg'
+    backgroundGamePath: 'assets/image/background/background_3.jpg'
   ),
   Category(
-    backgroundAssetPath:'lib/res/images/fruit.jpg',
+    backgroundAssetPath:'assets/image/background/fruit.jpg',
     gameName: 'Fruit',
     gameIndex: 5,
-    backgroundGamePath: 'lib/res/images/background_1.jpg'
+    backgroundGamePath: 'assets/image/background/background_1.jpg'
   ),
 ];

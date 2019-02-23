@@ -26,32 +26,32 @@ class _GameScreenState extends State<GameScreen>
   int index = 0;
 
   Random number = Random();
-  bool shaked = true;
+  bool shake = true;
 
   void _playSound(gameName) {
 
     if (gameName == 1) {
       soundManager
-          .playLocal("${soundAlphabetAndNumber[index]}", "alphabet")
+          .playLocal("${soundAlphabetAndNumber[index]}","audio", "alphabet")
           .then((onValue) {
         print("${soundAlphabetAndNumber[index]}");
       });
     } else if (gameName == 2) {
-      soundManager.playLocal("${soundColors[index]}", "color").then((onValue) {
+      soundManager.playLocal("${soundColors[index]}","audio", "color").then((onValue) {
         print("${soundColors[index]}");
       });
     } else if (gameName == 3) {
-      soundManager.playLocal("${soundAnimal[index]}", "animal").then((onValue) {
+      soundManager.playLocal("${soundAnimal[index]}","audio", "animal").then((onValue) {
         print("${soundAnimal[index]}");
       });
     } else if (gameName == 4) {
       soundManager
-          .playLocal("${soundVehicle[index]}", "vehicle")
+          .playLocal("${soundVehicle[index]}","audio", "vehicle")
           .then((onValue) {
         print("${soundVehicle[index]}");
       });
     } else if (gameName == 5) {
-      soundManager.playLocal("${soundFruits[index]}", "fruits").then((onValue) {
+      soundManager.playLocal("${soundFruits[index]}","audio", "fruits").then((onValue) {
         print("${soundFruits[index]}");
       });
     }
@@ -73,25 +73,13 @@ class _GameScreenState extends State<GameScreen>
       }
     });
   }
-//  void shake(){
-//
-//    if (shaked = true){
-//      accelerometerEvents.listen((AccelerometerEvent event) {
-//        if (event.x > 10 || event.x < -10) {
-//          randomNumber();
-//          _playSound(gameName);
-//        }
-//      });
-//    }else {
-//      print('abc');
-//    }
-//  }
+
 
   @override
   void initState() {
 
       accelerometerEvents.listen((AccelerometerEvent event) {
-        if(shaked == true){
+        if(shake == true){
         if (event.x > 10 || event.x < -10) {
           randomNumber();
           _playSound(gameName);
@@ -131,33 +119,33 @@ class _GameScreenState extends State<GameScreen>
   }
 
   shakeOption(){
-    if(shaked == true){
+    if(shake == true){
       return InkWell(
           onTap: () {
             setState(() {
 
-              shaked = false;
+              shake = false;
               print('turn off shake');
             });
           },
           child: Container(
             height: 70,
             width: 70,
-            child: Image.asset('lib/res/images/shake.png'),
+            child: Image.asset('assets/image/icon/shake.png'),
           ));
     }
     else return InkWell(
         onTap: () {
           setState(() {
 
-            shaked = true;
+            shake = true;
             print('turn on shake');
           });
         },
         child: Container(
           height: 70,
           width: 70,
-          child: Image.asset('lib/res/images/no_shake.png'),
+          child: Image.asset('assets/image/icon/no_shake.png'),
         ));
   }
 
@@ -230,7 +218,7 @@ class _GameScreenState extends State<GameScreen>
       child: Container(
         height: 100,
         width: 100,
-        child: Image.asset('lib/res/images/playapp.png'),
+        child: Image.asset('assets/image/icon/playapp.png'),
       ),
       onTap: () {
         randomNumber();
@@ -254,7 +242,7 @@ class _GameScreenState extends State<GameScreen>
         height: 200,
         width: 200,
         child: Image.asset(
-          'lib/res/images/color/balloons.png',
+          'assets/image/color/balloons.png',
           color: colorsRandom[index],
         ),
       );
@@ -283,11 +271,11 @@ class _GameScreenState extends State<GameScreen>
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(localFileName,soundFolder) async {
+  Future playLocal(localFileName,soundFolder,soundFolder2) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {
-      final soundData = await rootBundle.load("assets/$soundFolder/$localFileName");
+      final soundData = await rootBundle.load("assets/$soundFolder/$soundFolder2/$localFileName");
       final bytes = soundData.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
     }
