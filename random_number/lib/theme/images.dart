@@ -1,5 +1,5 @@
 class Images{
-  static const background = "assets/image/background/background.jpg";
+  static const background = "assets/image/background/background_board.jpg";
   static const number = "lib/res/images/number.jpg";
   static const color ="lib/res/images/color.jpg";
   static const animal ="lib/res/images/animal.jpg";

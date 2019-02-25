@@ -21,7 +21,6 @@ dependencies:
   cupertino_icons: ^0.1.2
   audioplayers: ^0.8.2
   path_provider: ^0.5.0+1
-  carousel_slider: ^1.0.1
   sensors: ^0.4.0+1
   flutter_localizations:
     sdk: flutter
@@ -45,101 +44,121 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    #audio alphabet and number
-    - assets/audio/alphabet/a.mp3
-    - assets/audio/alphabet/b.mp3
-    - assets/audio/alphabet/c.mp3
-    - assets/audio/alphabet/d.mp3
-    - assets/audio/alphabet/e.mp3
-    - assets/audio/alphabet/f.mp3
-    - assets/audio/alphabet/g.mp3
-    - assets/audio/alphabet/h.mp3
-    - assets/audio/alphabet/i.mp3
-    - assets/audio/alphabet/j.mp3
-    - assets/audio/alphabet/k.mp3
-    - assets/audio/alphabet/l.mp3
-    - assets/audio/alphabet/m.mp3
-    - assets/audio/alphabet/n.mp3
-    - assets/audio/alphabet/o.mp3
-    - assets/audio/alphabet/p.mp3
-    - assets/audio/alphabet/q.mp3
-    - assets/audio/alphabet/r.mp3
-    - assets/audio/alphabet/s.mp3
-    - assets/audio/alphabet/u.mp3
-    - assets/audio/alphabet/v.mp3
-    - assets/audio/alphabet/w.mp3
-    - assets/audio/alphabet/x.mp3
-    - assets/audio/alphabet/y.mp3
-    - assets/audio/alphabet/z.mp3
-    - assets/audio/alphabet/t.mp3
-    - assets/audio/alphabet/0.mp3
-    - assets/audio/alphabet/1.mp3
-    - assets/audio/alphabet/2.mp3
-    - assets/audio/alphabet/3.mp3
-    - assets/audio/alphabet/4.mp3
-    - assets/audio/alphabet/5.mp3
-    - assets/audio/alphabet/6.mp3
-    - assets/audio/alphabet/7.mp3
-    - assets/audio/alphabet/8.mp3
-    - assets/audio/alphabet/9.mp3
-    - assets/audio/alphabet/10.mp3
+    #AUDIO ENGLISH
+    #audio alphabet
+    - assets/audio/english/alphabet/a.mp3
+    - assets/audio/english/alphabet/b.mp3
+    - assets/audio/english/alphabet/c.mp3
+    - assets/audio/english/alphabet/d.mp3
+    - assets/audio/english/alphabet/e.mp3
+    - assets/audio/english/alphabet/f.mp3
+    - assets/audio/english/alphabet/g.mp3
+    - assets/audio/english/alphabet/h.mp3
+    - assets/audio/english/alphabet/i.mp3
+    - assets/audio/english/alphabet/j.mp3
+    - assets/audio/english/alphabet/k.mp3
+    - assets/audio/english/alphabet/l.mp3
+    - assets/audio/english/alphabet/m.mp3
+    - assets/audio/english/alphabet/n.mp3
+    - assets/audio/english/alphabet/o.mp3
+    - assets/audio/english/alphabet/p.mp3
+    - assets/audio/english/alphabet/q.mp3
+    - assets/audio/english/alphabet/r.mp3
+    - assets/audio/english/alphabet/s.mp3
+    - assets/audio/english/alphabet/u.mp3
+    - assets/audio/english/alphabet/v.mp3
+    - assets/audio/english/alphabet/w.mp3
+    - assets/audio/english/alphabet/x.mp3
+    - assets/audio/english/alphabet/y.mp3
+    - assets/audio/english/alphabet/z.mp3
+    - assets/audio/english/alphabet/t.mp3
+    #audio number
+    - assets/audio/english/number/0.mp3
+    - assets/audio/english/number/1.mp3
+    - assets/audio/english/number/2.mp3
+    - assets/audio/english/number/3.mp3
+    - assets/audio/english/number/4.mp3
+    - assets/audio/english/number/5.mp3
+    - assets/audio/english/number/6.mp3
+    - assets/audio/english/number/7.mp3
+    - assets/audio/english/number/8.mp3
+    - assets/audio/english/number/9.mp3
+    - assets/audio/english/number/10.mp3
     #audio color
-    - assets/audio/color/Black.mp3
-    - assets/audio/color/Blue.mp3
-    - assets/audio/color/Brown.mp3
-    - assets/audio/color/Green.mp3
-    - assets/audio/color/Lime.mp3
-    - assets/audio/color/Orange.mp3
-    - assets/audio/color/Pink.mp3
-    - assets/audio/color/Purple.mp3
-    - assets/audio/color/Red.mp3
-    - assets/audio/color/Teal.mp3
-    - assets/audio/color/White.mp3
-    - assets/audio/color/Yellow.mp3
+    - assets/audio/english/color/Black.mp3
+    - assets/audio/english/color/Blue.mp3
+    - assets/audio/english/color/Brown.mp3
+    - assets/audio/english/color/Green.mp3
+    - assets/audio/english/color/Lime.mp3
+    - assets/audio/english/color/Orange.mp3
+    - assets/audio/english/color/Pink.mp3
+    - assets/audio/english/color/Purple.mp3
+    - assets/audio/english/color/Red.mp3
+    - assets/audio/english/color/Teal.mp3
+    - assets/audio/english/color/White.mp3
+    - assets/audio/english/color/Yellow.mp3
     #audio animal
-    - assets/audio/animal/cat.mp3
-    - assets/audio/animal/dog.mp3
-    - assets/audio/animal/mouse.mp3
-    - assets/audio/animal/lion.mp3
-    - assets/audio/animal/giraffe.mp3
-    - assets/audio/animal/monkey.mp3
-    - assets/audio/animal/parrot.mp3
-    - assets/audio/animal/rabbit.mp3
-    - assets/audio/animal/turtle.mp3
-    - assets/audio/animal/goldfish.mp3
+    - assets/audio/english/animal/cat.mp3
+    - assets/audio/english/animal/dog.mp3
+    - assets/audio/english/animal/mouse.mp3
+    - assets/audio/english/animal/lion.mp3
+    - assets/audio/english/animal/giraffe.mp3
+    - assets/audio/english/animal/monkey.mp3
+    - assets/audio/english/animal/parrot.mp3
+    - assets/audio/english/animal/rabbit.mp3
+    - assets/audio/english/animal/turtle.mp3
+    - assets/audio/english/animal/goldfish.mp3
     #audio vehicle
-    - assets/audio/vehicle/bicycle.mp3
-    - assets/audio/vehicle/bus.mp3
-    - assets/audio/vehicle/car.mp3
-    - assets/audio/vehicle/cement_truck.mp3
-    - assets/audio/vehicle/excavator.mp3
-    - assets/audio/vehicle/forklift.mp3
-    - assets/audio/vehicle/helicopter.mp3
-    - assets/audio/vehicle/plane.mp3
-    - assets/audio/vehicle/tank.mp3
-    - assets/audio/vehicle/truck.mp3
-    - assets/audio/vehicle/motorbike.mp3
+    - assets/audio/english/vehicle/bicycle.mp3
+    - assets/audio/english/vehicle/bus.mp3
+    - assets/audio/english/vehicle/car.mp3
+    - assets/audio/english/vehicle/cement_truck.mp3
+    - assets/audio/english/vehicle/excavator.mp3
+    - assets/audio/english/vehicle/forklift.mp3
+    - assets/audio/english/vehicle/helicopter.mp3
+    - assets/audio/english/vehicle/plane.mp3
+    - assets/audio/english/vehicle/tank.mp3
+    - assets/audio/english/vehicle/truck.mp3
+    - assets/audio/english/vehicle/motorbike.mp3
     #audio fruits
-    - assets/audio/fruits/apple.mp3
-    - assets/audio/fruits/apricot.mp3
-    - assets/audio/fruits/avocado.mp3
-    - assets/audio/fruits/cherry.mp3
-    - assets/audio/fruits/coconut.mp3
-    - assets/audio/fruits/carrot.mp3
-    - assets/audio/fruits/corn.mp3
-    - assets/audio/fruits/cucumber.mp3
-    - assets/audio/fruits/grape.mp3
-    - assets/audio/fruits/grenade.mp3
-    - assets/audio/fruits/kiwi.mp3
-    - assets/audio/fruits/lemon.mp3
-    - assets/audio/fruits/mango.mp3
-    - assets/audio/fruits/papaya.mp3
-    - assets/audio/fruits/pear.mp3
-    - assets/audio/fruits/pineapple.mp3
-    - assets/audio/fruits/potato.mp3
-    - assets/audio/fruits/tomato.mp3
-    - assets/audio/fruits/watermelon.mp3
-    - assets/audio/fruits/banana.mp3
+    - assets/audio/english/fruits/apple.mp3
+    - assets/audio/english/fruits/apricot.mp3
+    - assets/audio/english/fruits/avocado.mp3
+    - assets/audio/english/fruits/cherry.mp3
+    - assets/audio/english/fruits/coconut.mp3
+    - assets/audio/english/fruits/carrot.mp3
+    - assets/audio/english/fruits/corn.mp3
+    - assets/audio/english/fruits/cucumber.mp3
+    - assets/audio/english/fruits/grape.mp3
+    - assets/audio/english/fruits/grenade.mp3
+    - assets/audio/english/fruits/kiwi.mp3
+    - assets/audio/english/fruits/lemon.mp3
+    - assets/audio/english/fruits/mango.mp3
+    - assets/audio/english/fruits/papaya.mp3
+    - assets/audio/english/fruits/pear.mp3
+    - assets/audio/english/fruits/pineapple.mp3
+    - assets/audio/english/fruits/potato.mp3
+    - assets/audio/english/fruits/tomato.mp3
+    - assets/audio/english/fruits/watermelon.mp3
+    - assets/audio/english/fruits/banana.mp3
+
+    #AUDIO VIETNAMESE
+    #audio number
+    - assets/audio/vietnamese/number/0.mp3
+    - assets/audio/vietnamese/number/1.mp3
+    - assets/audio/vietnamese/number/2.mp3
+    - assets/audio/vietnamese/number/3.mp3
+    - assets/audio/vietnamese/number/4.mp3
+    - assets/audio/vietnamese/number/5.mp3
+    - assets/audio/vietnamese/number/6.mp3
+    - assets/audio/vietnamese/number/7.mp3
+    - assets/audio/vietnamese/number/8.mp3
+    - assets/audio/vietnamese/number/9.mp3
+    - assets/audio/vietnamese/number/10.mp3
+
+
+
+    #IMAGE
     # image background
     - assets/image/background/background.jpg
     - assets/image/background/number.jpg
@@ -150,10 +169,15 @@ flutter:
     - assets/image/background/background_1.jpg
     - assets/image/background/background_2.jpg
     - assets/image/background/background_3.jpg
+    - assets/image/background/background_board.jpg
+    - assets/image/background/background_wooden.png
     # image icon
     - assets/image/icon/playapp.png
     - assets/image/icon/shake.png
     - assets/image/icon/no_shake.png
+    - assets/image/icon/english.png
+    - assets/image/icon/vietnamese.png
+    - assets/image/icon/french.png
     # image balloon
     - assets/image/color/balloons.png
     # image animal

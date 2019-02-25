@@ -1,5 +1,5 @@
 
-List soundAlphabetAndNumber = [
+List soundAlphabet = [
   "a.mp3",
   "b.mp3",
   "c.mp3",
@@ -26,19 +26,9 @@ List soundAlphabetAndNumber = [
   "x.mp3",
   "y.mp3",
   "z.mp3",
-  "0.mp3",
-  "1.mp3",
-  "2.mp3",
-  "3.mp3",
-  "4.mp3",
-  "5.mp3",
-  "6.mp3",
-  "7.mp3",
-  "8.mp3",
-  "9.mp3",
-  "10.mp3"
+
 ];
-List<String> alphabetAndNumberRandom = [
+List<String> alphabetRandom = [
   "A",
   "B",
   "C",
@@ -65,15 +55,5 @@ List<String> alphabetAndNumberRandom = [
   "X",
   "Y",
   "Z",
-  "0",
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "10",
+
 ];

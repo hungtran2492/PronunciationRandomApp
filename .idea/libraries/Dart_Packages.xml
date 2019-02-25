@@ -23,13 +23,6 @@
             </list>
           </value>
         </entry>
-        <entry key="carousel_slider">
-          <value>
-            <list>
-              <option value="/flutter/.pub-cache/hosted/pub.dartlang.org/carousel_slider-1.0.1/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="charcode">
           <value>
             <list>
@@ -218,7 +211,6 @@
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/async-2.0.8/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.8.2/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.4/lib" />
-      <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/carousel_slider-1.0.1/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1/lib" />

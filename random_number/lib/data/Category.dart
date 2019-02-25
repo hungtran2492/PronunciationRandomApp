@@ -13,27 +13,33 @@ final List<Category> backgroundCards = [
     backgroundGamePath:'assets/image/background/background_1.jpg'
 ),
   Category(
+      backgroundAssetPath: 'assets/image/background/number.jpg',
+      gameName: 'Alphabet',
+      gameIndex: 2,
+      backgroundGamePath:'assets/image/background/background_1.jpg'
+  ),
+  Category(
     backgroundAssetPath:'assets/image/background/color.jpg',
     gameName: 'Color',
-    gameIndex: 2,
+    gameIndex: 3,
     backgroundGamePath: 'assets/image/background/background_3.jpg'
   ),
   Category(
     backgroundAssetPath:'assets/image/background/animal.jpg',
     gameName: 'Animal',
-    gameIndex: 3,
+    gameIndex: 4,
     backgroundGamePath: 'assets/image/background/background_2.jpg'
   ),
   Category(
     backgroundAssetPath:'assets/image/background/vehicle.jpg',
     gameName: 'Vehicle',
-    gameIndex: 4,
+    gameIndex: 5,
     backgroundGamePath: 'assets/image/background/background_3.jpg'
   ),
   Category(
     backgroundAssetPath:'assets/image/background/fruit.jpg',
     gameName: 'Fruit',
-    gameIndex: 5,
+    gameIndex: 6,
     backgroundGamePath: 'assets/image/background/background_1.jpg'
   ),
 ];
