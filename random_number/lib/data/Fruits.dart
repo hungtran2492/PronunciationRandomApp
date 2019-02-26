@@ -20,6 +20,28 @@ List soundFruits = [
   "watermelon.mp3",
   "grenade.mp3"
 ];
+List soundFruitsVietnamese = [
+  "tao.mp3",
+  "mo.mp3",
+  "bo.mp3",
+  "chuoi.mp3",
+  "carot.mp3",
+  "cherry-vn.mp3",
+  "dua.mp3",
+  "bap.mp3",
+  "dualeo.mp3",
+  "nho.mp3",
+  "kiwi-vn.mp3",
+  "chanh.mp3",
+  "xoai.mp3",
+  "dudu.mp3",
+  "le.mp3",
+  "dua-thom.mp3",
+  "khoaitay.mp3",
+  "cachua.mp3",
+  "duahau.mp3",
+  "luu.mp3"
+];
 
 
 List fruitsRandom = [

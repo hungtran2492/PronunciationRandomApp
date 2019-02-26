@@ -22,3 +22,15 @@ List animalRandom = [
   'assets/image/animal/rabbit.png',
   'assets/image/animal/turtle.png',
 ];
+List soundAnimalVietnamese = [
+  'conmeo.mp3',
+  'concho.mp3',
+  'conchuot.mp3',
+  'huoucaoco.mp3',
+  'consutu.mp3',
+  'conkhi.mp3',
+  'convet.mp3',
+  'cavang.mp3',
+  'contho.mp3',
+  'conrua.mp3',
+];

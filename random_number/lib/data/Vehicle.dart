@@ -12,6 +12,20 @@ List soundVehicle=[
   'truck.mp3',
 
 ];
+List soundVehicleVietnamese=[
+  'xedap.mp3',
+  'buyt.mp3',
+  'xeoto.mp3',
+  'betong.mp3',
+  'xexucdat.mp3',
+  'xenang.mp3',
+  'tructhang.mp3',
+  'xemay.mp3',
+  'maybay.mp3',
+  'xetang.mp3',
+  'xetai.mp3',
+
+];
 List vehicleRandom=[
   'assets/image/vehicle/bicycle.png',
   'assets/image/vehicle/bus.png',

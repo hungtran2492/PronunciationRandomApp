@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		8TeEP6Z7g7t1QEniiAFVsxRe2qo=
+		2hfl5JbWfSAE87S95Zr+g//A+0w=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -380,49 +380,385 @@
 		<data>
 		wQQ91R9/7CUkpz65Hd77/w5cQXM=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/0.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/a-conca.mp3</key>
+		<data>
+		geTDwORUINt8kLTjTweyPnmC/vY=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/aa-caican.mp3</key>
+		<data>
+		OGnUGLQQUsUshtuGUG6PdnJ6gjo=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/aw-contran.mp3</key>
+		<data>
+		+tfxNE7MLutJSjnE2tuhQQ05gQE=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/b-conbo.mp3</key>
+		<data>
+		rAxQ2RiDVfPHENnh6+PEmGpCzc8=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/c-concua.mp3</key>
+		<data>
+		Bf2lUjq9AWr5vhG9IqiWDB+pIaU=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/d-conde.mp3</key>
+		<data>
+		sSWAuwMrM9zViSCgFL6JOJGW0OI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/dd-conduong.mp3</key>
+		<data>
+		KxAgbxtg/RDvwYA/P6XHlywzidk=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/e-cayme.mp3</key>
+		<data>
+		6glVF/yO7P/R/UgNw4dQwzchC3k=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/ee-traile.mp3</key>
+		<data>
+		y/SAN4SQkME2YLjBZLyCgQq2ZRc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/g-caygay.mp3</key>
+		<data>
+		BCaBGIThDWRi6A9SSIjRdZXb6/4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/h-hoahong.mp3</key>
+		<data>
+		YhMlJCSz+otIEG5NlGGJhoBurhk=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/i-conkhi.mp3</key>
+		<data>
+		NMolUqwN8Q5C6oHCr8q4oCB43f0=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/k-caykhe.mp3</key>
+		<data>
+		R6bJasNnwqWRUMM14V7YLej6jl4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/l-chiecla.mp3</key>
+		<data>
+		BR6+UUk34CNO7Chq+KTdS+TAAXw=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/m-conmeo.mp3</key>
+		<data>
+		o0MveUr5r7Agnbh71yaJE30zqwE=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/n-cainoi.mp3</key>
+		<data>
+		doBeHlpXEzwYUrDiLLjvL65c7vI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/o-contho.mp3</key>
+		<data>
+		6GMhlP3CvaF6J3OocZKT3q/nMsg=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/oo-caio.mp3</key>
+		<data>
+		ywolyCUb3Nt1z5W4cVvSvblMOcI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/ow-caino.mp3</key>
+		<data>
+		roh7yxY9D0npdJAwUP2oBHnk2o4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/p-caiphin.mp3</key>
+		<data>
+		hIVP0sUjMyfYC4xgxful4v0rozU=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/q-caiquan.mp3</key>
+		<data>
+		Y2syZdEgoynw5FDOF8LPD8Wlpno=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/r-carot.mp3</key>
+		<data>
+		tOB4dsGgM+HiMHoJw3pEu3I9woM=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/s-chimse.mp3</key>
+		<data>
+		ROUFrnWQtlQDeBwr/uX7B5f4jCI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/t-batien.mp3</key>
+		<data>
+		CYAQ7qRZw25rLoeAhJ3qWJ68RUI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/u-cailu.mp3</key>
+		<data>
+		jV1xFTHmHZQcUqJYFnXdvTVo+f0=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/uw-baothu.mp3</key>
+		<data>
+		9NNfVOTZegy/vQXq1HNKlPO2+qc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/v-conve.mp3</key>
+		<data>
+		nhDFxGuiScq40TGQAk4WD0in18Q=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/x-caixeng.mp3</key>
+		<data>
+		e7B49ew91EHwtUYeXDHU+o0y9fc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/y-lynuoc.mp3</key>
+		<data>
+		RJlwI8I3CPij+oU6xh7IE0E8k6k=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/cavang.mp3</key>
+		<data>
+		Tjxi0cmv5SJn34vF/dfv8aGCkuc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/concho.mp3</key>
+		<data>
+		5CiVfLMALLk400tlVNyJ4OYPzg8=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conchuot.mp3</key>
+		<data>
+		ctxvMysidC9oT8fOIpt1Y7UKOm4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conkhi.mp3</key>
+		<data>
+		E53lQIZ2RFFY7RJFAvM3xo4vAaA=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conmeo.mp3</key>
+		<data>
+		n10lWu4mRQVQjt7wdreYMqX6Y3M=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conrua.mp3</key>
+		<data>
+		S7VxanXO0zi87kYCThlZzIcQt3E=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/consutu.mp3</key>
+		<data>
+		l1E6MLjEdCo9+zQ3HEfTPBHouPY=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/contho.mp3</key>
+		<data>
+		cbmEVwOj894b8yV1wj1zAbMi7JU=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/convet.mp3</key>
+		<data>
+		KxMPXxusXZaFXV/jYa0NS3R0clQ=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/animal/huoucaoco.mp3</key>
+		<data>
+		moSo6YLjmZt4x0bOM5pIzYCvxvI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/cam.mp3</key>
+		<data>
+		lJ5oeO9Loia9ZXL3FsZ6cTBLlTs=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/den.mp3</key>
+		<data>
+		U+Bs8iDcdkP+pp3CR0Beios3VEs=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/do.mp3</key>
+		<data>
+		ESNhu/K73IYnT0J+/e0UEBGRQOA=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/hong.mp3</key>
+		<data>
+		FFu7KVHWrtWJptOytKm/vFTttGM=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/nau.mp3</key>
+		<data>
+		W+6sLE41vbQRdFkSbgDtcNlLPVs=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/tim.mp3</key>
+		<data>
+		Y6TAvRay7e7yhiFmodFaNE/CSG4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/trang.mp3</key>
+		<data>
+		vWbCcDChGy7G9rVtEJAdn16E6dI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/vang.mp3</key>
+		<data>
+		Z5CqbRqfyVg9uM9aNRuUD2VAttM=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/vangchanh.mp3</key>
+		<data>
+		DVdJ610MYfKlTSP87fv4zl5QrMA=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/xanhduong.mp3</key>
+		<data>
+		DuJLHCkYTXT4mzFHSOuF66saZfk=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/xanhlacay.mp3</key>
+		<data>
+		10vmxnj3t/0q6yNyYab2kYS3Igc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/color/xanhmongket.mp3</key>
+		<data>
+		TdCBXttPc4dUWdoaa6ThUF9VDkc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/bap.mp3</key>
+		<data>
+		GVS5BspVaTPBfMIPdpkygYQcGsg=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/bo.mp3</key>
+		<data>
+		/4ppne0c5d0jVzeFc5dtsk/cUU8=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/cachua.mp3</key>
+		<data>
+		nihk7ztXrPuGm+X+ns1E/8NmGu0=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/cam.mp3</key>
+		<data>
+		5ppdAFIdbJ/O6Dd0erix2dNa/v0=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/carot.mp3</key>
+		<data>
+		oLgzB+kTBGNBCudyVMENNo+o46s=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/chanh.mp3</key>
+		<data>
+		usGAO6wrRYFZsOV8Bezet5K48so=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/cherry.mp3</key>
+		<data>
+		jO04XyepZyvK4P2tftBtC66Op+0=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/chuoi.mp3</key>
+		<data>
+		xB+A0uD2LTmE7I+EFN7/GGX3vYg=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dua-thom.mp3</key>
+		<data>
+		+/dTVpa1XE/sPMypytGMFVaRzFs=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dua.mp3</key>
+		<data>
+		3fN025idx0Ktx8b527fHnFV8Tg8=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/duahau.mp3</key>
+		<data>
+		xojKZAempZYwZRgcTvXH/nhRq9U=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dualeo.mp3</key>
+		<data>
+		BiYp4IbC3F0OsrDyLbYBwgvY5js=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dudu.mp3</key>
+		<data>
+		5RhfjgbnMZJ/0v98a02EZnNxBFY=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/khoaitay.mp3</key>
+		<data>
+		zYb1KnA0cV1MaqpGjYfNu6+nqZs=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/kiwi.mp3</key>
+		<data>
+		VASZbXDQ15UDGSip2oaljs6+ySA=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/le.mp3</key>
+		<data>
+		A0vWH0f0xjoDfEz4rmkYZeq9/C4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/luu.mp3</key>
+		<data>
+		MtbEy4CJ26RuX0AGVbq3zJjU4ec=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/mo.mp3</key>
+		<data>
+		VcxSMTaeIbIpDGqoq53Kt81DmKI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/nho.mp3</key>
+		<data>
+		W5Ako1vhxRws/JkE+8w5Laz9lNo=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/tao.mp3</key>
+		<data>
+		V5BM6QvJmvSUSTkB/bQlcfFqMaU=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/xoai.mp3</key>
+		<data>
+		pAdpVOiajd9FfUbY7MEvqNpAnXI=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/number/0-vn.mp3</key>
 		<data>
 		cgHe/bk0J/Dy2PpbvYsERB8HbyE=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/1.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/1-vn.mp3</key>
 		<data>
 		cJ14fykx3XH+jyyNCbC+s0HAS10=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/10.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/10-vn.mp3</key>
 		<data>
 		ELmfsqXMJ2jf4sHmM4FzBszJsu0=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/2.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/2-vn.mp3</key>
 		<data>
 		N3L6hKd8mnjFx3lMZjXJ1p/+x8A=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/3.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/3-vn.mp3</key>
 		<data>
 		ZO3Idfs9zTmaT5zFliDNy6ECtGM=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/4.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/4-vn.mp3</key>
 		<data>
 		ugexRr39DxfFEQdXGuXtNbqu8ow=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/5.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/5-vn.mp3</key>
 		<data>
 		Yhw06UuHR6e2JiL5uqab7hALZDQ=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/6.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/6-vn.mp3</key>
 		<data>
 		krLZ2A0qkzoLJhAlBbBB9csIn8Q=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/7.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/7-vn.mp3</key>
 		<data>
 		l7UQzYwEhYzZQ6ytxaeYiugzJQU=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/8.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/8-vn.mp3</key>
 		<data>
 		G1yrVfYlLchF3QhziXqBv2qm7uM=
 		</data>
-		<key>flutter_assets/assets/audio/vietnamese/number/9.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/9-vn.mp3</key>
 		<data>
 		5zerwllOlK+G9m9dXtPBiIFttSc=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/betong.mp3</key>
+		<data>
+		VQ0RaDyFV6Kv+7vmw27RdaaMxws=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/buyt.mp3</key>
+		<data>
+		KHSm66poyiR+DO72aI9iOVMtdfk=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/maybay.mp3</key>
+		<data>
+		jUHAsG58u1EY34voOW1/ZTFegS4=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/tructhang.mp3</key>
+		<data>
+		TsjxjDZjbDY1r08h9E2f6J3Gd/Y=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xecancau.mp3</key>
+		<data>
+		MIaxGsm8xKX4UlBdys9dVqT+zWE=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xedap.mp3</key>
+		<data>
+		moWFjwSvqv9mg9Ee+pvvr4EZgbQ=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xemay.mp3</key>
+		<data>
+		cQZUW3nkJbbK29hDpRkkkjhyybg=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xenang.mp3</key>
+		<data>
+		+cv1lW6Ealjp7GEeU8ZJM5hkVkY=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xeoto.mp3</key>
+		<data>
+		AiFY29HtHr4hvQ2PNTFBrSqmTgA=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xetai.mp3</key>
+		<data>
+		I0hj3+VWYJZWDitJ5JBmS+hf+uo=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xetang.mp3</key>
+		<data>
+		8GX+9sr5EzMg4eO3HapfR5TYFXs=
+		</data>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xexucdat.mp3</key>
+		<data>
+		ZX8r3f553XgTxSUCGWsfHn7D3mo=
 		</data>
 		<key>flutter_assets/assets/image/animal/cat.png</key>
 		<data>
@@ -660,50 +996,6 @@
 		<data>
 		6Gkf/HBbEkcJwirnPT9rgcrl884=
 		</data>
-		<key>flutter_assets/assets2/number/0.mp3</key>
-		<data>
-		cgHe/bk0J/Dy2PpbvYsERB8HbyE=
-		</data>
-		<key>flutter_assets/assets2/number/1.mp3</key>
-		<data>
-		cJ14fykx3XH+jyyNCbC+s0HAS10=
-		</data>
-		<key>flutter_assets/assets2/number/10.mp3</key>
-		<data>
-		ELmfsqXMJ2jf4sHmM4FzBszJsu0=
-		</data>
-		<key>flutter_assets/assets2/number/2.mp3</key>
-		<data>
-		N3L6hKd8mnjFx3lMZjXJ1p/+x8A=
-		</data>
-		<key>flutter_assets/assets2/number/3.mp3</key>
-		<data>
-		ZO3Idfs9zTmaT5zFliDNy6ECtGM=
-		</data>
-		<key>flutter_assets/assets2/number/4.mp3</key>
-		<data>
-		ugexRr39DxfFEQdXGuXtNbqu8ow=
-		</data>
-		<key>flutter_assets/assets2/number/5.mp3</key>
-		<data>
-		Yhw06UuHR6e2JiL5uqab7hALZDQ=
-		</data>
-		<key>flutter_assets/assets2/number/6.mp3</key>
-		<data>
-		krLZ2A0qkzoLJhAlBbBB9csIn8Q=
-		</data>
-		<key>flutter_assets/assets2/number/7.mp3</key>
-		<data>
-		l7UQzYwEhYzZQ6ytxaeYiugzJQU=
-		</data>
-		<key>flutter_assets/assets2/number/8.mp3</key>
-		<data>
-		G1yrVfYlLchF3QhziXqBv2qm7uM=
-		</data>
-		<key>flutter_assets/assets2/number/9.mp3</key>
-		<data>
-		5zerwllOlK+G9m9dXtPBiIFttSc=
-		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
@@ -714,7 +1006,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		BVyW8YNcf52eN4MtINKtFH8OwGQ=
+		q1nD3aC96pVJzXl47rLTTPLYvM0=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -731,11 +1023,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8TeEP6Z7g7t1QEniiAFVsxRe2qo=
+			2hfl5JbWfSAE87S95Zr+g//A+0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			QK3yYTe4kJjb0WkhwOgE67VjAv7TlL8VwYmg6xSLUmM=
+			JkoBtiwkB97VoljcnPz6v5rE1LiBZSN6QuUJ26nKgto=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -1750,7 +2042,799 @@
 			KZhrNponG5A8qcyQL0aOtU39Ad/0Dphh+Ru2cqy2bQM=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/0.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/a-conca.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			geTDwORUINt8kLTjTweyPnmC/vY=
+			</data>
+			<key>hash2</key>
+			<data>
+			25+g98/hY6OKusebu15r6Zh9YNVElqxdlH7AJCPXpNQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/aa-caican.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OGnUGLQQUsUshtuGUG6PdnJ6gjo=
+			</data>
+			<key>hash2</key>
+			<data>
+			VJ+ir69wzwOaJl9LCnoi+ipyRBVjMfl1vb9tsWHTcUQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/aw-contran.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+tfxNE7MLutJSjnE2tuhQQ05gQE=
+			</data>
+			<key>hash2</key>
+			<data>
+			p9ApFhDIisgnswa/hbpAK3EpL1FOQn20++MEhE54Pk0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/b-conbo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rAxQ2RiDVfPHENnh6+PEmGpCzc8=
+			</data>
+			<key>hash2</key>
+			<data>
+			luErtQMMTKJnWKt+1bx4lzzbu7S8ITmyJ2kKceIywaI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/c-concua.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bf2lUjq9AWr5vhG9IqiWDB+pIaU=
+			</data>
+			<key>hash2</key>
+			<data>
+			z4t/Nx8x1QbjYbixxLEW4RswWqsdrL01zRA72DDB2e4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/d-conde.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sSWAuwMrM9zViSCgFL6JOJGW0OI=
+			</data>
+			<key>hash2</key>
+			<data>
+			E+VxvmPUOhdYa6HEnbmruaAKiGF6y474XL+zQW4Wqtg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/dd-conduong.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KxAgbxtg/RDvwYA/P6XHlywzidk=
+			</data>
+			<key>hash2</key>
+			<data>
+			g11gm+SWkPm6+IJWWbF9JqCqquFv6HZfnnT6vMrgHg8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/e-cayme.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6glVF/yO7P/R/UgNw4dQwzchC3k=
+			</data>
+			<key>hash2</key>
+			<data>
+			t4CSD2NaZRxoBja3pSMvHQJH0yBeC2QXY7VmWmdo7UI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/ee-traile.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y/SAN4SQkME2YLjBZLyCgQq2ZRc=
+			</data>
+			<key>hash2</key>
+			<data>
+			6f60A2Ppae+ir0G5Z3bxfm/OLaUFjpb1FIq+56esoHI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/g-caygay.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BCaBGIThDWRi6A9SSIjRdZXb6/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			8OQMAEpNyeVGlR2LiZk2P/UxmOwnOhT5tO51SIJYFHY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/h-hoahong.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YhMlJCSz+otIEG5NlGGJhoBurhk=
+			</data>
+			<key>hash2</key>
+			<data>
+			w7hhFLlGd++k2Q9rh0q9+2Dtt8tYYgVKa1XLIC9ZnP8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/i-conkhi.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NMolUqwN8Q5C6oHCr8q4oCB43f0=
+			</data>
+			<key>hash2</key>
+			<data>
+			ldXGcwkXWoROpztExuV6Q7JYN+psR0ZxrCnAIVFBhbw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/k-caykhe.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R6bJasNnwqWRUMM14V7YLej6jl4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mQ9A7wJKzZMlKaRS/WhEk/Z2e/TVgWl2T+kTC6QkAV4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/l-chiecla.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BR6+UUk34CNO7Chq+KTdS+TAAXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			14eMx7ntNrS0jTsTlzjWPUWqwS7hBAPKh8ACR3msezg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/m-conmeo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o0MveUr5r7Agnbh71yaJE30zqwE=
+			</data>
+			<key>hash2</key>
+			<data>
+			h93cDROygebkEE/1IwDQAQVpoz4dK6QV523oCUtIk+g=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/n-cainoi.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			doBeHlpXEzwYUrDiLLjvL65c7vI=
+			</data>
+			<key>hash2</key>
+			<data>
+			x+67qQqpc0dLJcKHnf2YRYA4BQ3ll3zX9zJmhUaudNM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/o-contho.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6GMhlP3CvaF6J3OocZKT3q/nMsg=
+			</data>
+			<key>hash2</key>
+			<data>
+			nUCbs00YA9KDePg6HGXKRXR+PNk9lfBTbCRm1SV5Y5s=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/oo-caio.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ywolyCUb3Nt1z5W4cVvSvblMOcI=
+			</data>
+			<key>hash2</key>
+			<data>
+			AJsdfRVvxiHAygfCS4/UkxfTy23sUaFbOwdhO7XyZ6c=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/ow-caino.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			roh7yxY9D0npdJAwUP2oBHnk2o4=
+			</data>
+			<key>hash2</key>
+			<data>
+			rIEnGs9WILq4xu9M2e+CBNI24euj/9qiVyWpfdBvDH4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/p-caiphin.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hIVP0sUjMyfYC4xgxful4v0rozU=
+			</data>
+			<key>hash2</key>
+			<data>
+			e2ydPBGbkHuqrVpCNXxYF1gwvraIms5VC8pl4uQfz68=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/q-caiquan.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y2syZdEgoynw5FDOF8LPD8Wlpno=
+			</data>
+			<key>hash2</key>
+			<data>
+			tyBxX4TtSP1T9WsrXuU9hEmLLW9XZVpt9stEksE5fk0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/r-carot.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tOB4dsGgM+HiMHoJw3pEu3I9woM=
+			</data>
+			<key>hash2</key>
+			<data>
+			lOpo/1mJSMKy0kjkz2b0HdALk92eWd8Ez3orU9VQRmE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/s-chimse.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ROUFrnWQtlQDeBwr/uX7B5f4jCI=
+			</data>
+			<key>hash2</key>
+			<data>
+			dWWtZi5+qlr55FAJSv9pJQva2fKH+QSx9bVxDK+vKtg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/t-batien.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CYAQ7qRZw25rLoeAhJ3qWJ68RUI=
+			</data>
+			<key>hash2</key>
+			<data>
+			sUvVcMWp8sKSxi1etC3jow4BJipj4CIOAaWVPh5iR0s=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/u-cailu.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jV1xFTHmHZQcUqJYFnXdvTVo+f0=
+			</data>
+			<key>hash2</key>
+			<data>
+			YGiTJHdD3oWe+Bbigz7366QCACrzWsZuxxIdLDy5Y/0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/uw-baothu.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9NNfVOTZegy/vQXq1HNKlPO2+qc=
+			</data>
+			<key>hash2</key>
+			<data>
+			04tWwb3h+ooScTXxPVWfNhkaqVMyhZVB5xato70pDmM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/v-conve.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nhDFxGuiScq40TGQAk4WD0in18Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			i4ioWaDciuD2pCREpF4BhVknMxeWes25Umcz48sQHBE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/x-caixeng.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e7B49ew91EHwtUYeXDHU+o0y9fc=
+			</data>
+			<key>hash2</key>
+			<data>
+			zWiDVLD+LXdRvpKfeIdL+SdWxVyNsY22Y2CTbJMhh04=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/alphabet/y-lynuoc.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RJlwI8I3CPij+oU6xh7IE0E8k6k=
+			</data>
+			<key>hash2</key>
+			<data>
+			VR914E4oSSYDltWJ8vYDaJPFtEmukxjGQe+U0OHxPdk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/cavang.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Tjxi0cmv5SJn34vF/dfv8aGCkuc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZkxsPAveVUyAy1bbMyUnLsrXzNG/nadXxoV8MF+9dzs=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/concho.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5CiVfLMALLk400tlVNyJ4OYPzg8=
+			</data>
+			<key>hash2</key>
+			<data>
+			G6NwJKQARHI1ZPT5XXmWOCdupU2QxExL474l2z+A9Yk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conchuot.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ctxvMysidC9oT8fOIpt1Y7UKOm4=
+			</data>
+			<key>hash2</key>
+			<data>
+			iRx+K622rZoySgXf5mK2MV+js7DYaX17GWvljTBU5lE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conkhi.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E53lQIZ2RFFY7RJFAvM3xo4vAaA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JtEg1SQhZfSRBNGnK3Gnz/ZZxIQbYN8gcRAlzY5Ruvs=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conmeo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n10lWu4mRQVQjt7wdreYMqX6Y3M=
+			</data>
+			<key>hash2</key>
+			<data>
+			RZVznlTBDKkC4W2O4q1e0+rJblpBE9b0Y2dxha3i6jM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/conrua.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S7VxanXO0zi87kYCThlZzIcQt3E=
+			</data>
+			<key>hash2</key>
+			<data>
+			z7n8HCkTr0ygzDqLmxbDgT4mbYFTPJx60crgI6Hx63Q=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/consutu.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l1E6MLjEdCo9+zQ3HEfTPBHouPY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6v0lvXmwvdPthpsIFiU8+q/XpfJGQo+ZFJDR+5ZUwKg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/contho.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cbmEVwOj894b8yV1wj1zAbMi7JU=
+			</data>
+			<key>hash2</key>
+			<data>
+			H6QoDudhWt74w7zderUZmIlM02Qj/6QYIJ2S3nUNOx0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/convet.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KxMPXxusXZaFXV/jYa0NS3R0clQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Uj3oFJEyswgSp2Zynlk/IlpJmFhsYZXQRUs2DTz5guk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/animal/huoucaoco.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			moSo6YLjmZt4x0bOM5pIzYCvxvI=
+			</data>
+			<key>hash2</key>
+			<data>
+			LS7LGXmxXcRcRN+ZX5fr0cBtnNC2HgAaqS8jyClOvTY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/cam.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lJ5oeO9Loia9ZXL3FsZ6cTBLlTs=
+			</data>
+			<key>hash2</key>
+			<data>
+			a5+qeeSkYw5x0YviOsCvG0JM100lZBNb8FTSvrAz6Yw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/den.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U+Bs8iDcdkP+pp3CR0Beios3VEs=
+			</data>
+			<key>hash2</key>
+			<data>
+			4o1CfMf8fd7O5nlYxbMJR+/jjzj7PG+0Y+h2hWwSg7k=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/do.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ESNhu/K73IYnT0J+/e0UEBGRQOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			MOB4lrWkp5QcUPePCGoeRdaeoA7WT3v0/II1RLOW73o=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/hong.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FFu7KVHWrtWJptOytKm/vFTttGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			ipBshr1MI9O0mJN2MJjxbcMWs+uVirfW6JRCO2h05a8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/nau.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W+6sLE41vbQRdFkSbgDtcNlLPVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			jXc0qm3r4gNIFK/1EgmMQ2kx2vS+0tpYO3MriJ3e0bM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/tim.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y6TAvRay7e7yhiFmodFaNE/CSG4=
+			</data>
+			<key>hash2</key>
+			<data>
+			L1lOV7f1bVIxrd0a+sRwYEcwRcXoZIwKX5LgIN61hLY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/trang.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vWbCcDChGy7G9rVtEJAdn16E6dI=
+			</data>
+			<key>hash2</key>
+			<data>
+			OVBtVjFksiAzvRdttwuhLzsLuMl1orNP+J4KEBJ3KNs=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/vang.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z5CqbRqfyVg9uM9aNRuUD2VAttM=
+			</data>
+			<key>hash2</key>
+			<data>
+			IIQBbaTTZff9sy/PyAlNINMYuhkuMteTh1fH0JSW+0A=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/vangchanh.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DVdJ610MYfKlTSP87fv4zl5QrMA=
+			</data>
+			<key>hash2</key>
+			<data>
+			tzWgH0x0zFo42OXMJBU3OTjMkE87tQshtx07jQLaKyY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/xanhduong.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DuJLHCkYTXT4mzFHSOuF66saZfk=
+			</data>
+			<key>hash2</key>
+			<data>
+			EsR9vhmgKxBwQCNCv+O3oguaoNqIv9xtUrhzlcyVgkQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/xanhlacay.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			10vmxnj3t/0q6yNyYab2kYS3Igc=
+			</data>
+			<key>hash2</key>
+			<data>
+			E2PlwWLKwDnDu01NxykBqOUtRU/ShBu2EWB17+ZGNDA=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/color/xanhmongket.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TdCBXttPc4dUWdoaa6ThUF9VDkc=
+			</data>
+			<key>hash2</key>
+			<data>
+			fhBSop79cYUnjYJfxqVnSUhzJdGaYMTplAkmTrC5Cns=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/bap.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GVS5BspVaTPBfMIPdpkygYQcGsg=
+			</data>
+			<key>hash2</key>
+			<data>
+			5qkgkSIA+wb0S7tF0l0wiQdn35tFekd0uSQ2gKXyYvw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/bo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/4ppne0c5d0jVzeFc5dtsk/cUU8=
+			</data>
+			<key>hash2</key>
+			<data>
+			WyXq/vwM5fHpYo/sk5L2dQpWaS5t6qO9nUfBI65rdq8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/cachua.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nihk7ztXrPuGm+X+ns1E/8NmGu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			JmUmw5ttVoN3GRuK5nWx5AGk++Lenez/RaKxJDgJ82c=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/cam.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ppdAFIdbJ/O6Dd0erix2dNa/v0=
+			</data>
+			<key>hash2</key>
+			<data>
+			DI90MDVfrLb09aFTjV+/NH2rOr+rBR6144+jd0rcwNw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/carot.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oLgzB+kTBGNBCudyVMENNo+o46s=
+			</data>
+			<key>hash2</key>
+			<data>
+			qGhoDQBWVU+Nu4qQ+rS8A7wP2XT1ZshPHF3kOEhdzBk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/chanh.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			usGAO6wrRYFZsOV8Bezet5K48so=
+			</data>
+			<key>hash2</key>
+			<data>
+			ipvCD+ONHEM2W/6PPCon/cypyXs9s5mXRN+dpiiLXGY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/cherry.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jO04XyepZyvK4P2tftBtC66Op+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0aT4kYXCiz0liEF27SxWJe8iOJAyxco9ttWnKElvi68=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/chuoi.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xB+A0uD2LTmE7I+EFN7/GGX3vYg=
+			</data>
+			<key>hash2</key>
+			<data>
+			8JCbDo9JAheQMORhoN/g3k3eZBXWgsrknWWmAdY1xkI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dua-thom.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+/dTVpa1XE/sPMypytGMFVaRzFs=
+			</data>
+			<key>hash2</key>
+			<data>
+			4lijRkR1tFwPUhjg+dsx2vpu7FuNiPMGVwlJ+Amx2uI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dua.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3fN025idx0Ktx8b527fHnFV8Tg8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7DEYLbtscjtvRbE/jF7ap62V23OzRxB88BcvYyLrZxY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/duahau.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xojKZAempZYwZRgcTvXH/nhRq9U=
+			</data>
+			<key>hash2</key>
+			<data>
+			BI8NOuabYnSiW5VtpU4cKJvvA573ZHd1eXU5hKHdyqw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dualeo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BiYp4IbC3F0OsrDyLbYBwgvY5js=
+			</data>
+			<key>hash2</key>
+			<data>
+			TNz6dG+IEEy23n3pO7s13kV+jn9LT8Ng7C4NoGO1+5o=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/dudu.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5RhfjgbnMZJ/0v98a02EZnNxBFY=
+			</data>
+			<key>hash2</key>
+			<data>
+			mQIx8+ThrmcPbDDkwo0EZueI3CPWRpUcSIVrMQroeR0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/khoaitay.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zYb1KnA0cV1MaqpGjYfNu6+nqZs=
+			</data>
+			<key>hash2</key>
+			<data>
+			qxUrY7spylwBVWdwGZL6ikGpU/dfNCGHm6KGoa9GOuU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/kiwi.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VASZbXDQ15UDGSip2oaljs6+ySA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7qGUSyx8wq3Q3AvyXaW1cMI16x5cj/KNJHziskIM9+k=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/le.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A0vWH0f0xjoDfEz4rmkYZeq9/C4=
+			</data>
+			<key>hash2</key>
+			<data>
+			aspu+WXcozimvLLZuIie8x4TyylAho4KoYgRhKTvwFU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/luu.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MtbEy4CJ26RuX0AGVbq3zJjU4ec=
+			</data>
+			<key>hash2</key>
+			<data>
+			AAskSC3AYBpwk66QQQXq2WF8eefaPQRaSKG48nC5UsU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/mo.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VcxSMTaeIbIpDGqoq53Kt81DmKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			m2sPh1oVwh8Ypsdf0/zXkdv9W8dXgL4GQTpkJqX6hEg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/nho.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W5Ako1vhxRws/JkE+8w5Laz9lNo=
+			</data>
+			<key>hash2</key>
+			<data>
+			eubYnQTyaw/YPC7jxuMnKAZBs9pwFgzQTAQ0aioIugg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/tao.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V5BM6QvJmvSUSTkB/bQlcfFqMaU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lzb17uei/cMVyGbiFJ8VOlx8B9BgXrn1lqxDcHnNrvI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/fruits/xoai.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pAdpVOiajd9FfUbY7MEvqNpAnXI=
+			</data>
+			<key>hash2</key>
+			<data>
+			0a5PWZa5mIPPG56DgMkKGDNm2vvR/nnUY7e0ElPMqW4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/number/0-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1761,7 +2845,7 @@
 			+W20a7hlZTf4T8fD8I+x5ydsk2gMfDTl3/XVVp8mupo=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/1.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/1-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1772,7 +2856,7 @@
 			7GSYEqfpk3itFAoA4rJc1YH0Qmkwrp4lJAKLsGs15s8=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/10.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/10-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1783,7 +2867,7 @@
 			Tuso7iLAYBieWe0QYTL17WhsdA/n9v3M5l/u0xYJNP4=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/2.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/2-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1794,7 +2878,7 @@
 			G1FE7JyNg8pi2knBs6GtKOM70TrToke2ijVAJZw8XZs=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/3.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/3-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1805,7 +2889,7 @@
 			1RT6LVxx/A6Z0S97K1Nn4pKzVTTXUROnd2YQvSS1/aw=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/4.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/4-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1816,7 +2900,7 @@
 			e1IaR5OP8V67ivk6jnPLiDz8oE+p+lbLU3kjwlHsWho=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/5.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/5-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1827,7 +2911,7 @@
 			2AERMXH5DN33EvhayfKW34Q7aRK/8GOnQjCira73Vl4=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/6.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/6-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1838,7 +2922,7 @@
 			j4UT5htdjrNMSZLtCXedz1LzK+/KFyx47IV9tB23Y6s=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/7.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/7-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1849,7 +2933,7 @@
 			uF4z5r0nXZ59SLXGfYH4lQeqFFfSip6b/2rN9j0Vg4Q=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/8.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/8-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1860,7 +2944,7 @@
 			Ve91x4Ijk/bI5b/s5yWrd+GkPQxfppdILpPeRIIRtRA=
 			</data>
 		</dict>
-		<key>flutter_assets/assets/audio/vietnamese/number/9.mp3</key>
+		<key>flutter_assets/assets/audio/vietnamese/number/9-vn.mp3</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -1869,6 +2953,138 @@
 			<key>hash2</key>
 			<data>
 			HaduhYaZLxDHd8uo+f6pUBbZZcxcwZRyHuuZATxwcDw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/betong.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VQ0RaDyFV6Kv+7vmw27RdaaMxws=
+			</data>
+			<key>hash2</key>
+			<data>
+			GOSOhn0cQTVXntvVE5Z4Jveb4nyeqlhHI5x/dkraivE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/buyt.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KHSm66poyiR+DO72aI9iOVMtdfk=
+			</data>
+			<key>hash2</key>
+			<data>
+			n2X+/ZBu6qi1vdw+H6+6lmSVU+IPBjR850yN4sFS6SQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/maybay.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jUHAsG58u1EY34voOW1/ZTFegS4=
+			</data>
+			<key>hash2</key>
+			<data>
+			bE92E2ss0aWXMOdQMyaGFYs/eY5oDZrZpLj9dMa6UFU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/tructhang.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TsjxjDZjbDY1r08h9E2f6J3Gd/Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ozh8Wng4YW+migWLL2k7bX6RMmOqoqflfq/jAly69y0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xecancau.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MIaxGsm8xKX4UlBdys9dVqT+zWE=
+			</data>
+			<key>hash2</key>
+			<data>
+			6pKXY5XvwULsbuK84c9AzLhbGz2eJPwIVkaW/VFrZPM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xedap.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			moWFjwSvqv9mg9Ee+pvvr4EZgbQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			HKFyaCcRlVqTSwS8atsGSVZcMhkg1C1ks9YoeZLPt24=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xemay.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cQZUW3nkJbbK29hDpRkkkjhyybg=
+			</data>
+			<key>hash2</key>
+			<data>
+			WbckNrfFcROIujPObRso7hiLeCPfVN/uH4o4u/gkQWk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xenang.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+cv1lW6Ealjp7GEeU8ZJM5hkVkY=
+			</data>
+			<key>hash2</key>
+			<data>
+			iUQ5X/eMMaYbX0ZKYIKTf6sH4hI9EBFVFN+FWUQ14s8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xeoto.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AiFY29HtHr4hvQ2PNTFBrSqmTgA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JVYAu7wux7TxUzGKpDxoz95b4DlFlUXC0ZnL/Gs3XWE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xetai.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I0hj3+VWYJZWDitJ5JBmS+hf+uo=
+			</data>
+			<key>hash2</key>
+			<data>
+			7tRXPV2PLrpesn3psa9GsqD55lVLZoP9426E7B8IY00=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xetang.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8GX+9sr5EzMg4eO3HapfR5TYFXs=
+			</data>
+			<key>hash2</key>
+			<data>
+			UvZyWTiSn+xBvD6L7iihUVlbNTtGIyjOq/xXqCmOIHY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/audio/vietnamese/vehicle/xexucdat.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZX8r3f553XgTxSUCGWsfHn7D3mo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ev2cv7hz4xM3GjJQe78kmUdBW9CgvfzfC2cHE8IfT/E=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/image/animal/cat.png</key>
@@ -2520,127 +3736,6 @@
 			UmglVDWpc6i1OgtGXk8Gv0H7lTth64Zj9/6gY1ZaJ/0=
 			</data>
 		</dict>
-		<key>flutter_assets/assets2/number/0.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cgHe/bk0J/Dy2PpbvYsERB8HbyE=
-			</data>
-			<key>hash2</key>
-			<data>
-			+W20a7hlZTf4T8fD8I+x5ydsk2gMfDTl3/XVVp8mupo=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/1.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cJ14fykx3XH+jyyNCbC+s0HAS10=
-			</data>
-			<key>hash2</key>
-			<data>
-			7GSYEqfpk3itFAoA4rJc1YH0Qmkwrp4lJAKLsGs15s8=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/10.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ELmfsqXMJ2jf4sHmM4FzBszJsu0=
-			</data>
-			<key>hash2</key>
-			<data>
-			Tuso7iLAYBieWe0QYTL17WhsdA/n9v3M5l/u0xYJNP4=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/2.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N3L6hKd8mnjFx3lMZjXJ1p/+x8A=
-			</data>
-			<key>hash2</key>
-			<data>
-			G1FE7JyNg8pi2knBs6GtKOM70TrToke2ijVAJZw8XZs=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/3.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZO3Idfs9zTmaT5zFliDNy6ECtGM=
-			</data>
-			<key>hash2</key>
-			<data>
-			1RT6LVxx/A6Z0S97K1Nn4pKzVTTXUROnd2YQvSS1/aw=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/4.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ugexRr39DxfFEQdXGuXtNbqu8ow=
-			</data>
-			<key>hash2</key>
-			<data>
-			e1IaR5OP8V67ivk6jnPLiDz8oE+p+lbLU3kjwlHsWho=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/5.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Yhw06UuHR6e2JiL5uqab7hALZDQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			2AERMXH5DN33EvhayfKW34Q7aRK/8GOnQjCira73Vl4=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/6.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			krLZ2A0qkzoLJhAlBbBB9csIn8Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			j4UT5htdjrNMSZLtCXedz1LzK+/KFyx47IV9tB23Y6s=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/7.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			l7UQzYwEhYzZQ6ytxaeYiugzJQU=
-			</data>
-			<key>hash2</key>
-			<data>
-			uF4z5r0nXZ59SLXGfYH4lQeqFFfSip6b/2rN9j0Vg4Q=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/8.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G1yrVfYlLchF3QhziXqBv2qm7uM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ve91x4Ijk/bI5b/s5yWrd+GkPQxfppdILpPeRIIRtRA=
-			</data>
-		</dict>
-		<key>flutter_assets/assets2/number/9.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5zerwllOlK+G9m9dXtPBiIFttSc=
-			</data>
-			<key>hash2</key>
-			<data>
-			HaduhYaZLxDHd8uo+f6pUBbZZcxcwZRyHuuZATxwcDw=
-			</data>
-		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -2667,11 +3762,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BVyW8YNcf52eN4MtINKtFH8OwGQ=
+			q1nD3aC96pVJzXl47rLTTPLYvM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ERKbz0Y0GMqT4IOnEzHZ/nJqs7K6b7Zl1NgRYwbhFNk=
+			JX04E2MkRdqZbIBV9mkVfbgHbSL2rOiASz9iPRmILOU=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

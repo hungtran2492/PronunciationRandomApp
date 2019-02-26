@@ -13,6 +13,20 @@ List soundColors = [
   "White.mp3",
   "Yellow.mp3",
 ];
+List soundColorsVietnamese = [
+  "den.mp3",
+  "xanhduong.mp3",
+  "nau.mp3",
+  "xanhlacay.mp3",
+  "vangchanh.mp3",
+  "cam.mp3",
+  "hong.mp3",
+  "tim.mp3",
+  "do.mp3",
+  "xanhmongket.mp3",
+  "trang.mp3",
+  "vang.mp3",
+];
 
 
 

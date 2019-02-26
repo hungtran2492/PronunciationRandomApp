@@ -30,6 +30,7 @@ class _GameScreenState extends State<GameScreen>
   bool shake = true;
 
   void _playSound(gameName) {
+    //Number Game
     if (gameName == 1 ) {
       if(language == 'english'){
         soundManager
@@ -46,42 +47,86 @@ class _GameScreenState extends State<GameScreen>
           print('english');
         });
       }
-
-//      soundManager
-//          .playLocal("${soundNumber[index]}", "audio", "english", "number")
-//          .then((onValue) {
-//        print("${soundNumber[index]}");
-//      });
-    } else if (gameName == 2) {
-      soundManager
-          .playLocal("${soundAlphabet[index]}", "audio", "english", "alphabet")
-          .then((onValue) {
-        print("${soundAlphabet[index]}");
-      });
-    } else if (gameName == 3) {
-      soundManager
-          .playLocal("${soundColors[index]}", "audio", "english", "color")
-          .then((onValue) {
-        print("${soundColors[index]}");
-      });
-    } else if (gameName == 4) {
-      soundManager
-          .playLocal("${soundAnimal[index]}", "audio", "english", "animal")
-          .then((onValue) {
-        print("${soundAnimal[index]}");
-      });
-    } else if (gameName == 5) {
-      soundManager
-          .playLocal("${soundVehicle[index]}", "audio", "english", "vehicle")
-          .then((onValue) {
-        print("${soundVehicle[index]}");
-      });
-    } else if (gameName == 6) {
-      soundManager
-          .playLocal("${soundFruits[index]}", "audio", "english", "fruits")
-          .then((onValue) {
-        print("${soundFruits[index]}");
-      });
+    }
+    //Alphabet Game
+    else if (gameName == 2) {
+      if(language =='english'){
+        soundManager
+            .playLocal("${soundAlphabet[index]}", "audio", "english", "alphabet")
+            .then((onValue) {
+          print("${soundAlphabet[index]}");
+        });
+      }else if(language =='vietnamese'){
+        soundManager
+            .playLocal("${soundAlphabetVietnamese[index]}", "audio", "vietnamese", "alphabet")
+            .then((onValue) {
+          print("${soundAlphabetVietnamese[index]}");
+        });
+      }
+    }
+    //Colors Game
+    else if (gameName == 3) {
+      if(language == 'english'){
+        soundManager
+            .playLocal("${soundColors[index]}", "audio", "english", "color")
+            .then((onValue) {
+          print("${soundColors[index]}");
+        });
+      }else if (language == 'vietnamese'){
+        soundManager
+            .playLocal("${soundColorsVietnamese[index]}", "audio", "vietnamese", "color")
+            .then((onValue) {
+          print("${soundColorsVietnamese[index]}");
+        });
+      }
+    }
+    //Animal Game
+    else if (gameName == 4) {
+      if(language == 'english'){
+        soundManager
+            .playLocal("${soundAnimal[index]}", "audio", "english", "animal")
+            .then((onValue) {
+          print("${soundAnimal[index]}");
+        });
+      }else if (language =='vietnamese'){
+        soundManager
+            .playLocal("${soundAnimalVietnamese[index]}", "audio", "vietnamese", "animal")
+            .then((onValue) {
+          print("${soundAnimalVietnamese[index]}");
+        });
+      }
+    }
+    //Vehicle Game
+    else if (gameName == 5) {
+      if(language == 'english'){
+        soundManager
+            .playLocal("${soundVehicle[index]}", "audio", "english", "vehicle")
+            .then((onValue) {
+          print("${soundVehicle[index]}");
+        });
+      }else if(language == 'vietnamese'){
+        soundManager
+            .playLocal("${soundVehicleVietnamese[index]}", "audio", "vietnamese", "vehicle")
+            .then((onValue) {
+          print("${soundVehicleVietnamese[index]}");
+        });
+      }
+    }
+    //Fruits Game
+    else if (gameName == 6) {
+      if(language =='english'){
+        soundManager
+            .playLocal("${soundFruits[index]}", "audio", "english", "fruits")
+            .then((onValue) {
+          print("${soundFruits[index]}");
+        });
+      }else if (language == 'vietnamese'){
+        soundManager
+            .playLocal("${soundFruitsVietnamese[index]}", "audio", "vietnamese", "fruits")
+            .then((onValue) {
+          print("${soundFruitsVietnamese[index]}");
+        });
+      }
     }
   }
 
@@ -90,7 +135,12 @@ class _GameScreenState extends State<GameScreen>
       if (gameName == 1) {
         index = number.nextInt(11);
       } else if (gameName == 2) {
-        index = number.nextInt(24);
+        if(language == 'english'){
+          index = number.nextInt(24);
+        }else if (language =='vietnamese'){
+          index = number.nextInt(29);
+        }
+
       } else if (gameName == 3) {
         index = number.nextInt(12);
       } else if (gameName == 4) {
@@ -274,13 +324,23 @@ class _GameScreenState extends State<GameScreen>
       );
     }
     if (gameName == 2) {
-      return Container(
-        child: Center(
-            child: Text(
-          '${alphabetRandom[index]}',
-          style: TextStyle(fontSize: 200.0, color: Colors.white),
-        )),
-      );
+      if(language == 'english'){
+        return Container(
+          child: Center(
+              child: Text(
+                '${alphabetRandom[index]}',
+                style: TextStyle(fontSize: 200.0, color: Colors.white),
+              )),
+        );
+      }else if(language=='vietnamese'){
+        return Container(
+          child: Center(
+              child: Text(
+                '${alphabetVietnameseRandom[index]}',
+                style: TextStyle(fontSize: 200.0, color: Colors.white),
+              )),
+        );
+      }
     } else if (gameName == 3) {
       return Container(
         height: 200,
