@@ -2,6 +2,13 @@
   <library name="Dart Packages" type="DartPackagesLibraryType">
     <properties>
       <option name="packageNameToDirsMap">
+        <entry key="after_layout">
+          <value>
+            <list>
+              <option value="/flutter/.pub-cache/hosted/pub.dartlang.org/after_layout-1.0.7/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="async">
           <value>
             <list>
@@ -135,6 +142,13 @@
             </list>
           </value>
         </entry>
+        <entry key="shimmer">
+          <value>
+            <list>
+              <option value="/flutter/.pub-cache/hosted/pub.dartlang.org/shimmer-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="sky_engine">
           <value>
             <list>
@@ -208,6 +222,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/after_layout-1.0.7/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/async-2.0.8/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.8.2/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.4/lib" />
@@ -224,6 +239,7 @@
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.4.0/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.1/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/sensors-0.4.0+1/lib" />
+      <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/shimmer-1.0.0/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.4/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3/lib" />
       <root url="file:///flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-1.6.8/lib" />

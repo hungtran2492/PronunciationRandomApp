@@ -7,6 +7,8 @@ import 'package:random_number/screen/custom_widget/language_option.dart';
 import 'package:random_number/screen/custom_widget/initGuideBoard.dart';
 import 'package:random_number/screen/game_screen.dart';
 import 'package:random_number/theme/images.dart';
+import 'package:shimmer/shimmer.dart';
+import 'package:after_layout/after_layout.dart';
 
 class MainScreen extends StatefulWidget {
   @override
@@ -14,15 +16,11 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin, AfterLayoutMixin {
   CustomNextFuncBoard board;
 
   @override
   void initState() {
-    // TODO: implement initState
-    Future.delayed(Duration(milliseconds: 500), () {
-      openBoardGuide(context);
-    });
     super.initState();
   }
 
@@ -40,18 +38,11 @@ class _MainScreenState extends State<MainScreen>
               ),
             )));
   }
-}
 
-void showLanguage(BuildContext context) {
-  showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return Dialog(
-          child: LanguageOption(),
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-        );
-      });
+  @override
+  void afterFirstLayout(BuildContext context) {
+    openBoardGuide(context);
+  }
 }
 
 void openBoard(BuildContext context) {
@@ -62,7 +53,7 @@ void openBoard(BuildContext context) {
   }
   board = CustomNextFuncBoard(
       maxWidth: MediaQuery.of(context).size.width,
-      maxHeight: MediaQuery.of(context).size.height ,
+      maxHeight: MediaQuery.of(context).size.height,
       popupDirection: BoardDirection.up,
       borderColor: Colors.transparent,
       snapsFarAwayHorizontally: false,
@@ -73,8 +64,9 @@ void openBoard(BuildContext context) {
       showCloseButton: ShowCloseButton.inside,
       content: LanguageOption());
   board.show(context, MediaQuery.of(context).size.width - 30,
-      MediaQuery.of(context).size.height/1.2 );
+      MediaQuery.of(context).size.height / 1.2);
 }
+
 void openBoardGuide(BuildContext context) {
   var board;
   if (board != null && board.isOpen) {
@@ -83,7 +75,7 @@ void openBoardGuide(BuildContext context) {
   }
   board = CustomNextFuncBoard(
       maxWidth: MediaQuery.of(context).size.width,
-      maxHeight: MediaQuery.of(context).size.height ,
+      maxHeight: MediaQuery.of(context).size.height,
       popupDirection: BoardDirection.up,
       borderColor: Colors.transparent,
       snapsFarAwayHorizontally: false,
@@ -91,11 +83,13 @@ void openBoardGuide(BuildContext context) {
       arrowTipDistance: 0.0,
       backgroundColor: Colors.transparent,
       touchThroughAreaCornerRadius: 0.0,
-      onClose: (){openBoard(context);},
+      onClose: () {
+        openBoard(context);
+      },
       showCloseButton: ShowCloseButton.inside,
       content: BoardGuide());
   board.show(context, MediaQuery.of(context).size.width - 30,
-      MediaQuery.of(context).size.height/1.2 );
+      MediaQuery.of(context).size.height / 1.2);
 }
 
 int gameName = 0;
@@ -117,105 +111,118 @@ class _CardGameState extends State<CardGame> {
       children: <Widget>[
         Expanded(
           child: Container(
-            child: Stack(
-              children: <Widget>[
-                Center(
+              child: Stack(
+            children: <Widget>[
+              Center(
+                child: Shimmer.fromColors(
+                  baseColor: Colors.red,
+                  highlightColor: Colors.yellow,
                   child: Text(
                     widget.category.gameName.toUpperCase(),
-                    style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold,letterSpacing: 3.0),
+                    style: TextStyle(
+                        fontSize: 40.0,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 3.0),
                   ),
                 ),
-                Align(alignment: Alignment.topRight,child: IconButton(icon: Icon(Icons.language,size: 40.0,), onPressed: (){openBoard(context);}),)
-              ],
-            )
-          ),
+              ),
+              Align(
+                alignment: Alignment.topRight,
+                child: IconButton(
+                    icon: Icon(
+                      Icons.language,
+                      size: 40.0,
+                    ),
+                    onPressed: () {
+                      openBoard(context);
+                    }),
+              )
+            ],
+          )),
           flex: 2,
         ),
         Expanded(
           flex: 2,
-
-            child: Center(
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(10.0),
-                child: FractionalTranslation(
-                    translation: Offset(widget.parallaxPercent * 2.0, 0.0),
-                    child: InkWell(
-                      child: Container(
-                        width: MediaQuery.of(context).size.width,
-                        child: Image.asset(
-                          widget.category.backgroundAssetPath,
-                          fit: BoxFit.cover,
-                        ),
+          child: Center(
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(10.0),
+              child: FractionalTranslation(
+                  translation: Offset(widget.parallaxPercent * 2.0, 0.0),
+                  child: InkWell(
+                    child: Container(
+                      width: MediaQuery.of(context).size.width,
+                      child: Image.asset(
+                        widget.category.backgroundAssetPath,
+                        fit: BoxFit.cover,
                       ),
-                      onTap: () {
-                        print(widget.category.gameIndex);
-                        if (widget.category.gameIndex == 1) {
-                          setState(() {
-                            gameName = 1;
-                          });
-                          //print(gameName);
-                          print('Navigate To Number Game');
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => GameScreen()));
-                        }else if (widget.category.gameIndex == 2) {
-                          setState(() {
-                            gameName = 2;
-                          });
-                          //print(gameName);
-                          print('Navigate To Alphabet Game');
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => GameScreen()));
-                        }
-                        else if (widget.category.gameIndex == 3) {
-                          setState(() {
-                            gameName = 3;
-                          });
-                          print(gameName);
-                          print('Navigate To Color Game');
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => GameScreen()));
-                        } else if (widget.category.gameIndex == 4) {
-                          setState(() {
-                            gameName = 4;
-                          });
-                          print(gameName);
-                          print('Navigate To Animal Game');
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => GameScreen()));
-                        } else if (widget.category.gameIndex == 5) {
-                          setState(() {
-                            gameName = 5;
-                          });
-                          print(gameName);
-                          print('Navigate To Vehicle Game');
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => GameScreen()));
-                        } else if (widget.category.gameIndex == 6) {
-                          setState(() {
-                            gameName = 6;
-                          });
-                          print(gameName);
-                          print('Navigate To Fruit Game');
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => GameScreen()));
-                        }
-                      },
-                    )),
-              ),
+                    ),
+                    onTap: () {
+                      print(widget.category.gameIndex);
+                      if (widget.category.gameIndex == 1) {
+                        setState(() {
+                          gameName = 1;
+                        });
+                        //print(gameName);
+                        print('Navigate To Number Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      } else if (widget.category.gameIndex == 2) {
+                        setState(() {
+                          gameName = 2;
+                        });
+                        //print(gameName);
+                        print('Navigate To Alphabet Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      } else if (widget.category.gameIndex == 3) {
+                        setState(() {
+                          gameName = 3;
+                        });
+                        print(gameName);
+                        print('Navigate To Color Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      } else if (widget.category.gameIndex == 4) {
+                        setState(() {
+                          gameName = 4;
+                        });
+                        print(gameName);
+                        print('Navigate To Animal Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      } else if (widget.category.gameIndex == 5) {
+                        setState(() {
+                          gameName = 5;
+                        });
+                        print(gameName);
+                        print('Navigate To Vehicle Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      } else if (widget.category.gameIndex == 6) {
+                        setState(() {
+                          gameName = 6;
+                        });
+                        print(gameName);
+                        print('Navigate To Fruit Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      }
+                    },
+                  )),
             ),
-
+          ),
         ),
         Expanded(
           child: Container(),

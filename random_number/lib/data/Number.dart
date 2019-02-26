@@ -24,3 +24,16 @@ List<String> numberRandom = [
   "9",
   "10",
 ];
+List soundNumberVietnamese = [
+  "0-vn.mp3",
+  "1-vn.mp3",
+  "2-vn.mp3",
+  "3-vn.mp3",
+  "4-vn.mp3",
+  "5-vn.mp3",
+  "6-vn.mp3",
+  "7-vn.mp3",
+  "8-vn.mp3",
+  "9-vn.mp3",
+  "10-vn.mp3",
+];

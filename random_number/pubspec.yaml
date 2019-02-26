@@ -22,6 +22,8 @@ dependencies:
   audioplayers: ^0.8.2
   path_provider: ^0.5.0+1
   sensors: ^0.4.0+1
+  after_layout: ^1.0.7
+  shimmer: ^1.0.0
   flutter_localizations:
     sdk: flutter
 
@@ -144,17 +146,17 @@ flutter:
 
     #AUDIO VIETNAMESE
     #audio number
-    - assets/audio/vietnamese/number/0.mp3
-    - assets/audio/vietnamese/number/1.mp3
-    - assets/audio/vietnamese/number/2.mp3
-    - assets/audio/vietnamese/number/3.mp3
-    - assets/audio/vietnamese/number/4.mp3
-    - assets/audio/vietnamese/number/5.mp3
-    - assets/audio/vietnamese/number/6.mp3
-    - assets/audio/vietnamese/number/7.mp3
-    - assets/audio/vietnamese/number/8.mp3
-    - assets/audio/vietnamese/number/9.mp3
-    - assets/audio/vietnamese/number/10.mp3
+    - assets/audio/vietnamese/number/0-vn.mp3
+    - assets/audio/vietnamese/number/1-vn.mp3
+    - assets/audio/vietnamese/number/2-vn.mp3
+    - assets/audio/vietnamese/number/3-vn.mp3
+    - assets/audio/vietnamese/number/4-vn.mp3
+    - assets/audio/vietnamese/number/5-vn.mp3
+    - assets/audio/vietnamese/number/6-vn.mp3
+    - assets/audio/vietnamese/number/7-vn.mp3
+    - assets/audio/vietnamese/number/8-vn.mp3
+    - assets/audio/vietnamese/number/9-vn.mp3
+    - assets/audio/vietnamese/number/10-vn.mp3
 
 
 
@@ -224,6 +226,9 @@ flutter:
     - assets/image/fruits/potato.png
     - assets/image/fruits/watermelon.png
     - assets/image/fruits/tomato.png
+
+
+
 
 
 

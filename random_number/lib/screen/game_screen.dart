@@ -38,15 +38,15 @@ class _GameScreenState extends State<GameScreen>
           print("${soundNumber[index]}");
           print('english');
         });
-      }
-      else if (language == 'vietnamese'){
+      }else if(language =="vietnamese"){
         soundManager
-            .playLocal("${soundNumber[index]}", "audio", "vietnamese", "number")
+            .playLocal("${soundNumberVietnamese[index]}", "audio", "vietnamese", "number")
             .then((onValue) {
-          print("${soundNumber[index]}");
-          print('vietnamese');
+          print("${soundNumberVietnamese[index]}");
+          print('english');
         });
       }
+
 //      soundManager
 //          .playLocal("${soundNumber[index]}", "audio", "english", "number")
 //          .then((onValue) {
