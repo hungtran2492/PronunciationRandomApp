@@ -15,13 +15,16 @@ import 'main_screen.dart';
 import 'package:random_number/data/ColorData.dart';
 import 'package:sensors/sensors.dart';
 import 'package:random_number/screen/custom_widget/language_option.dart';
+import 'package:flutter/widgets.dart';
 
 class GameScreen extends StatefulWidget {
   @override
   _GameScreenState createState() => _GameScreenState();
 }
 class _GameScreenState extends State<GameScreen>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin,WidgetsBindingObserver {
+  AppLifecycleState _lastLifecycleState;
+
   AnimationController animationController;
   SoundManager soundManager = new SoundManager();
   int index = 0;
@@ -129,7 +132,7 @@ class _GameScreenState extends State<GameScreen>
       }
     }
   }
-
+  //random number function
   void randomNumber() {
     setState(() {
       if (gameName == 1) {
@@ -155,9 +158,10 @@ class _GameScreenState extends State<GameScreen>
 
   @override
   void initState() {
+    //shake function
     accelerometerEvents.listen((AccelerometerEvent event) {
       if (shake == true) {
-        if (event.x > 10 || event.x < -10) {
+        if (event.x > 15 || event.x < -15 || event.y > 15 || event.y < -15 || event.z > 15 || event.z < -15) {
           randomNumber();
           _playSound(gameName);
         }
@@ -170,8 +174,30 @@ class _GameScreenState extends State<GameScreen>
 //        AnimationController(vsync: this, duration: Duration(seconds: 5));
 //    animationController.repeat();
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
   }
-
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    setState(() {
+      _lastLifecycleState = state;
+      if(_lastLifecycleState == AppLifecycleState.inactive){
+        setState(() {
+          shake = false;
+        });
+      }
+      else if(_lastLifecycleState == AppLifecycleState.resumed){
+        setState(() {
+          shake = true;
+        });
+      }
+    });
+    print('state : $_lastLifecycleState');
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

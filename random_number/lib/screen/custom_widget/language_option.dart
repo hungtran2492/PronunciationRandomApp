@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 String language;
+int languageValue ;
 class LanguageOption extends StatefulWidget {
 
   @override
@@ -7,20 +8,31 @@ class LanguageOption extends StatefulWidget {
 }
 
 class _LanguageOptionState extends State<LanguageOption> {
-int languageValue;
+
+@override
+  void initState() {
+
+    super.initState();
+  }
 
   void _handleRadioValueChange(int value) {
     setState(() {
       languageValue = value;
 
-      switch (languageValue) {
+      switch (value) {
         case 0:
           print('choose English');
-          language = 'english';
+          setState(() {
+            language = 'english';
+          });
+
           break;
         case 1:
           print('choose Vietnamese');
-          language = 'vietnamese';
+          setState(() {
+            language = 'vietnamese';
+          });
+
           break;
         case 2:
           print('choose French');
