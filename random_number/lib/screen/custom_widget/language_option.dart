@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 String language;
 class LanguageOption extends StatefulWidget {
-  int languageValue ;
-  LanguageOption({this.languageValue});
+
   @override
   _LanguageOptionState createState() => _LanguageOptionState();
 }
 
 class _LanguageOptionState extends State<LanguageOption> {
-
+int languageValue;
 
   void _handleRadioValueChange(int value) {
     setState(() {
-      widget.languageValue = value;
+      languageValue = value;
 
-      switch (widget.languageValue) {
+      switch (languageValue) {
         case 0:
           print('choose English');
           language = 'english';
@@ -54,7 +53,7 @@ class _LanguageOptionState extends State<LanguageOption> {
                     Container(width:30.0,height: 30.0,child: Image.asset('assets/image/icon/english.png')),
                     Radio(
                         value: 0,
-                        groupValue: widget.languageValue,
+                        groupValue: languageValue,
                         onChanged: _handleRadioValueChange),
                   ],
                 ),
@@ -63,7 +62,7 @@ class _LanguageOptionState extends State<LanguageOption> {
                     Container(width:30.0,height: 30.0,child: Image.asset('assets/image/icon/vietnamese.png')),
                     Radio(
                         value: 1,
-                        groupValue: widget.languageValue,
+                        groupValue: languageValue,
                         onChanged: _handleRadioValueChange),
                   ],
                 ),
@@ -72,7 +71,7 @@ class _LanguageOptionState extends State<LanguageOption> {
                     Container(width:30.0,height: 30.0,child: Image.asset('assets/image/icon/french.png')),
                     Radio(
                         value: 2,
-                        groupValue: widget.languageValue,
+                        groupValue: languageValue,
                         onChanged: _handleRadioValueChange),
                   ],
                 ),

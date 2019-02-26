@@ -21,7 +21,7 @@ class _MainScreenState extends State<MainScreen>
   void initState() {
     // TODO: implement initState
     Future.delayed(Duration(milliseconds: 500), () {
-      openBoard(context);
+      openBoardGuide(context);
     });
     super.initState();
   }
@@ -68,7 +68,6 @@ void openBoard(BuildContext context) {
       snapsFarAwayHorizontally: false,
       hasShadow: false,
       arrowTipDistance: 0.0,
-      onClose: (){openBoardGuide(context);},
       backgroundColor: Colors.transparent,
       touchThroughAreaCornerRadius: 0.0,
       showCloseButton: ShowCloseButton.inside,
@@ -92,6 +91,7 @@ void openBoardGuide(BuildContext context) {
       arrowTipDistance: 0.0,
       backgroundColor: Colors.transparent,
       touchThroughAreaCornerRadius: 0.0,
+      onClose: (){openBoard(context);},
       showCloseButton: ShowCloseButton.inside,
       content: BoardGuide());
   board.show(context, MediaQuery.of(context).size.width - 30,
@@ -117,12 +117,17 @@ class _CardGameState extends State<CardGame> {
       children: <Widget>[
         Expanded(
           child: Container(
-            child: Center(
-              child: Text(
-                widget.category.gameName.toUpperCase(),
-                style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold,letterSpacing: 3.0),
-              ),
-            ),
+            child: Stack(
+              children: <Widget>[
+                Center(
+                  child: Text(
+                    widget.category.gameName.toUpperCase(),
+                    style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold,letterSpacing: 3.0),
+                  ),
+                ),
+                Align(alignment: Alignment.topRight,child: IconButton(icon: Icon(Icons.language,size: 40.0,), onPressed: (){openBoard(context);}),)
+              ],
+            )
           ),
           flex: 2,
         ),
