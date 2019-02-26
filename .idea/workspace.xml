@@ -6,135 +6,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="add change language icon">
-      <change afterPath="$PROJECT_DIR$/random_number/assets/audio/vietnamese/color/tim.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/assets/audio/vietnamese/color/vang.mp3" afterDir="false" />
+    <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="add data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/app.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets/audio/vietnamese/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/assets2/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/audio/vietnamese/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets2/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets/audio/vietnamese/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/assets2/number/9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/Animal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/Animal.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/ColorData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/ColorData.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/Fruits.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/Fruits.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/Vehicle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/Vehicle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/data/Vehicle.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -232,13 +115,13 @@
         <option value="$PROJECT_DIR$/random_number/lib/data/Number.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/custom_widget/initGuideBoard.dart" />
-        <option value="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/Animal.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/ColorData.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" />
         <option value="$PROJECT_DIR$/random_number/pubspec.yaml" />
         <option value="$PROJECT_DIR$/random_number/lib/data/Fruits.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/Vehicle.dart" />
+        <option value="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" />
       </list>
     </option>
   </component>
@@ -337,7 +220,7 @@
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="audio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="vietnamese" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vehicle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="alphabet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="PronunciationRandomApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -371,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551168874641" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551168930868" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -455,7 +338,7 @@
       <workItem from="1550975152865" duration="895000" />
       <workItem from="1550976116132" duration="10860000" />
       <workItem from="1551076777197" duration="9064000" />
-      <workItem from="1551149648214" duration="12072000" />
+      <workItem from="1551149648214" duration="12353000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1550637027445</created>
@@ -555,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551160814450</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add data">
+      <created>1551168918724</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551168918724</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88187000" />
+    <option name="totallyTimeSpent" value="88468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,7 +464,7 @@
     <frame x="-204" y="-1052" width="1261" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21821165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21821165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +474,7 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32768363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21237993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21237993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,12 +543,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
-    <MESSAGE value="add data" />
     <MESSAGE value="add shake option" />
     <MESSAGE value="refactor code" />
     <MESSAGE value="add choose language board&#10;add number vietnamese" />
     <MESSAGE value="add change language icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add change language icon" />
+    <MESSAGE value="add data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -892,6 +775,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
         </state>
       </provider>
     </entry>
