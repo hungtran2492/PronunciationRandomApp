@@ -20,43 +20,45 @@ class GameScreen extends StatefulWidget {
   @override
   _GameScreenState createState() => _GameScreenState();
 }
-
 class _GameScreenState extends State<GameScreen>
     with SingleTickerProviderStateMixin {
   AnimationController animationController;
   SoundManager soundManager = new SoundManager();
   int index = 0;
-  LanguageOption value = LanguageOption();
-
 
   Random number = Random();
   bool shake = true;
 
   void _playSound(gameName) {
     if (gameName == 1 ) {
-      if(value == 0){
+      if(language == 'english'){
         soundManager
-            .playLocal("${soundNumber[index]}", "audio", "english",
-            "number")
+            .playLocal("${soundNumber[index]}", "audio", "english", "number")
             .then((onValue) {
           print("${soundNumber[index]}");
-        });
-      }else if (value==1){
-        soundManager
-            .playLocal("${soundNumber[index]}", "audio", "vietnamese",
-            "number")
-            .then((onValue) {
-          print("${soundNumber[index]}");
+          print('english');
         });
       }
-    }
-    else if (gameName == 2) {
+      else if (language == 'vietnamese'){
+        soundManager
+            .playLocal("${soundNumber[index]}", "audio", "vietnamese", "number")
+            .then((onValue) {
+          print("${soundNumber[index]}");
+          print('vietnamese');
+        });
+      }
+//      soundManager
+//          .playLocal("${soundNumber[index]}", "audio", "english", "number")
+//          .then((onValue) {
+//        print("${soundNumber[index]}");
+//      });
+    } else if (gameName == 2) {
       soundManager
           .playLocal("${soundAlphabet[index]}", "audio", "english", "alphabet")
           .then((onValue) {
         print("${soundAlphabet[index]}");
       });
-    }else if (gameName == 3) {
+    } else if (gameName == 3) {
       soundManager
           .playLocal("${soundColors[index]}", "audio", "english", "color")
           .then((onValue) {
@@ -87,7 +89,7 @@ class _GameScreenState extends State<GameScreen>
     setState(() {
       if (gameName == 1) {
         index = number.nextInt(11);
-      }else if (gameName == 2) {
+      } else if (gameName == 2) {
         index = number.nextInt(24);
       } else if (gameName == 3) {
         index = number.nextInt(12);
@@ -183,7 +185,7 @@ class _GameScreenState extends State<GameScreen>
       return AssetImage(backgroundCards[3].backgroundGamePath);
     } else if (gameName == 5) {
       return AssetImage(backgroundCards[4].backgroundGamePath);
-    }else if (gameName == 6) {
+    } else if (gameName == 6) {
       return AssetImage(backgroundCards[5].backgroundGamePath);
     }
   }
@@ -234,7 +236,7 @@ class _GameScreenState extends State<GameScreen>
           ),
         ),
       );
-    }else if (gameName == 6) {
+    } else if (gameName == 6) {
       return Container(
         child: Center(
           child: Column(
@@ -270,15 +272,16 @@ class _GameScreenState extends State<GameScreen>
           style: TextStyle(fontSize: 200.0, color: Colors.white),
         )),
       );
-    }if (gameName == 2) {
+    }
+    if (gameName == 2) {
       return Container(
         child: Center(
             child: Text(
-              '${alphabetRandom[index]}',
-              style: TextStyle(fontSize: 200.0, color: Colors.white),
-            )),
+          '${alphabetRandom[index]}',
+          style: TextStyle(fontSize: 200.0, color: Colors.white),
+        )),
       );
-    }else if (gameName == 3) {
+    } else if (gameName == 3) {
       return Container(
         height: 200,
         width: 200,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+String language;
 class LanguageOption extends StatefulWidget {
   int languageValue ;
   LanguageOption({this.languageValue});
@@ -17,9 +17,11 @@ class _LanguageOptionState extends State<LanguageOption> {
       switch (widget.languageValue) {
         case 0:
           print('choose English');
+          language = 'english';
           break;
         case 1:
           print('choose Vietnamese');
+          language = 'vietnamese';
           break;
         case 2:
           print('choose French');
@@ -35,7 +37,7 @@ class _LanguageOptionState extends State<LanguageOption> {
       child: Container(
         //margin: EdgeInsets.all(50.0),
         width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
+        height: MediaQuery.of(context).size.height/1.5,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
           image: DecorationImage(
@@ -76,7 +78,8 @@ class _LanguageOptionState extends State<LanguageOption> {
                 ),
 
               ],
-            )
+            ),
+            Container()
           ],
         ),
       ),

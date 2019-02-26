@@ -2,6 +2,7 @@ import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:random_number/data/Category.dart';
+import 'package:random_number/screen/custom_widget/BoardGuide.dart';
 import 'package:random_number/screen/custom_widget/language_option.dart';
 import 'package:random_number/screen/custom_widget/initGuideBoard.dart';
 import 'package:random_number/screen/game_screen.dart';
@@ -61,26 +62,40 @@ void openBoard(BuildContext context) {
   }
   board = CustomNextFuncBoard(
       maxWidth: MediaQuery.of(context).size.width,
-      maxHeight: MediaQuery.of(context).size.height / 2,
+      maxHeight: MediaQuery.of(context).size.height ,
       popupDirection: BoardDirection.up,
       borderColor: Colors.transparent,
-      //borderWidth: Dimens.Board['border'],
-      //outsideBackgroundColor: Colors.black.withOpacity(1),
       snapsFarAwayHorizontally: false,
       hasShadow: false,
       arrowTipDistance: 0.0,
+      onClose: (){openBoardGuide(context);},
       backgroundColor: Colors.transparent,
-      // touchThroughAreaShape: ClipAreaShape.rectangle,
-//    touchThrougArea: Rect.fromLTWH(
-//        0.0,
-//        0.0,
-//        MediaQuery.of(context).size.width,
-//        MediaQuery.of(context).size.height / 1.54),
       touchThroughAreaCornerRadius: 0.0,
       showCloseButton: ShowCloseButton.inside,
       content: LanguageOption());
   board.show(context, MediaQuery.of(context).size.width - 30,
-      MediaQuery.of(context).size.height / 1.6);
+      MediaQuery.of(context).size.height/1.2 );
+}
+void openBoardGuide(BuildContext context) {
+  var board;
+  if (board != null && board.isOpen) {
+    board.close();
+    return;
+  }
+  board = CustomNextFuncBoard(
+      maxWidth: MediaQuery.of(context).size.width,
+      maxHeight: MediaQuery.of(context).size.height ,
+      popupDirection: BoardDirection.up,
+      borderColor: Colors.transparent,
+      snapsFarAwayHorizontally: false,
+      hasShadow: false,
+      arrowTipDistance: 0.0,
+      backgroundColor: Colors.transparent,
+      touchThroughAreaCornerRadius: 0.0,
+      showCloseButton: ShowCloseButton.inside,
+      content: BoardGuide());
+  board.show(context, MediaQuery.of(context).size.width - 30,
+      MediaQuery.of(context).size.height/1.2 );
 }
 
 int gameName = 0;

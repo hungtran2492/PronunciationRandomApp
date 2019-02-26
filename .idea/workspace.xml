@@ -6,141 +6,243 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="refactor code">
-      <change afterPath="$PROJECT_DIR$/random_number/assets/audio/vietnamese/number/0.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/assets/image/background/background_board.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/assets/image/background/background_wooden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/assets/image/icon/english.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/assets/image/icon/french.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/assets/image/icon/vietnamese.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/data/Number.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/initGuideBoard.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="add choose language board&#10;add number vietnamese">
+      <change afterPath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/About.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/BoardGuide.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/0.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/0.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/10.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/10.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/2.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/3.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/4.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/5.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/6.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/7.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/8.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/8.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/9.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/number/9.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/a.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/a.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/b.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/b.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/c.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/c.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/d.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/d.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/e.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/e.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/f.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/f.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/g.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/g.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/h.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/h.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/i.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/i.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/j.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/j.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/k.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/k.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/l.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/l.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/m.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/m.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/n.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/n.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/o.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/o.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/p.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/p.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/q.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/q.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/r.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/r.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/s.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/s.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/t.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/t.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/u.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/u.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/v.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/v.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/w.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/w.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/x.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/x.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/y.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/y.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/alphabet/z.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/alphabet/z.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/Goldfish.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/Goldfish.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/Lion.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/Lion.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/Parrot.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/Parrot.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/Rabbit.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/Rabbit.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/cat.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/cat.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/dog.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/dog.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/giraffe.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/giraffe.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/monkey.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/monkey.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/mouse.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/mouse.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/animal/turtle.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/animal/turtle.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Black.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Black.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Blue.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Blue.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Brown.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Brown.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Green.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Green.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Lime.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Lime.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Orange.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Orange.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Pink.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Pink.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Purple.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Purple.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Red.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Red.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Teal.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Teal.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/White.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/White.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/color/Yellow.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/color/Yellow.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/apple.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/apple.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/apricot.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/apricot.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/avocado.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/avocado.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/banana.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/banana.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/carrot.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/carrot.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/cherry.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/cherry.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/coconut.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/coconut.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/corn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/corn.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/cucumber.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/cucumber.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/grape.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/grape.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/grenade.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/grenade.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/kiwi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/kiwi.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/lemon.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/lemon.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/mango.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/mango.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/orange.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/orange.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/papaya.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/papaya.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/pear.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/pear.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/pineapple.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/pineapple.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/potato.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/potato.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/tomato.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/tomato.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/fruits/watermelon.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/fruits/watermelon.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/Forklift.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/Forklift.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/bicycle.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/bicycle.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/bus.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/bus.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/car.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/car.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/cement_truck.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/cement_truck.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/excavator.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/excavator.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/helicopter.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/helicopter.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/motorbike.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/motorbike.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/plane.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/plane.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/tank.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/tank.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/assets/audio/vehicle/truck.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/assets/audio/english/vehicle/truck.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/app.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/randomnumber/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/flutter/plugins/pathprovider/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/flutter/plugins/sensors/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/xyz/luan/audioplayers/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/generated/source/buildConfig/debug/com/example/randomnumber/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/blame/res/debug/single/debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/fonts/MaterialIcons-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/flutter/flutter-x86.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Di9tBP1Qj3SaF4MO8Znfu_vAMus=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MYlOukoA171hNygkVuaYjfoagHg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y8sGgn6IGYx261xOZWrZhQChBzs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ac4t8IvBh2E2Ilh346TXoeIlSyU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/w2EE_LQrCHx1nDSQNfDyLKro7Tg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/Di9tBP1Qj3SaF4MO8Znfu_vAMus=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/MYlOukoA171hNygkVuaYjfoagHg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/Y8sGgn6IGYx261xOZWrZhQChBzs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/ac4t8IvBh2E2Ilh346TXoeIlSyU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/w2EE_LQrCHx1nDSQNfDyLKro7Tg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/4kubLptah4lfeR4s3ChaOllQbt0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/randomnumber/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/randomnumber/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/randomnumber/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/randomnumber/R$mipmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/randomnumber/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/randomnumber/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sensors/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/fonts/MaterialIcons-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/isolate_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/vm_snapshot_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/split_list/debug/splitsDiscoveryTaskDebug/split-list.gson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/com/example/randomnumber/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/com/example/randomnumber/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/com/example/randomnumber/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/com/example/randomnumber/R$mipmap.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/com/example/randomnumber/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/com/example/randomnumber/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/io/flutter/plugins/GeneratedPluginRegistrant.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/io/flutter/plugins/pathprovider/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/io/flutter/plugins/sensors/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/20/xyz/luan/audioplayers/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/externalLibsDexMerger/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86_64/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/outputs/apk/app.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/outputs/apk/app.apk.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/outputs/apk/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/app/tmp/flutterBuildX86Jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/xyz/luan/audioplayers/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/generated/source/buildConfig/debug/xyz/luan/audioplayers/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/AudioplayersPlugin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/AudioplayersPlugin$UpdateCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/AudioplayersPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/ReleaseMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/javac/debug/compileDebugJavaWithJavac/classes/xyz/luan/audioplayers/WrappedMediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/outputs/aar/audioplayers-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/audioplayers/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphoneos/audioplayers/libaudioplayers.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphoneos/libPods-Runner.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphoneos/path_provider/libpath_provider.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphoneos/sensors/libsensors.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/audioplayers/libaudioplayers.a" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/audioplayers/libaudioplayers.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/libPods-Runner.a" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/libPods-Runner.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/path_provider/libpath_provider.a" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/path_provider/libpath_provider.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/sensors/libsensors.a" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Debug-iphonesimulator/sensors/libsensors.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/pathprovider/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/generated/source/buildConfig/debug/io/flutter/plugins/pathprovider/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/PathProviderPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/outputs/aar/path_provider-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/path_provider/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/sensors/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/generated/source/buildConfig/debug/io/flutter/plugins/sensors/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sensors/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sensors/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sensors/SensorsPlugin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sensors/SensorsPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/symbols/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/outputs/aar/sensors-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/build/sensors/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/data/Category.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/Category.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/custom_appbar.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/theme/images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/theme/images.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,19 +253,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_number/lib/theme/images.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
+            <state relative-caret-position="454">
+              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -172,10 +265,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_number/pubspec.yaml">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/initGuideBoard.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,8 +279,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -192,8 +288,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="394">
+              <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -204,7 +300,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/data/Category.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
+            <state relative-caret-position="615">
               <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
@@ -213,8 +309,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/data/Number.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -222,7 +318,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="855">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
@@ -243,6 +339,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dart File" />
+        <option value="template" />
       </list>
     </option>
   </component>
@@ -280,10 +377,12 @@
         <option value="$PROJECT_DIR$/random_number/lib/theme/images.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/custom_widget/initGuideBoard.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/Category.dart" />
-        <option value="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/Number.dart" />
         <option value="$PROJECT_DIR$/random_number/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/random_number/lib/screen/custom_widget/BoardGuide.dart" />
+        <option value="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" />
+        <option value="$PROJECT_DIR$/random_number/lib/screen/custom_widget/About.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" />
       </list>
@@ -302,8 +401,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -375,6 +474,13 @@
               <item name="random_number" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="audio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="english" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PronunciationRandomApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="random_number" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="audio" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="vietnamese" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -423,7 +529,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551083154428" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551150778724" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -506,7 +612,8 @@
       <workItem from="1550890511662" duration="1680000" />
       <workItem from="1550975152865" duration="895000" />
       <workItem from="1550976116132" duration="10860000" />
-      <workItem from="1551076777197" duration="6040000" />
+      <workItem from="1551076777197" duration="9064000" />
+      <workItem from="1551149648214" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1550637027445</created>
@@ -564,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550897057988</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add choose language board&#10;add number vietnamese">
+      <created>1551083199476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551083199476</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73091000" />
+    <option name="totallyTimeSpent" value="77240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +697,7 @@
     <frame x="0" y="23" width="1099" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24692526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25165564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Image Layers" order="3" />
@@ -593,13 +707,13 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32768363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28107345" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28107345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32768363" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.13700566" />
@@ -665,7 +779,8 @@
     <MESSAGE value="add data" />
     <MESSAGE value="add shake option" />
     <MESSAGE value="refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+    <MESSAGE value="add choose language board&#10;add number vietnamese" />
+    <option name="LAST_COMMIT_MESSAGE" value="add choose language board&#10;add number vietnamese" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/random_number/ios/Runner/Info.plist">
@@ -760,23 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/custom_appbar.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/initGuideBoard.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1168">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/localization/FlutterLocalizations.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -804,16 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -828,31 +916,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart">
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/custom_appbar.dart" />
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/initGuideBoard.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/data/Category.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="855">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/data/Number.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -863,10 +941,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/data/Number.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/data/Category.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/About.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/BoardGuide.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/custom_widget/language_option.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="394">
+          <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
