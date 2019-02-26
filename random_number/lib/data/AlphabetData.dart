@@ -96,6 +96,7 @@ List<String> alphabetVietnameseRandom = [
   "B",
   "C",
   "D",
+  "Đ",
   "E",
   "Ê",
   "G",
