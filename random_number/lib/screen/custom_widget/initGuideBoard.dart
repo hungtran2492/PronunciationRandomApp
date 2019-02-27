@@ -264,7 +264,7 @@ class CustomNextFuncBoard {
   }
 
   Widget _buildCloseButton() {
-    const internalClickAreaPadding = 2.0;
+    const internalClickAreaPadding = 20.0;
 
     //
     if (showCloseButton == ShowCloseButton.none) {
@@ -274,7 +274,7 @@ class CustomNextFuncBoard {
     // ---
 
     double right;
-    double top;
+    double bottom;
 
     switch (popupDirection) {
     //
@@ -282,9 +282,9 @@ class CustomNextFuncBoard {
       case BoardDirection.left:
         right = arrowLength + arrowTipDistance + 3.0;
         if (showCloseButton == ShowCloseButton.inside) {
-          top = 2.0;
+          bottom = 2.0;
         } else if (showCloseButton == ShowCloseButton.outside) {
-          top = 0.0;
+          bottom = 0.0;
         } else
           throw AssertionError(showCloseButton);
         break;
@@ -294,9 +294,9 @@ class CustomNextFuncBoard {
       case BoardDirection.up:
         right = 5.0;
         if (showCloseButton == ShowCloseButton.inside) {
-          top = 2.0;
+          bottom = 0.0;
         } else if (showCloseButton == ShowCloseButton.outside) {
-          top = 0.0;
+          bottom = 0.0;
         } else
           throw AssertionError(showCloseButton);
         break;
@@ -307,9 +307,9 @@ class CustomNextFuncBoard {
       // is smaller than _outSideCloseButtonPadding which would mean arrowLength would need to be increased if the button is ouside.
         right = 2.0;
         if (showCloseButton == ShowCloseButton.inside) {
-          top = arrowLength + arrowTipDistance + 2.0;
+          bottom = arrowLength + arrowTipDistance + 2.0;
         } else if (showCloseButton == ShowCloseButton.outside) {
-          top = 0.0;
+          bottom = 0.0;
         } else
           throw AssertionError(showCloseButton);
         break;
@@ -324,16 +324,12 @@ class CustomNextFuncBoard {
 
     return Positioned(
         right: right,
-        top: top,
+        bottom: bottom,
         child: GestureDetector(
           onTap: close,
           child: Padding(
             padding: const EdgeInsets.all(internalClickAreaPadding),
-            child: Icon(
-              Icons.close,
-              size: closeButtonSize,
-              color: closeButtonColor,
-            ),
+            child: Icon(Icons.play_arrow)
           ),
         ));
   }

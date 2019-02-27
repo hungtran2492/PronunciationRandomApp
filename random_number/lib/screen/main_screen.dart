@@ -10,6 +10,8 @@ import 'package:random_number/theme/images.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:after_layout/after_layout.dart';
 
+int gameName = 0;
+
 class MainScreen extends StatefulWidget {
   @override
   _MainScreenState createState() => _MainScreenState();
@@ -21,7 +23,6 @@ class _MainScreenState extends State<MainScreen>
 
   @override
   void initState() {
-
     super.initState();
   }
 
@@ -43,10 +44,21 @@ class _MainScreenState extends State<MainScreen>
   @override
   void afterFirstLayout(BuildContext context) {
     openBoardGuide(context);
+    //openDialogLanguage(context);
   }
 }
 
-void openBoard(BuildContext context) {
+void openDialogLanguage(BuildContext context) async {
+  return showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return Dialog(
+          child: LanguageOption(),
+        );
+      });
+}
+
+void openBoardLanguage(BuildContext context) {
   var board;
   if (board != null && board.isOpen) {
     board.close();
@@ -63,8 +75,10 @@ void openBoard(BuildContext context) {
       backgroundColor: Colors.transparent,
       touchThroughAreaCornerRadius: 0.0,
       showCloseButton: ShowCloseButton.inside,
+      arrowLength: 0.0,
+      arrowBaseWidth: 0.0,
       content: LanguageOption());
-  board.show(context, MediaQuery.of(context).size.width - 30,
+  board.show(context, MediaQuery.of(context).size.width,
       MediaQuery.of(context).size.height / 1.2);
 }
 
@@ -85,15 +99,16 @@ void openBoardGuide(BuildContext context) {
       backgroundColor: Colors.transparent,
       touchThroughAreaCornerRadius: 0.0,
       onClose: () {
-        openBoard(context);
+        openBoardLanguage(context);
       },
+      closeButtonSize: 50.0,
       showCloseButton: ShowCloseButton.inside,
+      arrowBaseWidth: 0.0,
+      arrowLength: 0.0,
       content: BoardGuide());
-  board.show(context, MediaQuery.of(context).size.width - 30,
+  board.show(context, MediaQuery.of(context).size.width,
       MediaQuery.of(context).size.height / 1.2);
 }
-
-int gameName = 0;
 
 class CardGame extends StatefulWidget {
   final Category category;
@@ -135,7 +150,7 @@ class _CardGameState extends State<CardGame> {
                       size: 40.0,
                     ),
                     onPressed: () {
-                      openBoard(context);
+                      openBoardLanguage(context);
                     }),
               )
             ],

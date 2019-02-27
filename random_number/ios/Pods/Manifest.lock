@@ -24,11 +24,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/sensors/ios"
 
 SPEC CHECKSUMS:
-  audioplayers: def111f6a23e00d9d103563b07de5e44a727bd3c
-  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  path_provider: 09407919825bfe3c2deae39453b7a5b44f467873
-  sensors: 5e1d451d2b563766999e768342efed82d6141fcc
+  audioplayers: 84f968cea3f2deab00ec4f8ff53358b3c0b3992c
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  sensors: b5c565b45237fd2df1c347c14bf5ceeffdb7a2be
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0

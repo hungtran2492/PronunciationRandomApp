@@ -269,6 +269,7 @@ flutter:
     - assets/image/icon/english.png
     - assets/image/icon/vietnamese.png
     - assets/image/icon/french.png
+    - assets/image/icon/nextIcon.png
     # image balloon
     - assets/image/color/balloons.png
     # image animal

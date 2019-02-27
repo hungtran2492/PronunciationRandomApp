@@ -21,8 +21,9 @@ class GameScreen extends StatefulWidget {
   @override
   _GameScreenState createState() => _GameScreenState();
 }
+
 class _GameScreenState extends State<GameScreen>
-    with SingleTickerProviderStateMixin,WidgetsBindingObserver {
+    with SingleTickerProviderStateMixin, WidgetsBindingObserver {
   AppLifecycleState _lastLifecycleState;
 
   AnimationController animationController;
@@ -34,17 +35,18 @@ class _GameScreenState extends State<GameScreen>
 
   void _playSound(gameName) {
     //Number Game
-    if (gameName == 1 ) {
-      if(language == 'english'){
+    if (gameName == 1) {
+      if (language == 'english') {
         soundManager
             .playLocal("${soundNumber[index]}", "audio", "english", "number")
             .then((onValue) {
           print("${soundNumber[index]}");
           print('english');
         });
-      }else if(language =="vietnamese"){
+      } else if (language == "vietnamese") {
         soundManager
-            .playLocal("${soundNumberVietnamese[index]}", "audio", "vietnamese", "number")
+            .playLocal(
+            "${soundNumberVietnamese[index]}", "audio", "vietnamese", "number")
             .then((onValue) {
           print("${soundNumberVietnamese[index]}");
           print('english');
@@ -53,15 +55,18 @@ class _GameScreenState extends State<GameScreen>
     }
     //Alphabet Game
     else if (gameName == 2) {
-      if(language =='english'){
+      if (language == 'english') {
         soundManager
-            .playLocal("${soundAlphabet[index]}", "audio", "english", "alphabet")
+            .playLocal(
+            "${soundAlphabet[index]}", "audio", "english", "alphabet")
             .then((onValue) {
           print("${soundAlphabet[index]}");
         });
-      }else if(language =='vietnamese'){
+      } else if (language == 'vietnamese') {
         soundManager
-            .playLocal("${soundAlphabetVietnamese[index]}", "audio", "vietnamese", "alphabet")
+            .playLocal(
+            "${soundAlphabetVietnamese[index]}", "audio", "vietnamese",
+            "alphabet")
             .then((onValue) {
           print("${soundAlphabetVietnamese[index]}");
         });
@@ -69,15 +74,16 @@ class _GameScreenState extends State<GameScreen>
     }
     //Colors Game
     else if (gameName == 3) {
-      if(language == 'english'){
+      if (language == 'english') {
         soundManager
             .playLocal("${soundColors[index]}", "audio", "english", "color")
             .then((onValue) {
           print("${soundColors[index]}");
         });
-      }else if (language == 'vietnamese'){
+      } else if (language == 'vietnamese') {
         soundManager
-            .playLocal("${soundColorsVietnamese[index]}", "audio", "vietnamese", "color")
+            .playLocal(
+            "${soundColorsVietnamese[index]}", "audio", "vietnamese", "color")
             .then((onValue) {
           print("${soundColorsVietnamese[index]}");
         });
@@ -85,15 +91,16 @@ class _GameScreenState extends State<GameScreen>
     }
     //Animal Game
     else if (gameName == 4) {
-      if(language == 'english'){
+      if (language == 'english') {
         soundManager
             .playLocal("${soundAnimal[index]}", "audio", "english", "animal")
             .then((onValue) {
           print("${soundAnimal[index]}");
         });
-      }else if (language =='vietnamese'){
+      } else if (language == 'vietnamese') {
         soundManager
-            .playLocal("${soundAnimalVietnamese[index]}", "audio", "vietnamese", "animal")
+            .playLocal(
+            "${soundAnimalVietnamese[index]}", "audio", "vietnamese", "animal")
             .then((onValue) {
           print("${soundAnimalVietnamese[index]}");
         });
@@ -101,15 +108,17 @@ class _GameScreenState extends State<GameScreen>
     }
     //Vehicle Game
     else if (gameName == 5) {
-      if(language == 'english'){
+      if (language == 'english') {
         soundManager
             .playLocal("${soundVehicle[index]}", "audio", "english", "vehicle")
             .then((onValue) {
           print("${soundVehicle[index]}");
         });
-      }else if(language == 'vietnamese'){
+      } else if (language == 'vietnamese') {
         soundManager
-            .playLocal("${soundVehicleVietnamese[index]}", "audio", "vietnamese", "vehicle")
+            .playLocal(
+            "${soundVehicleVietnamese[index]}", "audio", "vietnamese",
+            "vehicle")
             .then((onValue) {
           print("${soundVehicleVietnamese[index]}");
         });
@@ -117,33 +126,34 @@ class _GameScreenState extends State<GameScreen>
     }
     //Fruits Game
     else if (gameName == 6) {
-      if(language =='english'){
+      if (language == 'english') {
         soundManager
             .playLocal("${soundFruits[index]}", "audio", "english", "fruits")
             .then((onValue) {
           print("${soundFruits[index]}");
         });
-      }else if (language == 'vietnamese'){
+      } else if (language == 'vietnamese') {
         soundManager
-            .playLocal("${soundFruitsVietnamese[index]}", "audio", "vietnamese", "fruits")
+            .playLocal(
+            "${soundFruitsVietnamese[index]}", "audio", "vietnamese", "fruits")
             .then((onValue) {
           print("${soundFruitsVietnamese[index]}");
         });
       }
     }
   }
+
   //random number function
   void randomNumber() {
     setState(() {
       if (gameName == 1) {
         index = number.nextInt(11);
       } else if (gameName == 2) {
-        if(language == 'english'){
+        if (language == 'english') {
           index = number.nextInt(24);
-        }else if (language =='vietnamese'){
+        } else if (language == 'vietnamese') {
           index = number.nextInt(29);
         }
-
       } else if (gameName == 3) {
         index = number.nextInt(12);
       } else if (gameName == 4) {
@@ -161,7 +171,8 @@ class _GameScreenState extends State<GameScreen>
     //shake function
     accelerometerEvents.listen((AccelerometerEvent event) {
       if (shake == true) {
-        if (event.x > 15 || event.x < -15 || event.y > 15 || event.y < -15 || event.z > 15 || event.z < -15) {
+        if (event.x > 15 || event.x < -15 || event.y > 15 || event.y < -15 ||
+            event.z > 15 || event.z < -15) {
           randomNumber();
           _playSound(gameName);
         }
@@ -176,21 +187,23 @@ class _GameScreenState extends State<GameScreen>
     super.initState();
     WidgetsBinding.instance.addObserver(this);
   }
+
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
+
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     setState(() {
       _lastLifecycleState = state;
-      if(_lastLifecycleState == AppLifecycleState.inactive){
+      if (_lastLifecycleState == AppLifecycleState.inactive) {
         setState(() {
           shake = false;
         });
       }
-      else if(_lastLifecycleState == AppLifecycleState.resumed){
+      else if (_lastLifecycleState == AppLifecycleState.resumed) {
         setState(() {
           shake = true;
         });
@@ -198,6 +211,7 @@ class _GameScreenState extends State<GameScreen>
     });
     print('state : $_lastLifecycleState');
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -267,61 +281,66 @@ class _GameScreenState extends State<GameScreen>
   }
 
   changeUI(gameName) {
-    if (gameName == 1) {
+    //if (gameName == 1) {
       return Container(
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[uiRandom(gameName, index), playButton()],
+            children: <Widget>[
+              InkWell(child: uiRandom(gameName, index), onTap: () {
+                _playSound(gameName);
+              },),
+              Row(mainAxisAlignment:MainAxisAlignment.spaceAround,children: <Widget>[playButton(),nextButton()],)
+            ],
           ),
         ),
       );
-    } else if (gameName == 2) {
-      return Container(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[uiRandom(gameName, index), playButton()],
-          ),
-        ),
-      );
-    } else if (gameName == 3) {
-      return Container(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[uiRandom(gameName, index), playButton()],
-          ),
-        ),
-      );
-    } else if (gameName == 4) {
-      return Container(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[uiRandom(gameName, index), playButton()],
-          ),
-        ),
-      );
-    } else if (gameName == 5) {
-      return Container(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[uiRandom(gameName, index), playButton()],
-          ),
-        ),
-      );
-    } else if (gameName == 6) {
-      return Container(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[uiRandom(gameName, index), playButton()],
-          ),
-        ),
-      );
-    }
+//    } else if (gameName == 2) {
+//      return Container(
+//        child: Center(
+//          child: Column(
+//            mainAxisAlignment: MainAxisAlignment.spaceAround,
+//            children: <Widget>[uiRandom(gameName, index), playButton()],
+//          ),
+//        ),
+//      );
+//    } else if (gameName == 3) {
+//      return Container(
+//        child: Center(
+//          child: Column(
+//            mainAxisAlignment: MainAxisAlignment.spaceAround,
+//            children: <Widget>[uiRandom(gameName, index), playButton()],
+//          ),
+//        ),
+//      );
+//    } else if (gameName == 4) {
+//      return Container(
+//        child: Center(
+//          child: Column(
+//            mainAxisAlignment: MainAxisAlignment.spaceAround,
+//            children: <Widget>[uiRandom(gameName, index), playButton()],
+//          ),
+//        ),
+//      );
+//    } else if (gameName == 5) {
+//      return Container(
+//        child: Center(
+//          child: Column(
+//            mainAxisAlignment: MainAxisAlignment.spaceAround,
+//            children: <Widget>[uiRandom(gameName, index), playButton()],
+//          ),
+//        ),
+//      );
+//    } else if (gameName == 6) {
+//      return Container(
+//        child: Center(
+//          child: Column(
+//            mainAxisAlignment: MainAxisAlignment.spaceAround,
+//            children: <Widget>[uiRandom(gameName, index), playButton()],
+//          ),
+//        ),
+//      );
+//    }
   }
 
   playButton() {
@@ -332,9 +351,22 @@ class _GameScreenState extends State<GameScreen>
         child: Image.asset('assets/image/icon/playapp.png'),
       ),
       onTap: () {
+        _playSound(gameName);
+
+      },
+    );
+  }
+  nextButton(){
+    return InkWell(
+      child: Container(
+        height: 100,
+        width: 100,
+        child: Image.asset('assets/image/icon/nextIcon.png'),
+      ),
+      onTap: () {
         randomNumber();
         _playSound(gameName);
-        print('${animalRandom[index]}');
+
       },
     );
   }
@@ -344,13 +376,13 @@ class _GameScreenState extends State<GameScreen>
       return Container(
         child: Center(
             child: Text(
-          '${numberRandom[index]}',
-          style: TextStyle(fontSize: 200.0, color: Colors.white),
-        )),
+              '${numberRandom[index]}',
+              style: TextStyle(fontSize: 200.0, color: Colors.white),
+            )),
       );
     }
     if (gameName == 2) {
-      if(language == 'english'){
+      if (language == 'english') {
         return Container(
           child: Center(
               child: Text(
@@ -358,7 +390,7 @@ class _GameScreenState extends State<GameScreen>
                 style: TextStyle(fontSize: 200.0, color: Colors.white),
               )),
         );
-      }else if(language=='vietnamese'){
+      } else if (language == 'vietnamese') {
         return Container(
           child: Center(
               child: Text(
@@ -401,8 +433,8 @@ class _GameScreenState extends State<GameScreen>
 class SoundManager {
   AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(
-      localFileName, soundFolder, soundFolder2, soundFolder3) async {
+  Future playLocal(localFileName, soundFolder, soundFolder2,
+      soundFolder3) async {
     final dir = await getApplicationDocumentsDirectory();
     final file = new File("${dir.path}/$localFileName");
     if (!(await file.exists())) {

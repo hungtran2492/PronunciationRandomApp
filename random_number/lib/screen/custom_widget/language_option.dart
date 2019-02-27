@@ -11,6 +11,10 @@ class _LanguageOptionState extends State<LanguageOption> {
 
 @override
   void initState() {
+  setState(() {
+    languageValue = 0;
+    language = 'english';
+  });
 
     super.initState();
   }
@@ -20,6 +24,7 @@ class _LanguageOptionState extends State<LanguageOption> {
       languageValue = value;
 
       switch (value) {
+
         case 0:
           print('choose English');
           setState(() {
@@ -37,6 +42,9 @@ class _LanguageOptionState extends State<LanguageOption> {
         case 2:
           print('choose French');
           break;
+
+
+
       }
     });
   }
