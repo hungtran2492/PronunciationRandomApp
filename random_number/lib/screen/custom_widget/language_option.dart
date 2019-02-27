@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-String language;
-int languageValue ;
-class LanguageOption extends StatefulWidget {
 
+String language;
+int languageValue;
+
+class LanguageOption extends StatefulWidget {
   @override
   _LanguageOptionState createState() => _LanguageOptionState();
 }
 
 class _LanguageOptionState extends State<LanguageOption> {
-
-@override
+  @override
   void initState() {
-  setState(() {
-    languageValue = 0;
-    language = 'english';
-  });
+    setState(() {
+      languageValue = 0;
+      language = 'english';
+    });
 
     super.initState();
   }
@@ -24,7 +24,6 @@ class _LanguageOptionState extends State<LanguageOption> {
       languageValue = value;
 
       switch (value) {
-
         case 0:
           print('choose English');
           setState(() {
@@ -42,9 +41,6 @@ class _LanguageOptionState extends State<LanguageOption> {
         case 2:
           print('choose French');
           break;
-
-
-
       }
     });
   }
@@ -56,21 +52,30 @@ class _LanguageOptionState extends State<LanguageOption> {
       child: Container(
         //margin: EdgeInsets.all(50.0),
         width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height/1.5,
+        height: MediaQuery.of(context).size.height / 1.5,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
           image: DecorationImage(
-              image: AssetImage('assets/image/background/background_wooden.png'),
+              image:
+                  AssetImage('assets/image/background/background_wooden.png'),
               fit: BoxFit.cover),
         ),
-        child: Column(mainAxisAlignment: MainAxisAlignment.spaceAround,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-            Text('Choose your Language'.toUpperCase(),style: TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),),
-            Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
+            Text(
+              'Choose your Language'.toUpperCase(),
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
                 Column(
                   children: <Widget>[
-                    Container(width:30.0,height: 30.0,child: Image.asset('assets/image/icon/english.png')),
+                    Container(
+                        width: 30.0,
+                        height: 30.0,
+                        child: Image.asset('assets/image/icon/english.png')),
                     Radio(
                         value: 0,
                         groupValue: languageValue,
@@ -79,7 +84,10 @@ class _LanguageOptionState extends State<LanguageOption> {
                 ),
                 Column(
                   children: <Widget>[
-                    Container(width:30.0,height: 30.0,child: Image.asset('assets/image/icon/vietnamese.png')),
+                    Container(
+                        width: 30.0,
+                        height: 30.0,
+                        child: Image.asset('assets/image/icon/vietnamese.png')),
                     Radio(
                         value: 1,
                         groupValue: languageValue,
@@ -88,14 +96,16 @@ class _LanguageOptionState extends State<LanguageOption> {
                 ),
                 Column(
                   children: <Widget>[
-                    Container(width:30.0,height: 30.0,child: Image.asset('assets/image/icon/french.png')),
+                    Container(
+                        width: 30.0,
+                        height: 30.0,
+                        child: Image.asset('assets/image/icon/french.png')),
                     Radio(
                         value: 2,
                         groupValue: languageValue,
                         onChanged: _handleRadioValueChange),
                   ],
                 ),
-
               ],
             ),
             Container()
@@ -105,10 +115,13 @@ class _LanguageOptionState extends State<LanguageOption> {
     );
   }
 }
+
 class LanguageOptionDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(15.0)),child: LanguageOption(),);
+    return Container(
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(15.0)),
+      child: LanguageOption(),
+    );
   }
 }
-

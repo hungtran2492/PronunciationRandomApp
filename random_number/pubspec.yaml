@@ -246,6 +246,8 @@ flutter:
     - assets/audio/vietnamese/fruits/nho.mp3
     - assets/audio/vietnamese/fruits/tao.mp3
     - assets/audio/vietnamese/fruits/xoai.mp3
+    #audio background
+    - assets/background_audio/sparrow_audio.mp3
 
 
 
@@ -270,6 +272,8 @@ flutter:
     - assets/image/icon/vietnamese.png
     - assets/image/icon/french.png
     - assets/image/icon/nextIcon.png
+    - assets/image/icon/dove1.png
+    - assets/image/icon/dove2.png
     # image balloon
     - assets/image/color/balloons.png
     # image animal

@@ -34,7 +34,7 @@ class _GameScreenState extends State<GameScreen>
   bool shake = true;
 
   void _playSound(gameName) {
-    //Number Game
+    ///Number Game
     if (gameName == 1) {
       if (language == 'english') {
         soundManager
@@ -53,7 +53,7 @@ class _GameScreenState extends State<GameScreen>
         });
       }
     }
-    //Alphabet Game
+    ///Alphabet Game
     else if (gameName == 2) {
       if (language == 'english') {
         soundManager
@@ -72,7 +72,7 @@ class _GameScreenState extends State<GameScreen>
         });
       }
     }
-    //Colors Game
+    ///Colors Game
     else if (gameName == 3) {
       if (language == 'english') {
         soundManager
@@ -89,7 +89,7 @@ class _GameScreenState extends State<GameScreen>
         });
       }
     }
-    //Animal Game
+    ///Animal Game
     else if (gameName == 4) {
       if (language == 'english') {
         soundManager
@@ -106,7 +106,7 @@ class _GameScreenState extends State<GameScreen>
         });
       }
     }
-    //Vehicle Game
+    ///Vehicle Game
     else if (gameName == 5) {
       if (language == 'english') {
         soundManager
@@ -124,7 +124,7 @@ class _GameScreenState extends State<GameScreen>
         });
       }
     }
-    //Fruits Game
+    ///Fruits Game
     else if (gameName == 6) {
       if (language == 'english') {
         soundManager
@@ -143,7 +143,7 @@ class _GameScreenState extends State<GameScreen>
     }
   }
 
-  //random number function
+  ///random number function
   void randomNumber() {
     setState(() {
       if (gameName == 1) {
@@ -229,40 +229,20 @@ class _GameScreenState extends State<GameScreen>
               child: shakeOption(),
             ),
           ),
+          Align(
+            alignment: Alignment.topLeft,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: backButton(),
+            ),
+          ),
           changeUI(gameName)
         ],
       ),
     );
   }
 
-  shakeOption() {
-    if (shake == true) {
-      return InkWell(
-          onTap: () {
-            setState(() {
-              shake = false;
-              print('turn off shake');
-            });
-          },
-          child: Container(
-            height: 70,
-            width: 70,
-            child: Image.asset('assets/image/icon/shake.png'),
-          ));
-    } else
-      return InkWell(
-          onTap: () {
-            setState(() {
-              shake = true;
-              print('turn on shake');
-            });
-          },
-          child: Container(
-            height: 70,
-            width: 70,
-            child: Image.asset('assets/image/icon/no_shake.png'),
-          ));
-  }
+
 
   changeBackground(gameName) {
     if (gameName == 1) {
@@ -342,6 +322,34 @@ class _GameScreenState extends State<GameScreen>
 //      );
 //    }
   }
+  shakeOption() {
+    if (shake == true) {
+      return InkWell(
+          onTap: () {
+            setState(() {
+              shake = false;
+              print('turn off shake');
+            });
+          },
+          child: Container(
+            height: 70,
+            width: 70,
+            child: Image.asset('assets/image/icon/shake.png'),
+          ));
+    } else
+      return InkWell(
+          onTap: () {
+            setState(() {
+              shake = true;
+              print('turn on shake');
+            });
+          },
+          child: Container(
+            height: 70,
+            width: 70,
+            child: Image.asset('assets/image/icon/no_shake.png'),
+          ));
+  }
 
   playButton() {
     return InkWell(
@@ -369,6 +377,20 @@ class _GameScreenState extends State<GameScreen>
 
       },
     );
+  }
+  backButton(){
+    return InkWell(
+        onTap: () {
+          setState(() {
+            Navigator.pop(context);
+          });
+        },
+        child: Container(
+          height: 70,
+          width: 70,
+          child: Icon(Icons.arrow_back,size: 70.0,)
+
+        ));
   }
 
   uiRandom(gameName, int index, {List<Color> listRandom = colorsRandom}) {
