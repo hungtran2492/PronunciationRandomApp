@@ -14,7 +14,7 @@ import 'package:path_provider/path_provider.dart';
 import 'main_screen.dart';
 import 'package:random_number/data/ColorData.dart';
 import 'package:sensors/sensors.dart';
-import 'package:random_number/screen/custom_widget/language_option.dart';
+import 'package:random_number/components/BoardLanguage.dart';
 import 'package:flutter/widgets.dart';
 
 class GameScreen extends StatefulWidget {
