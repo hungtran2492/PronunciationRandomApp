@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:random_number/components/BoardLanguage.dart';
+
 import 'package:random_number/data/AlphabetData.dart';
 import 'package:random_number/data/Animal.dart';
 import 'package:random_number/data/ColorData.dart';
 import 'package:random_number/data/Fruits.dart';
 import 'package:random_number/data/Number.dart';
+import 'package:random_number/data/VarGlobal.dart';
 import 'package:random_number/data/Vehicle.dart';
+
 
 uiRandom(gameName, int index, {List<Color> listRandom = colorsRandom}) {
   if (gameName == 1) {
     return Container(
       height: 200,
       width: 200,
-      child: Center(
-          child: Text(
-            '${numberRandom[index]}',
-            style: TextStyle(fontSize: 150.0, color: Colors.white),
-          )),
+      child: Image.asset('${numberRandom[index]}'),
     );
   }
   if (gameName == 2) {
@@ -24,21 +22,13 @@ uiRandom(gameName, int index, {List<Color> listRandom = colorsRandom}) {
       return Container(
         height: 200,
         width: 200,
-        child: Center(
-            child: Text(
-              '${alphabetRandom[index]}',
-              style: TextStyle(fontSize: 150.0, color: Colors.white),
-            )),
+        child: Image.asset('${alphabetRandom[index]}'),
       );
     } else if (language == 'vietnamese') {
       return Container(
         height: 200,
         width: 200,
-        child: Center(
-            child: Text(
-              '${alphabetVietnameseRandom[index]}',
-              style: TextStyle(fontSize: 150.0, color: Colors.white),
-            )),
+        child: Image.asset('${alphabetVietnameseRandom[index]}'),
       );
     }
   } else if (gameName == 3) {
@@ -67,6 +57,15 @@ uiRandom(gameName, int index, {List<Color> listRandom = colorsRandom}) {
       height: 200,
       width: 200,
       child: Image.asset('${fruitsRandom[index]}'),
+    );
+  }else if (gameName == 7) {
+    return Container(
+      height: 200,
+      width: 200,
+      child: (indexMix1 == 2)?Image.asset(
+        'assets/image/color/balloons.png',
+        color: colorsRandom[indexMix2],
+      ):Image.asset('$mixedValue')
     );
   }
 }

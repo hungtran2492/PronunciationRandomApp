@@ -14,5 +14,6 @@ changeBackground(gameName) {
     return AssetImage(backgroundCards[4].backgroundGamePath);
   } else if (gameName == 6) {
     return AssetImage(backgroundCards[5].backgroundGamePath);
-  }
-}
+  }else if (gameName == 7) {
+    return AssetImage(backgroundCards[6].backgroundGamePath);
+}}

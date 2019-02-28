@@ -9,20 +9,19 @@ List soundNumber = [
   "7.mp3",
   "8.mp3",
   "9.mp3",
-  "10.mp3"
+
 ];
 List<String> numberRandom = [
-  "0",
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "10",
+  "assets/image/number/0.png",
+  "assets/image/number/1.png",
+  "assets/image/number/2.png",
+  "assets/image/number/3.png",
+  "assets/image/number/4.png",
+  "assets/image/number/5.png",
+  "assets/image/number/6.png",
+  "assets/image/number/7.png",
+  "assets/image/number/8.png",
+  "assets/image/number/9.png",
 ];
 List soundNumberVietnamese = [
   "0-vn.mp3",
@@ -35,5 +34,5 @@ List soundNumberVietnamese = [
   "7-vn.mp3",
   "8-vn.mp3",
   "9-vn.mp3",
-  "10-vn.mp3",
+
 ];

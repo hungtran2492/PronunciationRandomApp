@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:random_number/data/VarGlobal.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-String language;
-int languageValue;
 
+Future<bool> saveNamePreference(String name)async{
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  prefs.setString("name", name);
+  return prefs.commit();
+}
+Future<String> getNamePreference()async{
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  String name = prefs.getString("name");
+  return name;
+
+}
 class LanguageOption extends StatefulWidget {
   @override
   _LanguageOptionState createState() => _LanguageOptionState();
@@ -57,7 +68,7 @@ class _LanguageOptionState extends State<LanguageOption> {
           borderRadius: BorderRadius.circular(15.0),
           image: DecorationImage(
               image:
-                  AssetImage('assets/image/background/background_wooden.png'),
+              AssetImage('assets/image/background/background_wooden.png'),
               fit: BoxFit.cover),
         ),
         child: Column(

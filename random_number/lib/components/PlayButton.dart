@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:random_number/data/VarGlobal.dart';
 import 'package:random_number/functions/PlaySound.dart';
 import 'package:random_number/screen/main_screen.dart';
 

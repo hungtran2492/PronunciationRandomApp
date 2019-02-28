@@ -1,19 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:random_number/components/PlayButton.dart';
+import 'package:random_number/data/AlphabetData.dart';
+import 'package:random_number/data/Animal.dart';
+import 'package:random_number/data/ColorData.dart';
+import 'package:random_number/data/Fruits.dart';
+import 'package:random_number/data/MixedCatogery.dart';
+import 'package:random_number/data/Number.dart';
+import 'package:random_number/data/VarGlobal.dart';
+import 'package:random_number/data/Vehicle.dart';
 import 'package:random_number/functions/ChangeBackground.dart';
 import 'package:random_number/functions/PlaySound.dart';
 import 'package:random_number/functions/SoundManagerGameScreen.dart';
-
 import 'package:random_number/functions/UIRandom.dart';
 import 'dart:async';
 import 'dart:math';
-import 'main_screen.dart';
-
 import 'package:sensors/sensors.dart';
-import 'package:random_number/components/BoardLanguage.dart';
 import 'package:flutter/widgets.dart';
 
-int index;
+
 
 class GameScreen extends StatefulWidget {
   @override
@@ -23,7 +27,6 @@ class GameScreen extends StatefulWidget {
 class GameScreenState extends State<GameScreen>
     with SingleTickerProviderStateMixin, WidgetsBindingObserver {
   AppLifecycleState _lastLifecycleState;
-
   AnimationController animationController;
   SoundManagerGameScreen soundManager = SoundManagerGameScreen();
 
@@ -34,21 +37,37 @@ class GameScreenState extends State<GameScreen>
   randomNumber() {
     setState(() {
       if (gameName == 1) {
-        index = number.nextInt(11);
+        index = number.nextInt(numberRandom.length);
       } else if (gameName == 2) {
         if (language == 'english') {
-          index = number.nextInt(24);
+          index = number.nextInt(alphabetRandom.length);
         } else if (language == 'vietnamese') {
-          index = number.nextInt(29);
+          index = number.nextInt(alphabetVietnameseRandom.length);
         }
       } else if (gameName == 3) {
-        index = number.nextInt(12);
+        index = number.nextInt(colorsRandom.length);
       } else if (gameName == 4) {
-        index = number.nextInt(10);
+        index = number.nextInt(animalRandom.length);
       } else if (gameName == 5) {
-        index = number.nextInt(11);
+        index = number.nextInt(vehicleRandom.length);
       } else if (gameName == 6) {
-        index = number.nextInt(20);
+        index = number.nextInt(fruitsRandom.length);
+      }
+      if (gameName == 7) {
+        if (language == 'english') {
+          setState(() {
+            indexMix1 = number.nextInt(mixedCategory.length);
+            indexMix2 = number.nextInt(mixedCategory[indexMix1].length);
+            mixedValue = mixedCategory[indexMix1][indexMix2];
+          });
+        } else if (language == 'vietnamese') {
+          setState(() {
+            indexMix1 = number.nextInt(mixedCategoryVietnamese.length);
+            indexMix2 =
+                number.nextInt(mixedCategoryVietnamese[indexMix1].length);
+            mixedValue = mixedCategoryVietnamese[indexMix1][indexMix2];
+          });
+        }
       }
     });
   }

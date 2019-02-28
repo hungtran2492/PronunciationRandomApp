@@ -24,6 +24,7 @@ dependencies:
   sensors: ^0.4.0+1
   after_layout: ^1.0.7
   shimmer: ^1.0.0
+  shared_preferences: ^0.5.1+1
   flutter_localizations:
     sdk: flutter
 
@@ -85,7 +86,7 @@ flutter:
     - assets/audio/english/number/7.mp3
     - assets/audio/english/number/8.mp3
     - assets/audio/english/number/9.mp3
-    - assets/audio/english/number/10.mp3
+
     #audio color
     - assets/audio/english/color/Black.mp3
     - assets/audio/english/color/Blue.mp3
@@ -156,7 +157,7 @@ flutter:
     - assets/audio/vietnamese/number/7-vn.mp3
     - assets/audio/vietnamese/number/8-vn.mp3
     - assets/audio/vietnamese/number/9-vn.mp3
-    - assets/audio/vietnamese/number/10-vn.mp3
+
     #audio alphabet
     - assets/audio/vietnamese/alphabet/a-conca.mp3
     - assets/audio/vietnamese/alphabet/aa-caican.mp3
@@ -275,6 +276,79 @@ flutter:
     - assets/image/icon/dove1.png
     - assets/image/icon/dove2.png
     - assets/image/icon/woodsign.png
+
+
+    # image alphabet
+    - assets/image/alphabet/A.png
+    - assets/image/alphabet/B.png
+    - assets/image/alphabet/C.png
+    - assets/image/alphabet/D.png
+    - assets/image/alphabet/E.png
+    - assets/image/alphabet/F.png
+    - assets/image/alphabet/G.png
+    - assets/image/alphabet/H.png
+    - assets/image/alphabet/I.png
+    - assets/image/alphabet/J.png
+    - assets/image/alphabet/K.png
+    - assets/image/alphabet/L.png
+    - assets/image/alphabet/M.png
+    - assets/image/alphabet/N.png
+    - assets/image/alphabet/O.png
+    - assets/image/alphabet/P.png
+    - assets/image/alphabet/Q.png
+    - assets/image/alphabet/R.png
+    - assets/image/alphabet/S.png
+    - assets/image/alphabet/T.png
+    - assets/image/alphabet/U.png
+    - assets/image/alphabet/V.png
+    - assets/image/alphabet/W.png
+    - assets/image/alphabet/X.png
+    - assets/image/alphabet/Y.png
+    - assets/image/alphabet/Z.png
+
+    #image alphabet-Vietnamese
+    - assets/image/alphabet-vn/A-vn.png
+    - assets/image/alphabet-vn/Aa-vn.png
+    - assets/image/alphabet-vn/Aw-vn.png
+    - assets/image/alphabet-vn/B-vn.png
+    - assets/image/alphabet-vn/C-vn.png
+    - assets/image/alphabet-vn/D.png
+    - assets/image/alphabet-vn/Dd-vn.png
+    - assets/image/alphabet-vn/E-vn.png
+    - assets/image/alphabet-vn/Ee-vn.png
+    - assets/image/alphabet-vn/G-vn.png
+    - assets/image/alphabet-vn/H-vn.png
+    - assets/image/alphabet-vn/I-vn.png
+    - assets/image/alphabet-vn/K-vn.png
+    - assets/image/alphabet-vn/L-vn.png
+    - assets/image/alphabet-vn/M-vn.png
+    - assets/image/alphabet-vn/N-vn.png
+    - assets/image/alphabet-vn/O-vn.png
+    - assets/image/alphabet-vn/Oo-vn.png
+    - assets/image/alphabet-vn/Ow-vn.png
+    - assets/image/alphabet-vn/P-vn.png
+    - assets/image/alphabet-vn/Q-vn.png
+    - assets/image/alphabet-vn/R-vn.png
+    - assets/image/alphabet-vn/S-vn.png
+    - assets/image/alphabet-vn/T-vn.png
+    - assets/image/alphabet-vn/U-vn.png
+    - assets/image/alphabet-vn/Uw-vn.png
+    - assets/image/alphabet-vn/V-vn.png
+    - assets/image/alphabet-vn/X-vn.png
+    - assets/image/alphabet-vn/Y-vn.png
+
+
+    # image number
+    - assets/image/number/0.png
+    - assets/image/number/1.png
+    - assets/image/number/2.png
+    - assets/image/number/3.png
+    - assets/image/number/4.png
+    - assets/image/number/5.png
+    - assets/image/number/6.png
+    - assets/image/number/7.png
+    - assets/image/number/8.png
+    - assets/image/number/9.png
     # image balloon
     - assets/image/color/balloons.png
     # image animal

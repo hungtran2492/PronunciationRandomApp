@@ -14,7 +14,7 @@ import 'package:shimmer/shimmer.dart';
 import 'package:after_layout/after_layout.dart';
 import 'package:flutter/widgets.dart';
 
-int gameName = 0;
+
 
 class MainScreen extends StatefulWidget {
   @override

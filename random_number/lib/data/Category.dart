@@ -42,4 +42,10 @@ final List<Category> backgroundCards = [
     gameIndex: 6,
     backgroundGamePath: 'assets/image/background/background_1.jpg'
   ),
+  Category(
+      backgroundAssetPath:'assets/image/background/fruit.jpg',
+      gameName: 'Mixed',
+      gameIndex: 7,
+      backgroundGamePath: 'assets/image/background/background_1.jpg'
+  ),
 ];

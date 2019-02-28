@@ -1,4 +1,0 @@
-#Thu Feb 28 09:47:41 ICT 2019
-base.0=/Users/vinhpham/Documents/GitHub/PronunciationRandomApp/random_number/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

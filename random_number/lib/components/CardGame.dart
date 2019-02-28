@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:random_number/data/Category.dart';
+import 'package:random_number/data/VarGlobal.dart';
 import 'package:random_number/screen/game_screen.dart';
 import 'package:random_number/screen/main_screen.dart';
 import 'package:shimmer/shimmer.dart';
 class CardGame extends StatefulWidget {
   final Category category;
   final double parallaxPercent;
+
+
+
 
   CardGame({this.category, this.parallaxPercent});
 
@@ -41,8 +45,8 @@ class _CardGameState extends State<CardGame> with TickerProviderStateMixin {
                   Expanded(
                     child: InkWell(
                       child: SizedBox(
-                        height: 100.0,
-                        width: 100.0,
+                        height: 150.0,
+                        width: 150.0,
                         child: Image.asset('assets/image/icon/woodsign.png'),
                       ),
                       onTap: () {
@@ -133,6 +137,17 @@ class _CardGameState extends State<CardGame> with TickerProviderStateMixin {
                             MaterialPageRoute(
                                 builder: (context) => GameScreen()));
                       }
+                      else if (widget.category.gameIndex == 7) {
+                        setState(() {
+                          gameName = 7;
+                        });
+                        print(gameName);
+                        print('Navigate To Mixed Game');
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GameScreen()));
+                      }
                     },
                   )),
             ),
@@ -146,3 +161,4 @@ class _CardGameState extends State<CardGame> with TickerProviderStateMixin {
     );
   }
 }
+
