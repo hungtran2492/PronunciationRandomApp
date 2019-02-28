@@ -274,6 +274,7 @@ flutter:
     - assets/image/icon/nextIcon.png
     - assets/image/icon/dove1.png
     - assets/image/icon/dove2.png
+    - assets/image/icon/woodsign.png
     # image balloon
     - assets/image/color/balloons.png
     # image animal

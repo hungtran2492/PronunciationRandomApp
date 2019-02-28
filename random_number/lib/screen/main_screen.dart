@@ -31,11 +31,11 @@ class _MainScreenState extends State<MainScreen>
   Animation _animation1;
   Animation _animation2;
   Animation _animation3;
+  var state;
 
   @override
   void initState() {
     super.initState();
-    playSound();
 
     _controller =
         AnimationController(vsync: this, duration: Duration(seconds: 10));
@@ -45,14 +45,14 @@ class _MainScreenState extends State<MainScreen>
         curve: Interval(
           0.0,
           1.0,
-          curve: Curves.fastOutSlowIn,
+          curve: Curves.fastLinearToSlowEaseIn,
         )))
       ..addStatusListener(handler);
-    _animation2 = Tween(begin: 0.0, end: -1.0).animate(CurvedAnimation(
+    _animation2 = Tween(begin: 0.2, end: -1.0).animate(CurvedAnimation(
         parent: _controller,
         curve: Interval(0.2, 1.0, curve: Curves.fastOutSlowIn)))
       ..addStatusListener(handler);
-    _animation3 = Tween(begin: 0.0, end: 1.0).animate(CurvedAnimation(
+    _animation3 = Tween(begin: -0.2, end: 1.0).animate(CurvedAnimation(
         parent: _controller,
         curve: Interval(0.4, 1.0, curve: Curves.fastOutSlowIn)))
       ..addStatusListener(handler);
@@ -61,21 +61,22 @@ class _MainScreenState extends State<MainScreen>
   void handler(status) {
     if (status == AnimationStatus.completed) {
       _controller.repeat();
-      _animation1 = Tween(begin: 0.0, end: 1.0).animate(
+      _animation1 = Tween(begin: -0.2, end: 1.0).animate(
           CurvedAnimation(parent: _controller, curve: Curves.fastOutSlowIn));
-      _animation2 = Tween(begin: 0.0, end: -1.0).animate(CurvedAnimation(
+      _animation2 = Tween(begin: 0.2, end: -1.0).animate(CurvedAnimation(
           parent: _controller,
           curve: Interval(0.2, 1.0, curve: Curves.fastOutSlowIn)));
-      _animation3 = Tween(begin: 0.0, end: 1.0).animate(CurvedAnimation(
+      _animation3 = Tween(begin: -0.2, end: 1.0).animate(CurvedAnimation(
           parent: _controller,
           curve: Interval(0.4, 1.0, curve: Curves.fastOutSlowIn)));
       _controller.forward();
     }
   }
 
-  void playSound() async {
+  void playSound(state) async {
     soundManager.playLocal("sparrow_audio.mp3", "background_audio").then((_) {
-      playSound();
+      soundManager.audioPlayer
+          .audioPlayerStateChangeHandler(AudioPlayerState.COMPLETED);
     });
   }
 
@@ -83,6 +84,7 @@ class _MainScreenState extends State<MainScreen>
   void dispose() {
     // TODO: implement dispose
     _controller.dispose();
+
     super.dispose();
   }
 
@@ -150,12 +152,12 @@ class _MainScreenState extends State<MainScreen>
                           )),
                 ),
               ),
-              Padding(
-                padding: EdgeInsets.all(16.0),
-                child: CardFlipper(
-                  cards: backgroundCards,
-                ),
-              )
+//              Padding(
+//                padding: EdgeInsets.all(16.0),
+//                child: CardFlipper(
+//                  cards: backgroundCards,
+//                ),
+//              )
             ],
           ));
         });
@@ -163,8 +165,7 @@ class _MainScreenState extends State<MainScreen>
 
   @override
   void afterFirstLayout(BuildContext context) {
-    openBoardGuide(context);
-    //openDialogLanguage(context);
+    //openBoardGuide(context);
   }
 }
 
@@ -240,38 +241,43 @@ class CardGame extends StatefulWidget {
   _CardGameState createState() => _CardGameState();
 }
 
-class _CardGameState extends State<CardGame> {
+class _CardGameState extends State<CardGame> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         Expanded(
           child: Container(
-              child: Stack(
+              child: Row(
             children: <Widget>[
-              Center(
+              Expanded(
                 child: Shimmer.fromColors(
                   baseColor: Colors.red,
                   highlightColor: Colors.yellow,
-                  child: Text(
-                    widget.category.gameName.toUpperCase(),
-                    style: TextStyle(
-                        fontSize: 40.0,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 3.0),
+                  child: Center(
+                    child: Text(
+                      widget.category.gameName.toUpperCase(),
+                      style: TextStyle(
+                          fontSize: 35.0,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 3.0),
+                    ),
                   ),
                 ),
+                flex: 4,
               ),
-              Align(
-                alignment: Alignment.topRight,
-                child: IconButton(
-                    icon: Icon(
-                      Icons.language,
-                      size: 40.0,
-                    ),
-                    onPressed: () {
-                      openBoardLanguage(context);
-                    }),
+              Expanded(
+                child: InkWell(
+                  child: SizedBox(
+                    height: 100.0,
+                    width: 100.0,
+                    child: Image.asset('assets/image/icon/woodsign.png'),
+                  ),
+                  onTap: () {
+                    openBoardLanguage(context);
+                  },
+                ),
+                flex: 2,
               )
             ],
           )),
