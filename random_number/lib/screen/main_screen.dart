@@ -1,11 +1,10 @@
-import 'dart:io';
+
 import 'dart:math';
 import 'dart:ui';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:random_number/components/CardFlipper.dart';
+import 'package:random_number/functions/SoundManagerMainScreen.dart';
 import 'package:random_number/data/Category.dart';
 import 'package:random_number/components/BoardGuide.dart';
 import 'package:random_number/components/BoardLanguage.dart';
@@ -24,7 +23,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen>
     with TickerProviderStateMixin, AfterLayoutMixin {
-  SoundManager soundManager = new SoundManager();
+  SoundManagerMainScreen soundManager = new SoundManagerMainScreen();
   CustomNextFuncBoard board;
   AnimationController _controller;
 
@@ -165,7 +164,7 @@ class _MainScreenState extends State<MainScreen>
 
   @override
   void afterFirstLayout(BuildContext context) {
-    //openBoardGuide(context);
+    openBoardGuide(context);
   }
 }
 
@@ -231,21 +230,4 @@ void openBoardGuide(BuildContext context) {
       MediaQuery.of(context).size.height / 1.2);
 }
 
-class SoundManager {
-  AudioPlayer audioPlayer = new AudioPlayer();
 
-  Future playLocal(
-    localFileName,
-    soundFolder,
-  ) async {
-    final dir = await getApplicationDocumentsDirectory();
-    final file = new File("${dir.path}/$localFileName");
-    if (!(await file.exists())) {
-      final soundData =
-          await rootBundle.load("assets/$soundFolder/$localFileName");
-      final bytes = soundData.buffer.asUint8List();
-      await file.writeAsBytes(bytes, flush: true);
-    }
-    await audioPlayer.play(file.path, isLocal: true);
-  }
-}
