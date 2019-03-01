@@ -265,6 +265,8 @@ flutter:
     - assets/image/background/background_3.jpg
     - assets/image/background/background_board.jpg
     - assets/image/background/background_wooden.png
+    - assets/image/background/Graphic-Design-2.png
+    - assets/image/background/Graphic-Design-3.png
     # image icon
     - assets/image/icon/playapp.png
     - assets/image/icon/shake.png

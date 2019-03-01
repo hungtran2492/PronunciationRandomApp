@@ -64,7 +64,7 @@ List soundAlphabetVietnamese = [
   "dd-conduong.mp3",
   "e-cayme.mp3",
   "ee-traile.mp3",
-  "g-caycay.mp3",
+  "g-caygay.mp3",
   "h-hoahong.mp3",
   "i-conkhi.mp3",
   "k-caykhe.mp3",

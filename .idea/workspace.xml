@@ -6,56 +6,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="refactor code">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+    <list default="true" id="739003a3-6865-4a71-9e89-c4c50f3fb9a9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/random_number/assets/image/background/Graphic-Design-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_number/assets/image/background/Graphic-Design-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_number/lib/screen/splash_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/android/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/app.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/frontend_server.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/frontend_server.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/Runner.build/Debug-iphoneos/Runner.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/Runner.build/Debug-iphoneos/Runner.build/dgph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/build/ios/pod_inputs.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/ios/pod_inputs.fingerprint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/build/snapshot_blob.bin.d.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/flutter" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/audioplayers" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/audioplayers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/path_provider" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/path_provider" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/sensors" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/sensors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/shared_preferences" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/.symlinks/plugins/shared_preferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/xcuserdata/milan.xcuserdatad/xcschemes/Pods-Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/xcuserdata/milan.xcuserdatad/xcschemes/Pods-Runner.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/xcuserdata/milan.xcuserdatad/xcschemes/sensors.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/xcuserdata/milan.xcuserdatad/xcschemes/sensors.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/xcuserdata/milan.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Pods.xcodeproj/xcuserdata/milan.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/audioplayers/audioplayers.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/audioplayers/audioplayers.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/path_provider/path_provider.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/path_provider/path_provider.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/sensors/sensors.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/sensors/sensors.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/shared_preferences/shared_preferences.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Pods/Target Support Files/shared_preferences/shared_preferences.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number/lib/components/BoardLanguage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/components/BoardLanguage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_number/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/random_number/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,20 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="images.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_number/lib/theme/images.dart">
+      <file leaf-file-name="main_screen.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="309">
+              <caret line="155" column="35" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_screen.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
+      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random_number/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="2998">
+              <caret line="268" column="50" selection-start-line="268" selection-start-column="50" selection-end-line="268" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -87,8 +57,8 @@
       <file leaf-file-name="BoardLanguage.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/components/BoardLanguage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="1050">
+              <caret line="149" column="38" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -96,44 +66,74 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="splash_screen.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/screen/splash_screen.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlphabetData.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.dart" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/flutter/packages/flutter/lib/src/widgets/image.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="385" column="8" selection-start-line="385" selection-start-column="8" selection-end-line="385" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_number/lib/app/app.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="game_screen.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="229">
+              <caret line="137" column="27" lean-forward="true" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaySound.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlaySound.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_number/lib/functions/PlaySound.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="405">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomBoard.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_number/lib/components/CustomBoard.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="176" column="35" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VarGlobal.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random_number/lib/data/VarGlobal.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -200,24 +200,26 @@
         <option value="$PROJECT_DIR$/random_number/lib/data/Category.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/functions/ChangeBackground.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/Number.dart" />
-        <option value="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/MixedCatogery.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/functions/PlaySound.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/screen/main_screen.dart" />
-        <option value="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/data/VarGlobal.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/components/CardGame.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/components/PlayButton.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/functions/UIRandom.dart" />
-        <option value="$PROJECT_DIR$/random_number/pubspec.yaml" />
         <option value="$PROJECT_DIR$/random_number/lib/components/TestPage.dart" />
         <option value="$PROJECT_DIR$/random_number/lib/components/BoardLanguage.dart" />
+        <option value="$PROJECT_DIR$/random_number/lib/main.dart" />
+        <option value="$PROJECT_DIR$/random_number/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/random_number/lib/screen/splash_screen.dart" />
+        <option value="$PROJECT_DIR$/random_number/lib/screen/game_screen.dart" />
+        <option value="$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="23" />
+    <option name="x" value="157" />
+    <option name="y" value="61" />
     <option name="width" value="1566" />
     <option name="height" value="1019" />
   </component>
@@ -334,13 +336,53 @@
             <path>
               <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
               <item name="random_number" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random_number" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="vietnamese" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random_number" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="vietnamese" type="462c0819:PsiDirectoryNode" />
+              <item name="alphabet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random_number" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random_number" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="background" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random_number" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
               <item name="random_number" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random_number" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KidRandomNunber" type="b2602c69:ProjectViewProjectNode" />
@@ -370,11 +412,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/random_number/assets/image/background" />
       <recent name="$PROJECT_DIR$/random_number/assets/image" />
       <recent name="$PROJECT_DIR$/random_number/lib/functions" />
       <recent name="$PROJECT_DIR$/random_number/lib/components" />
       <recent name="$PROJECT_DIR$/random_number/assets/image/icon" />
-      <recent name="$PROJECT_DIR$/random_number/assets/background_audio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -632,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551335842913</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="refactor code">
+      <created>1551415548501</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1551415548501</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -648,23 +697,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="157" y="61" width="1566" height="1019" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.13154961" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.14316703" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22587065" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22559653" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32664436" />
       <window_info anchor="right" id="Flutter Outline" order="6" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28541002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19881889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -755,38 +803,7 @@
     <MESSAGE value="refactor code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart</url>
-          <line>166</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/random_number/assets/image/vehicle/car.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/assets/image/vehicle/forklift.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/assets/image/vehicle/helicopter.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/assets/image/animal/turtle.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/assets/image/animal/rat.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -883,26 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/functions/ChangeBackground.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/functions/SoundManagerGameScreen.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -920,13 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/data/Category.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/data/MixedCatogery.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -941,16 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/components/CardFlipper.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,20 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/theme/images.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1036,6 +1002,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/data/VarGlobal.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/random_number/lib/components/CustomBoard.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2640">
@@ -1046,44 +1019,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
+    <entry file="file://$PROJECT_DIR$/random_number/lib/functions/PlaySound.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/data/Category.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
+    <entry file="file://$PROJECT_DIR$/random_number/lib/functions/ChangeBackground.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/data/VarGlobal.dart">
+    <entry file="file://$PROJECT_DIR$/random_number/lib/components/CardFlipper.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="-694">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/components/BoardLanguage.dart">
+    <entry file="file://$PROJECT_DIR$/random_number/lib/app/app.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/lib/functions/PlaySound.dart">
+    <entry file="file:///Applications/flutter/packages/flutter/lib/src/widgets/image.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="385" column="8" selection-start-line="385" selection-start-column="8" selection-end-line="385" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/components/BoardLanguage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="149" column="38" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/main_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="155" column="35" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/splash_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sensors-0.4.0+1/lib/sensors.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/screen/game_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="137" column="27" lean-forward="true" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/lib/data/AlphabetData.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2998">
+          <caret line="268" column="50" selection-start-line="268" selection-start-column="50" selection-end-line="268" selection-end-column="50" />
         </state>
       </provider>
     </entry>
