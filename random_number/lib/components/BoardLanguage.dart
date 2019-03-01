@@ -3,28 +3,40 @@ import 'package:random_number/data/VarGlobal.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 
-Future<bool> saveNamePreference(String name)async{
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  prefs.setString("name", name);
-  return prefs.commit();
-}
-Future<String> getNamePreference()async{
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  String name = prefs.getString("name");
-  return name;
-
-}
 class LanguageOption extends StatefulWidget {
   @override
   _LanguageOptionState createState() => _LanguageOptionState();
 }
 
 class _LanguageOptionState extends State<LanguageOption> {
+
+
+  saveLanguage(String key,String value) async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setString(key, value);
+  }
+  saveLanguageValue(String key,int value) async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setInt(key, value);
+  }
+  readLanguage(String text) async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      language = prefs.getString(text);
+    });
+  }
+  readLanguageValue(String text) async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      languageValue = prefs.getInt(text);
+    });
+  }
   @override
   void initState() {
     setState(() {
-      languageValue = 0;
-      language = 'english';
+    readLanguage('language2');
+    readLanguageValue('languageValue2');
+
     });
 
     super.initState();
@@ -39,6 +51,8 @@ class _LanguageOptionState extends State<LanguageOption> {
           print('choose English');
           setState(() {
             language = 'english';
+            saveLanguage('language2', 'english');
+            saveLanguageValue('languageValue2', 0);
           });
 
           break;
@@ -46,11 +60,15 @@ class _LanguageOptionState extends State<LanguageOption> {
           print('choose Vietnamese');
           setState(() {
             language = 'vietnamese';
+            saveLanguage('language2', 'vietnamese');
+            saveLanguageValue('languageValue2', 1);
+
           });
 
           break;
         case 2:
           print('choose French');
+
           break;
       }
     });
