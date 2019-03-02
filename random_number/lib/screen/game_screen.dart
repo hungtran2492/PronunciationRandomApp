@@ -84,7 +84,7 @@ class GameScreenState extends State<GameScreen>
             event.z > 15 ||
             event.z < -15) {
           randomNumber();
-          Future.delayed(Duration(milliseconds: 800),(){
+          Future.delayed(Duration(milliseconds: 500),(){
             playSound(gameName);
           });
         }

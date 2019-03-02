@@ -10,9 +10,10 @@ import 'package:random_number/components/BoardGuide.dart';
 import 'package:random_number/components/BoardLanguage.dart';
 import 'package:random_number/components/CustomBoard.dart';
 import 'package:random_number/theme/images.dart';
-import 'package:shimmer/shimmer.dart';
-import 'package:after_layout/after_layout.dart';
 import 'package:flutter/widgets.dart';
+import 'package:random_number/data/VarGlobal.dart';
+import 'dart:async';
+import 'package:shared_preferences/shared_preferences.dart';
 
 
 
@@ -22,7 +23,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen>
-    with TickerProviderStateMixin, AfterLayoutMixin {
+    with TickerProviderStateMixin {
   SoundManagerMainScreen soundManager = new SoundManagerMainScreen();
   CustomNextFuncBoard board;
   AnimationController _controller;
@@ -32,10 +33,13 @@ class _MainScreenState extends State<MainScreen>
   Animation _animation3;
   var state;
 
+
   @override
   void initState() {
     super.initState();
-
+    checkFirstSeen();
+    readLanguage('language2');
+    readLanguageValue('languageValue2');
     _controller =
         AnimationController(vsync: this, duration: Duration(seconds: 10));
 
@@ -87,6 +91,35 @@ class _MainScreenState extends State<MainScreen>
     super.dispose();
   }
 
+  //Check first seen
+  Future checkFirstSeen() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    bool _seen = prefs.getBool('seen') ?? false;
+
+    if (_seen) {
+      print('abc');
+    } else {
+      prefs.setBool('seen', true);
+      Future.delayed(Duration(milliseconds: 100),(){
+        openBoardGuide(context);
+      });
+    }
+  }
+  //read language
+  readLanguage(String text) async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      language = prefs.getString(text) ?? 'english';
+    });
+
+  }
+  //read language value
+  readLanguageValue(String text) async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      languageValue = prefs.getInt(text) ?? 0;
+    });
+  }
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
@@ -162,10 +195,7 @@ class _MainScreenState extends State<MainScreen>
         });
   }
 
-  @override
-  void afterFirstLayout(BuildContext context) {
-    openBoardGuide(context);
-  }
+
 }
 
 void openDialogLanguage(BuildContext context) async {

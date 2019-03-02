@@ -1,4 +1,4 @@
-String language;
+String language = "abc";
 int languageValue;
 int index;
 int indexMix1;

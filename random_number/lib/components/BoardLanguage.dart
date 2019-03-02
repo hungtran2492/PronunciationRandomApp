@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:random_number/data/VarGlobal.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:after_layout/after_layout.dart';
 
 
 class LanguageOption extends StatefulWidget {
@@ -8,13 +9,23 @@ class LanguageOption extends StatefulWidget {
   _LanguageOptionState createState() => _LanguageOptionState();
 }
 
-class _LanguageOptionState extends State<LanguageOption> {
+class _LanguageOptionState extends State<LanguageOption> with AfterLayoutMixin{
+@override
 
+void afterFirstLayout(BuildContext context) async {
+  setState(() {
+    readLanguage('language2');
+    readLanguageValue('languageValue2');
+
+  });
+
+}
 
   saveLanguage(String key,String value) async {
     final prefs = await SharedPreferences.getInstance();
     prefs.setString(key, value);
   }
+
   saveLanguageValue(String key,int value) async {
     final prefs = await SharedPreferences.getInstance();
     prefs.setInt(key, value);
@@ -22,22 +33,19 @@ class _LanguageOptionState extends State<LanguageOption> {
   readLanguage(String text) async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      language = prefs.getString(text);
+      language = prefs.getString(text) ?? 'english';
     });
+
   }
   readLanguageValue(String text) async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      languageValue = prefs.getInt(text);
+      languageValue = prefs.getInt(text) ?? 0;
     });
   }
   @override
   void initState() {
-    setState(() {
-    readLanguage('language2');
-    readLanguageValue('languageValue2');
 
-    });
 
     super.initState();
   }
@@ -53,6 +61,8 @@ class _LanguageOptionState extends State<LanguageOption> {
             language = 'english';
             saveLanguage('language2', 'english');
             saveLanguageValue('languageValue2', 0);
+
+
           });
 
           break;
@@ -62,6 +72,7 @@ class _LanguageOptionState extends State<LanguageOption> {
             language = 'vietnamese';
             saveLanguage('language2', 'vietnamese');
             saveLanguageValue('languageValue2', 1);
+
 
           });
 

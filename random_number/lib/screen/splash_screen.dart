@@ -20,6 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.of(context).pushReplacementNamed('/HomeScreen');
   }
 
+
   @override
   void initState() {
     super.initState();
